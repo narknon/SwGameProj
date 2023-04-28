@@ -1,0 +1,5 @@
+#include "SwHeroVehicleDrivingComponentPostPhysicsTickFunction.h"
+
+FSwHeroVehicleDrivingComponentPostPhysicsTickFunction::FSwHeroVehicleDrivingComponentPostPhysicsTickFunction() {
+}
+

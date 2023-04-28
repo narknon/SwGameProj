@@ -1,0 +1,47 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "EDefenseTypes.generated.h"
+
+UENUM(BlueprintType)
+enum class EDefenseTypes : uint8 {
+    Unknown,
+    Default,
+    NoDefense,
+    Blocking,
+    ParryingNeutral,
+    ParrySuccess,
+    Evading,
+    CustomEnum1,
+    CustomEnum2,
+    CustomEnum3,
+    CustomEnum4,
+    CustomEnum5,
+    CustomEnum6,
+    CustomEnum7,
+    CustomEnum8,
+    CustomEnum9,
+    CustomEnum10,
+    CustomEnum11,
+    CustomEnum12,
+    CustomEnum13,
+    CustomEnum14,
+    CustomEnum15,
+    CustomEnum16,
+    CustomEnum17,
+    CustomEnum18,
+    CustomEnum19,
+    CustomEnum20,
+    CustomEnum21,
+    CustomEnum22,
+    CustomEnum23,
+    CustomEnum24,
+    CustomEnum25,
+    CustomEnum26,
+    CustomEnum27,
+    CustomEnum28,
+    CustomEnum29,
+    CustomEnum30,
+    CustomEnum31,
+    CustomEnum32,
+};
+

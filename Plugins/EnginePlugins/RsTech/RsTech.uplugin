@@ -1,0 +1,43 @@
+{
+	"FileVersion": 3,
+	"Version": 44,
+	"VersionName": "KineticModel v2.2.0 - Proper RevoluteConstraint, Rope improvements",
+	"FriendlyName": "RsTech",
+	"Description": "RsTech plugin - core tech, motion model, animation model",
+	"Category": "Respawn",
+	"CreatedBy": "Respawn, LLC",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": true,
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "RsTechRT",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ApexDestruction",
+			"Enabled": true
+		},
+		{
+			"Name": "Wwise",
+			"Enabled": true
+		},
+		{
+			"Name": "Niagara",
+			"Enabled": true
+		},
+		{
+			"Name": "RsAnimTech",
+			"Enabled": true
+		}
+	]
+}

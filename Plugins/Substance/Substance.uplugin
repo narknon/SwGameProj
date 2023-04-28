@@ -1,0 +1,17 @@
+{
+	"FileVersion": 3,
+	"Version": 57,
+	"VersionName": "4.20.0.30",
+	"FriendlyName": "Substance Live Link in UE4",
+	"Description": "Adds support for Substance Painter Live Link",
+	"Category": "Editor",
+	"CreatedBy": "Allegorithmic Inc.",
+	"CreatedByURL": "http://www.allegorithmic.com/",
+	"DocsURL": "https://support.allegorithmic.com/documentation/display/integrations/Unreal+Engine",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": true
+}

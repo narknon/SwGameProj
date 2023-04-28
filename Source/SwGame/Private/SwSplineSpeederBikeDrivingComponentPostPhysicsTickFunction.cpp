@@ -1,0 +1,5 @@
+#include "SwSplineSpeederBikeDrivingComponentPostPhysicsTickFunction.h"
+
+FSwSplineSpeederBikeDrivingComponentPostPhysicsTickFunction::FSwSplineSpeederBikeDrivingComponentPostPhysicsTickFunction() {
+}
+

@@ -1,0 +1,21 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Oodle Data",
+	"Description": "Oodle Data plugin for pak compression.",
+	"Category": "Compression",
+	"CreatedBy": "RAD Game Tools, Inc.",
+	"CreatedByURL": "http://radgametools.com",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": true,
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"SupportedPrograms": [
+		"UnrealPak"
+	]
+}

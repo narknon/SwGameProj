@@ -1,0 +1,18 @@
+{
+	"FileVersion": 3,
+	"Version": 0,
+	"VersionName": "1.0.0",
+	"FriendlyName": "Respawn Rendering Tech",
+	"Description": "Respawn's UE4 plugin that contains rendering extensions and shaders",
+	"Category": "Programming",
+	"CreatedBy": "Respawn Entertainment",
+	"CreatedByURL": "https://www.respawn.com/",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "r8code@respawn.com",
+	"EnabledByDefault": false,
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false
+}

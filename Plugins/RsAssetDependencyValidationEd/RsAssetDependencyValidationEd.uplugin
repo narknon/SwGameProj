@@ -1,0 +1,23 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Respawn Asset Dependency Validation Commandlets",
+	"Description": "Asset size checking commandlets used for validation and prioritization",
+	"Category": "Editor",
+	"CreatedBy": "Respawn Entertainment",
+	"CreatedByURL": "https://www.respawn.com/",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "r8code@respawn.com",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Plugins": [
+		{
+			"Name": "AssetManagerEditor",
+			"Enabled": true
+		}
+	]
+}

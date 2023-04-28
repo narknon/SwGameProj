@@ -1,0 +1,5 @@
+#include "RsNarrativeConversationGestureTriggeringDefaults.h"
+
+FRsNarrativeConversationGestureTriggeringDefaults::FRsNarrativeConversationGestureTriggeringDefaults() {
+}
+

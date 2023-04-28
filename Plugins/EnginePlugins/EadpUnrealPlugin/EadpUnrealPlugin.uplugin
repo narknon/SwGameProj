@@ -1,0 +1,17 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.0",
+	"FriendlyName": "EadpUnrealPlugin",
+	"Description": "EadpUnrealPlugin",
+	"Category": "Online",
+	"CreatedBy": "EA",
+	"CreatedByURL": "",
+	"DocsURL": "https://docs.ea.com/eadp-sdk/guides/integration-guide/unreal-engine-plugin",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false
+}

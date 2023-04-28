@@ -1,0 +1,18 @@
+{
+	"FileVersion": 3,
+	"Version": 0,
+	"VersionName": "1.0.0",
+	"FriendlyName": "Respawn Superluminal Integration",
+	"Description": "Respawn's UE4 integration plugin for Superluminal profiler",
+	"Category": "Programming",
+	"CreatedBy": "Respawn Entertainment",
+	"CreatedByURL": "https://www.respawn.com/",
+	"DocsURL": "https://www.superluminal.eu/docs/documentation.html",
+	"MarketplaceURL": "",
+	"SupportURL": "r8code@respawn.com",
+	"EnabledByDefault": false,
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false
+}

@@ -1,0 +1,47 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "ERsCombatDefenseSuccessType.generated.h"
+
+UENUM(BlueprintType)
+enum ERsCombatDefenseSuccessType {
+    CDS_None,
+    Blocked,
+    Parried,
+    Evaded,
+    BlasterDeflected,
+    Countered,
+    CustomDefenseType1 = 0x20,
+    CustomDefenseType2,
+    CustomDefenseType3,
+    CustomDefenseType4,
+    CustomDefenseType5,
+    CustomDefenseType6,
+    CustomDefenseType7,
+    CustomDefenseType8,
+    CustomDefenseType9,
+    CustomDefenseType10,
+    CustomDefenseType11,
+    CustomDefenseType12,
+    CustomDefenseType13,
+    CustomDefenseType14,
+    CustomDefenseType15,
+    CustomDefenseType16,
+    CustomDefenseType17,
+    CustomDefenseType18,
+    CustomDefenseType19,
+    CustomDefenseType20,
+    CustomDefenseType21,
+    CustomDefenseType22,
+    CustomDefenseType23,
+    CustomDefenseType24,
+    CustomDefenseType25,
+    CustomDefenseType26,
+    CustomDefenseType27,
+    CustomDefenseType28,
+    CustomDefenseType29,
+    CustomDefenseType30,
+    CustomDefenseType31,
+    CustomDefenseType32,
+    CustomDefenseType_Max,
+};
+

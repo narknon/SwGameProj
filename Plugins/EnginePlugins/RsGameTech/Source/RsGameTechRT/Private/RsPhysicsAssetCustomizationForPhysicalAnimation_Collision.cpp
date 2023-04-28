@@ -1,0 +1,5 @@
+#include "RsPhysicsAssetCustomizationForPhysicalAnimation_Collision.h"
+
+FRsPhysicsAssetCustomizationForPhysicalAnimation_Collision::FRsPhysicsAssetCustomizationForPhysicalAnimation_Collision() {
+}
+

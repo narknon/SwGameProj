@@ -1,0 +1,5 @@
+#include "SwHeroInQuicksandComponentPostPhysicsTickFunction.h"
+
+FSwHeroInQuicksandComponentPostPhysicsTickFunction::FSwHeroInQuicksandComponentPostPhysicsTickFunction() {
+}
+
