@@ -142,7 +142,10 @@
 		},
 		{
 			"Name": "FSR2",
-			"Enabled": true
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64"
+			]
 		},
 		{
 			"Name": "DragonFly",
