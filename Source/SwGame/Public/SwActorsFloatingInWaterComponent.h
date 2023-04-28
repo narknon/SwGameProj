@@ -9,7 +9,7 @@ class AActor;
 class USwActorsFloatingInWaterDataAsset;
 
 UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class USwActorsFloatingInWaterComponent : public UActorComponent {
+class SWGAME_API USwActorsFloatingInWaterComponent : public UActorComponent {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

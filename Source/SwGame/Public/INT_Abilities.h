@@ -1,3 +1,4 @@
+/*
 #pragma once
 #include "CoreMinimal.h"
 #include "UObject/Interface.h"
@@ -11,11 +12,11 @@
 class AActor;
 
 UINTERFACE(Blueprintable)
-class UINT_Abilities : public UInterface {
+class SWGAME_API UINT_Abilities : public UInterface {
     GENERATED_BODY()
 };
 
-class IINT_Abilities : public IInterface {
+class SWGAME_API IINT_Abilities : public IInterface {
     GENERATED_BODY()
 public:
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
@@ -205,4 +206,5 @@ public:
     FSwLiftSlamAnalogTargetData GetForceAnalogLiftSlamTargetData();
     
 };
+*/
 

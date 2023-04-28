@@ -4,7 +4,7 @@
 #include "SwBTDecorator_ShouldAlignToInnerFightSector.generated.h"
 
 UCLASS(Blueprintable)
-class USwBTDecorator_ShouldAlignToInnerFightSector : public UBTDecorator {
+class SWGAME_API USwBTDecorator_ShouldAlignToInnerFightSector : public UBTDecorator {
     GENERATED_BODY()
 public:
     USwBTDecorator_ShouldAlignToInnerFightSector();

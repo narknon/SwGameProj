@@ -7,7 +7,7 @@ class UPhysicsHandleComponent;
 class USceneComponent;
 
 UCLASS(Blueprintable)
-class ASwTelekinesisConstraint : public AActor {
+class SWGAME_API ASwTelekinesisConstraint : public AActor {
     GENERATED_BODY()
 public:
 private:

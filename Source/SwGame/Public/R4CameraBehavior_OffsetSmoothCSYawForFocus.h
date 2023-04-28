@@ -3,7 +3,7 @@
 #include "RsCameraBehavior.h"
 #include "R4CameraBehavior_OffsetSmoothCSYawForFocus.generated.h"
 
-UCLASS(Blueprintable)
+UCLASS(Blueprintable, EditInlineNew)
 class UR4CameraBehavior_OffsetSmoothCSYawForFocus : public URsCameraBehavior {
     GENERATED_BODY()
 public:

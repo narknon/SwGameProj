@@ -8,7 +8,7 @@ class UAnimMontage;
 class USwMuzzleTransformComponent;
 
 UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class USwGenericRangedOffenseComponent : public USwRangedOffenseBaseComponent {
+class SWGAME_API USwGenericRangedOffenseComponent : public USwRangedOffenseBaseComponent {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

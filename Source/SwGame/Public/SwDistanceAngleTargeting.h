@@ -5,7 +5,7 @@
 #include "SwDistanceAngleTargeting.generated.h"
 
 UCLASS(Blueprintable)
-class USwDistanceAngleTargeting : public USwTargetingProfile {
+class SWGAME_API USwDistanceAngleTargeting : public USwTargetingProfile {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

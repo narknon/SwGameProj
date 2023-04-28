@@ -2,7 +2,7 @@
 #include "CoreMinimal.h"
 #include "UObject/NoExportTypes.h"
 #include "UObject/NoExportTypes.h"
-//CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=RsMapSectionTag -FallbackName=RsMapSectionTag
+#include "RsMapSectionTag.h"
 #include "SwWorldMapOpenSettings.generated.h"
 
 USTRUCT(BlueprintType)

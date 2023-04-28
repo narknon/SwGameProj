@@ -8,8 +8,8 @@
 class UAkAudioEvent;
 class UCurveFloat;
 
-UCLASS(Blueprintable)
-class USwAnimNotifyState_Highlight : public UAnimNotifyState {
+UCLASS(Blueprintable, CollapseCategories, EditInlineNew)
+class SWGAME_API USwAnimNotifyState_Highlight : public UAnimNotifyState {
     GENERATED_BODY()
 public:
 private:

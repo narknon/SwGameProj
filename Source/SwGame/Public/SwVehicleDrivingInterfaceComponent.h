@@ -7,7 +7,7 @@
 #include "SwVehicleDrivingInterfaceComponent.generated.h"
 
 UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class USwVehicleDrivingInterfaceComponent : public UActorComponent {
+class SWGAME_API USwVehicleDrivingInterfaceComponent : public UActorComponent {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintAssignable, BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

@@ -7,7 +7,7 @@
 class UDataTable;
 
 UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class USwHolofightEditorComponent : public UActorComponent {
+class SWGAME_API USwHolofightEditorComponent : public UActorComponent {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

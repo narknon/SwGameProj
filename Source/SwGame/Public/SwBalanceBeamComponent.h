@@ -4,7 +4,7 @@
 #include "SwBalanceBeamComponent.generated.h"
 
 UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class USwBalanceBeamComponent : public URsBalanceBeamComponent {
+class SWGAME_API USwBalanceBeamComponent : public URsBalanceBeamComponent {
     GENERATED_BODY()
 public:
     USwBalanceBeamComponent();

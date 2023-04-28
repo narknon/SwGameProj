@@ -5,7 +5,7 @@
 #include "SwAutoPlayerNavigationData.generated.h"
 
 UCLASS(Blueprintable)
-class USwAutoPlayerNavigationData : public UDataAsset {
+class SWGAME_API USwAutoPlayerNavigationData : public UDataAsset {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

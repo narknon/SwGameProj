@@ -6,7 +6,7 @@
 class USwTargetingProfile;
 
 UCLASS(Blueprintable)
-class USwPlayerCharacterDefinition : public URsPlayerCharacterDefinition {
+class SWGAME_API USwPlayerCharacterDefinition : public URsPlayerCharacterDefinition {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

@@ -4,8 +4,8 @@
 #include "ButtonMashType.h"
 #include "ButtonMashSyncGroup.generated.h"
 
-UCLASS(Blueprintable)
-class UButtonMashSyncGroup : public UButtonMashType {
+UCLASS(Blueprintable, EditInlineNew)
+class SWGAME_API UButtonMashSyncGroup : public UButtonMashType {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

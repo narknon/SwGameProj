@@ -11,7 +11,7 @@ class USwWorldMapCameraComponent;
 class USwWorldMapHologramSettings;
 
 UCLASS(Blueprintable)
-class ASwWorldMapCameraActor : public ACameraActor {
+class SWGAME_API ASwWorldMapCameraActor : public ACameraActor {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

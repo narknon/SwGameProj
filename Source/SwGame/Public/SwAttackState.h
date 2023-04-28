@@ -15,8 +15,8 @@ class UAnimMontage;
 class UAnimationAsset;
 class URsAbility;
 
-UCLASS(Blueprintable)
-class USwAttackState : public URsCombatState {
+UCLASS(Blueprintable, EditInlineNew)
+class SWGAME_API USwAttackState : public URsCombatState {
     GENERATED_BODY()
 public:
 private:
@@ -65,7 +65,7 @@ protected:
     void OnBeginAttack(ARsCharacter* TheAttacker);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void OnAttackDefended(ARsCharacter* TheAttacker, ARsCharacter* TheDefender, TEnumAsByte<ERsCombatDefenseSuccessType> DefenseType, const FHitResult& HitSweep);
+    void OnAttackDefended(ARsCharacter* TheAttacker, ARsCharacter* TheDefender, ERsCombatDefenseSuccessType DefenseType, const FHitResult& HitSweep);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void OnAttackCompleted(ARsCharacter* TheAttacker);

@@ -5,7 +5,7 @@
 #include "SwBTService_FightActive.generated.h"
 
 UCLASS(Blueprintable)
-class USwBTService_FightActive : public UBTService {
+class SWGAME_API USwBTService_FightActive : public UBTService {
     GENERATED_BODY()
 public:
 private:

@@ -5,7 +5,7 @@
 #include "RsCameraBehavior.h"
 #include "R4CameraBehavior_LookAtFocus.generated.h"
 
-UCLASS(Blueprintable)
+UCLASS(Blueprintable, EditInlineNew)
 class UR4CameraBehavior_LookAtFocus : public URsCameraBehavior {
     GENERATED_BODY()
 public:

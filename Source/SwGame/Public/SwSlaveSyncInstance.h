@@ -3,8 +3,8 @@
 #include "RsSlaveSyncInstance.h"
 #include "SwSlaveSyncInstance.generated.h"
 
-UCLASS(Blueprintable)
-class USwSlaveSyncInstance : public URsSlaveSyncInstance {
+UCLASS(Blueprintable, NonTransient)
+class SWGAME_API USwSlaveSyncInstance : public URsSlaveSyncInstance {
     GENERATED_BODY()
 public:
     USwSlaveSyncInstance();

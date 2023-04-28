@@ -1,6 +1,6 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "Rs/RsMapSectionTag.h"
+#include "RsMapSectionTag.h"
 #include "SwGalaxyMapOnMapSectionChangedDelegate.h"
 #include "SwGalaxyMapOnPlanetHoverEnterDelegate.h"
 #include "SwGalaxyMapOnPlanetHoverExitDelegate.h"
@@ -13,7 +13,7 @@
 class ARsWorldMapGalaxyPlanetActor;
 
 UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class USwGalaxyMapComponent : public USwWorldMapComponent {
+class SWGAME_API USwGalaxyMapComponent : public USwWorldMapComponent {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintAssignable, BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

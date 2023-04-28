@@ -1,6 +1,6 @@
 #include "USwAnimNotify_HeroSoftLock.h"
 
-UUSwAnimNotify_HeroSoftLock::UUSwAnimNotify_HeroSoftLock() {
+UDEPRECATED_USwAnimNotify_HeroSoftLock::UDEPRECATED_USwAnimNotify_HeroSoftLock() {
     // Null default object.
 }
 

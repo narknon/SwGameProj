@@ -5,7 +5,7 @@
 #include "SwBTTask_GetStepAside.generated.h"
 
 UCLASS(Blueprintable)
-class USwBTTask_GetStepAside : public UBTTaskNode {
+class SWGAME_API USwBTTask_GetStepAside : public UBTTaskNode {
     GENERATED_BODY()
 public:
 protected:

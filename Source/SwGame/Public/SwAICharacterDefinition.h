@@ -4,7 +4,7 @@
 #include "SwAICharacterDefinition.generated.h"
 
 UCLASS(Blueprintable)
-class USwAICharacterDefinition : public URsAICharacterDefinition {
+class SWGAME_API USwAICharacterDefinition : public URsAICharacterDefinition {
     GENERATED_BODY()
 public:
     USwAICharacterDefinition();

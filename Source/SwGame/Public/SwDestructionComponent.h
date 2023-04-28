@@ -5,8 +5,8 @@
 
 class USkeletalMeshComponent;
 
-UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class USwDestructionComponent : public UActorComponent {
+UCLASS(Blueprintable, Deprecated, NotPlaceable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
+class SWGAME_API UDEPRECATED_SwDestructionComponent : public UActorComponent {
     GENERATED_BODY()
 public:
 private:
@@ -17,7 +17,7 @@ private:
     USkeletalMeshComponent* DebugPerformanceSkeletalMeshComponent;
     
 public:
-    USwDestructionComponent();
+    UDEPRECATED_SwDestructionComponent();
     UFUNCTION(BlueprintCallable)
     void PlayPartOfAnimation(USkeletalMeshComponent* SkeletalMeshComponentToPlayAnimation, const float TimeToPlay);
     

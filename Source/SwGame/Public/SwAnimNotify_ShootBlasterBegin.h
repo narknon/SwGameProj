@@ -4,8 +4,8 @@
 #include "ERsAIShotAccuracyOverrideMode.h"
 #include "SwAnimNotify_ShootBlasterBegin.generated.h"
 
-UCLASS(Blueprintable)
-class USwAnimNotify_ShootBlasterBegin : public UAnimNotify {
+UCLASS(Blueprintable, CollapseCategories)
+class SWGAME_API USwAnimNotify_ShootBlasterBegin : public UAnimNotify {
     GENERATED_BODY()
 public:
 protected:

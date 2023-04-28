@@ -4,7 +4,7 @@
 #include "SwBTService_BuddySelectAttachPoint.generated.h"
 
 UCLASS(Blueprintable)
-class USwBTService_BuddySelectAttachPoint : public UBTService {
+class SWGAME_API USwBTService_BuddySelectAttachPoint : public UBTService {
     GENERATED_BODY()
 public:
 private:

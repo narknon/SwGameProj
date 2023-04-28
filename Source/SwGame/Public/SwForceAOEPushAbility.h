@@ -9,7 +9,7 @@ class UAkAudioEvent;
 class UAnimMontage;
 
 UCLASS(Blueprintable)
-class USwForceAOEPushAbility : public URsAbility {
+class SWGAME_API USwForceAOEPushAbility : public URsAbility {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

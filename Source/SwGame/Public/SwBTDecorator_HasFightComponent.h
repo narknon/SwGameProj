@@ -5,7 +5,7 @@
 #include "SwBTDecorator_HasFightComponent.generated.h"
 
 UCLASS(Blueprintable)
-class USwBTDecorator_HasFightComponent : public UBTDecorator {
+class SWGAME_API USwBTDecorator_HasFightComponent : public UBTDecorator {
     GENERATED_BODY()
 public:
 private:

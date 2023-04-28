@@ -12,7 +12,7 @@ class UAnimMontage;
 class UNiagaraSystem;
 
 UCLASS(Blueprintable)
-class USwForceLiftAbility : public URsAbility {
+class SWGAME_API USwForceLiftAbility : public URsAbility {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

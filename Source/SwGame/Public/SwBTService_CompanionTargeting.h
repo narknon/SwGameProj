@@ -7,7 +7,7 @@
 #include "SwBTService_CompanionTargeting.generated.h"
 
 UCLASS(Blueprintable)
-class USwBTService_CompanionTargeting : public UBTService {
+class SWGAME_API USwBTService_CompanionTargeting : public UBTService {
     GENERATED_BODY()
 public:
 protected:

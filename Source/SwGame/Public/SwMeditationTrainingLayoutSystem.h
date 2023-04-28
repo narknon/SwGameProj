@@ -5,7 +5,7 @@
 #include "SwMeditationTrainingLayoutSystem.generated.h"
 
 UCLASS(Blueprintable)
-class ASwMeditationTrainingLayoutSystem : public AActor {
+class SWGAME_API ASwMeditationTrainingLayoutSystem : public AActor {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

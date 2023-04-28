@@ -5,7 +5,7 @@
 #include "SwBTDecorator_IsAlignedToFightSector.generated.h"
 
 UCLASS(Blueprintable)
-class USwBTDecorator_IsAlignedToFightSector : public UBTDecorator {
+class SWGAME_API USwBTDecorator_IsAlignedToFightSector : public UBTDecorator {
     GENERATED_BODY()
 public:
 protected:

@@ -4,11 +4,11 @@
 #include "INT_Gameplay.generated.h"
 
 UINTERFACE(Blueprintable)
-class UINT_Gameplay : public UInterface {
+class SWGAME_API UINT_Gameplay : public UInterface {
     GENERATED_BODY()
 };
 
-class IINT_Gameplay : public IInterface {
+class SWGAME_API IINT_Gameplay : public IInterface {
     GENERATED_BODY()
 public:
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)

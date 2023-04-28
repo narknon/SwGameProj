@@ -3,8 +3,8 @@
 #include "RsAbilityState.h"
 #include "SwAOEPushAbilityState.generated.h"
 
-UCLASS(Blueprintable)
-class USwAOEPushAbilityState : public URsAbilityState {
+UCLASS(Blueprintable, EditInlineNew)
+class SWGAME_API USwAOEPushAbilityState : public URsAbilityState {
     GENERATED_BODY()
 public:
     USwAOEPushAbilityState();

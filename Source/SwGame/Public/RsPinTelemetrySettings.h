@@ -4,7 +4,7 @@
 #include "RsPinTelemetryPlatformSettings.h"
 #include "RsPinTelemetrySettings.generated.h"
 
-UCLASS(Blueprintable)
+UCLASS(Blueprintable, Config=Engine, DefaultConfig)
 class URsPinTelemetrySettings : public UDeveloperSettings {
     GENERATED_BODY()
 public:

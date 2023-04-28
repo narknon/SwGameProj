@@ -5,7 +5,7 @@
 #include "R4CameraBehavior_Offset.h"
 #include "R4CameraBehavior_OffsetWhenIdle.generated.h"
 
-UCLASS(Blueprintable)
+UCLASS(Blueprintable, EditInlineNew)
 class UR4CameraBehavior_OffsetWhenIdle : public UR4CameraBehavior_Offset {
     GENERATED_BODY()
 public:

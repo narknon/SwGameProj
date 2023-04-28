@@ -18,7 +18,7 @@ class USceneComponent;
 class USplineComponent;
 
 UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class USwSplineBasedSpaceshipInterfaceComponent : public USwVehicleDrivingInterfaceComponent {
+class SWGAME_API USwSplineBasedSpaceshipInterfaceComponent : public USwVehicleDrivingInterfaceComponent {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

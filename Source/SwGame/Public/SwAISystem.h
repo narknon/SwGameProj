@@ -6,7 +6,7 @@
 class USwAIFightSystem;
 
 UCLASS(Blueprintable)
-class USwAISystem : public URsAISystem {
+class SWGAME_API USwAISystem : public URsAISystem {
     GENERATED_BODY()
 public:
 private:

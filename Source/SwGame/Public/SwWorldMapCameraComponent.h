@@ -4,7 +4,7 @@
 #include "SwWorldMapCameraComponent.generated.h"
 
 UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class USwWorldMapCameraComponent : public UCameraComponent {
+class SWGAME_API USwWorldMapCameraComponent : public UCameraComponent {
     GENERATED_BODY()
 public:
     USwWorldMapCameraComponent();

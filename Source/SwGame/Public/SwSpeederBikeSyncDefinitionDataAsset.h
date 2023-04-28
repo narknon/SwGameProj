@@ -8,7 +8,7 @@
 #include "SwSpeederBikeSyncDefinitionDataAsset.generated.h"
 
 UCLASS(Blueprintable)
-class USwSpeederBikeSyncDefinitionDataAsset : public UDataAsset {
+class SWGAME_API USwSpeederBikeSyncDefinitionDataAsset : public UDataAsset {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

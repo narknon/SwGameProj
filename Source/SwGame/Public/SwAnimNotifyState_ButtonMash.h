@@ -3,8 +3,8 @@
 #include "Animation/AnimNotifies/AnimNotifyState.h"
 #include "SwAnimNotifyState_ButtonMash.generated.h"
 
-UCLASS(Blueprintable)
-class USwAnimNotifyState_ButtonMash : public UAnimNotifyState {
+UCLASS(Blueprintable, CollapseCategories, EditInlineNew)
+class SWGAME_API USwAnimNotifyState_ButtonMash : public UAnimNotifyState {
     GENERATED_BODY()
 public:
 private:

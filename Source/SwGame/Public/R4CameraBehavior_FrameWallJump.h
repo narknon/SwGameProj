@@ -5,7 +5,7 @@
 
 class AActor;
 
-UCLASS(Blueprintable)
+UCLASS(Blueprintable, EditInlineNew)
 class UR4CameraBehavior_FrameWallJump : public URsCameraBehavior {
     GENERATED_BODY()
 public:

@@ -3,8 +3,8 @@
 #include "UObject/Object.h"
 #include "RsAbilitySystemTask.generated.h"
 
-UCLASS(Blueprintable)
-class URsAbilitySystemTask : public UObject {
+UCLASS(Abstract, Blueprintable, HideDropdown)
+class SWGAME_API URsAbilitySystemTask : public UObject {
     GENERATED_BODY()
 public:
 protected:

@@ -6,8 +6,8 @@
 
 class URsHeroStateModifierDefinition;
 
-UCLASS(Blueprintable)
-class USwPlayerDefenseState : public USwDefenseState {
+UCLASS(Blueprintable, EditInlineNew)
+class SWGAME_API USwPlayerDefenseState : public USwDefenseState {
     GENERATED_BODY()
 public:
 protected:

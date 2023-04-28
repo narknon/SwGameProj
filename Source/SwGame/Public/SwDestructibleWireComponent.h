@@ -10,7 +10,7 @@ class UPrimitiveComponent;
 class USkeletalMeshComponent;
 
 UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class USwDestructibleWireComponent : public UActorComponent {
+class SWGAME_API USwDestructibleWireComponent : public UActorComponent {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintAssignable, BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

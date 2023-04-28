@@ -11,7 +11,7 @@ class UPrimitiveComponent;
 class USwAutoPlayerNavigationData;
 
 UCLASS(Blueprintable)
-class ASwAutoPlayerWorld : public AActor {
+class SWGAME_API ASwAutoPlayerWorld : public AActor {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

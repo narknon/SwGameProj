@@ -3,7 +3,7 @@
 
 
 
-UR4CameraBehavior_Blueprintable::UR4CameraBehavior_Blueprintable() {
+UDEPRECATED_R4CameraBehavior_Blueprintable::UDEPRECATED_R4CameraBehavior_Blueprintable() {
     // Null default object.
 }
 

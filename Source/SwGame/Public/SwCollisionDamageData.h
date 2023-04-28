@@ -10,7 +10,7 @@ class UCameraShakeBase;
 class UMaterialInterface;
 
 UCLASS(Blueprintable)
-class USwCollisionDamageData : public UDataAsset {
+class SWGAME_API USwCollisionDamageData : public UDataAsset {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

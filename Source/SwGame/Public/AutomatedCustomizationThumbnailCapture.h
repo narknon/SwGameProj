@@ -9,7 +9,7 @@ class UFunction;
 class ULevelSequencePlayer;
 
 UCLASS(Blueprintable)
-class UAutomatedCustomizationThumbnailCapture : public UMovieSceneCapture {
+class SWGAME_API UAutomatedCustomizationThumbnailCapture : public UMovieSceneCapture {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

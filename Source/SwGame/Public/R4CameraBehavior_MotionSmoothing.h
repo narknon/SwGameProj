@@ -4,7 +4,7 @@
 #include "ECameraMotionSmoothingTarget.h"
 #include "R4CameraBehavior_MotionSmoothing.generated.h"
 
-UCLASS(Blueprintable)
+UCLASS(Blueprintable, EditInlineNew)
 class UR4CameraBehavior_MotionSmoothing : public URsCameraBehavior {
     GENERATED_BODY()
 public:

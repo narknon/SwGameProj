@@ -6,7 +6,7 @@
 #include "SwCIGTacticsService.generated.h"
 
 UCLASS(Blueprintable)
-class USwCIGTacticsService : public URsCIGTacticsService {
+class SWGAME_API USwCIGTacticsService : public URsCIGTacticsService {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

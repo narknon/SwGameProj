@@ -10,7 +10,7 @@ class UObject;
 class USkeletalMeshComponent;
 
 UCLASS(Blueprintable)
-class USwDismembermentStatics : public UBlueprintFunctionLibrary {
+class SWGAME_API USwDismembermentStatics : public UBlueprintFunctionLibrary {
     GENERATED_BODY()
 public:
     USwDismembermentStatics();

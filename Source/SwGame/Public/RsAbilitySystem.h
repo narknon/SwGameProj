@@ -9,7 +9,7 @@ class URsAbilityPriorityManager;
 class URsAbilitySystemTask;
 
 UCLASS(Blueprintable)
-class URsAbilitySystem : public UObject {
+class SWGAME_API URsAbilitySystem : public UObject {
     GENERATED_BODY()
 public:
 private:

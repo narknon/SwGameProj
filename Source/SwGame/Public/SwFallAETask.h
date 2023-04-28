@@ -4,8 +4,8 @@
 #include "RsAbilityEffectTask.h"
 #include "SwFallAETask.generated.h"
 
-UCLASS(Blueprintable)
-class USwFallAETask : public URsAbilityEffectTask {
+UCLASS(Blueprintable, HideDropdown)
+class SWGAME_API USwFallAETask : public URsAbilityEffectTask {
     GENERATED_BODY()
 public:
     USwFallAETask();

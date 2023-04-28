@@ -5,8 +5,8 @@
 
 class USwTargetingProfile;
 
-UCLASS(Blueprintable)
-class USwAnimNotify_HeroFindNewSoftLockTarget : public UAnimNotify {
+UCLASS(Blueprintable, CollapseCategories)
+class SWGAME_API USwAnimNotify_HeroFindNewSoftLockTarget : public UAnimNotify {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

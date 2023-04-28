@@ -6,7 +6,7 @@
 class USwStaminaMeterComponent;
 
 UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class USwSwimComponent : public URsSwimComponent {
+class SWGAME_API USwSwimComponent : public URsSwimComponent {
     GENERATED_BODY()
 public:
 private:

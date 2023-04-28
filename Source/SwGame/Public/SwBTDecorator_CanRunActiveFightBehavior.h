@@ -7,7 +7,7 @@
 class URsAIResource;
 
 UCLASS(Blueprintable)
-class USwBTDecorator_CanRunActiveFightBehavior : public UBTDecorator {
+class SWGAME_API USwBTDecorator_CanRunActiveFightBehavior : public UBTDecorator {
     GENERATED_BODY()
 public:
 private:

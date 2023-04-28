@@ -4,7 +4,7 @@
 #include "SwBTTask_AdvanceStepAside.generated.h"
 
 UCLASS(Blueprintable)
-class USwBTTask_AdvanceStepAside : public UBTTaskNode {
+class SWGAME_API USwBTTask_AdvanceStepAside : public UBTTaskNode {
     GENERATED_BODY()
 public:
     USwBTTask_AdvanceStepAside();

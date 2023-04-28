@@ -19,7 +19,7 @@ class UParticleSystem;
 class USwForcePushAbilityEffect;
 
 UCLASS(Blueprintable)
-class USwForcePullAbility : public URsAbility {
+class SWGAME_API USwForcePullAbility : public URsAbility {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

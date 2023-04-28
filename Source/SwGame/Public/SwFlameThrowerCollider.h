@@ -5,8 +5,8 @@
 #include "Engine/EngineTypes.h"
 #include "SwFlameThrowerCollider.generated.h"
 
-UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class USwFlameThrowerCollider : public UBoxComponent {
+UCLASS(Blueprintable, EditInlineNew, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
+class SWGAME_API USwFlameThrowerCollider : public UBoxComponent {
     GENERATED_BODY()
 public:
 protected:

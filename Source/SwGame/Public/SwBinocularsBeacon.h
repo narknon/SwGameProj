@@ -6,7 +6,7 @@
 #include "SwBinocularsBeacon.generated.h"
 
 UCLASS(Blueprintable)
-class ASwBinocularsBeacon : public AActor {
+class SWGAME_API ASwBinocularsBeacon : public AActor {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintAssignable, BlueprintCallable, BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

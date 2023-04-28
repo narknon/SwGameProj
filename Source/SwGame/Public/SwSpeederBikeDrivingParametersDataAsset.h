@@ -12,7 +12,7 @@ class URsHeroStateModifierDefinition;
 class URsPhysicalAnimationProfile;
 
 UCLASS(Blueprintable)
-class USwSpeederBikeDrivingParametersDataAsset : public UDataAsset {
+class SWGAME_API USwSpeederBikeDrivingParametersDataAsset : public UDataAsset {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

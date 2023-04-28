@@ -15,7 +15,7 @@ class URsDamageType;
 class USwCollisionDamageData;
 
 UCLASS(Blueprintable)
-class USwForcePushAbilityEffect : public URsAbilityEffect {
+class SWGAME_API USwForcePushAbilityEffect : public URsAbilityEffect {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

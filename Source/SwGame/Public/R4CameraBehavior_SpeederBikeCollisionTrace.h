@@ -3,7 +3,7 @@
 #include "R4CameraBehavior_CollisionTrace.h"
 #include "R4CameraBehavior_SpeederBikeCollisionTrace.generated.h"
 
-UCLASS(Blueprintable)
+UCLASS(Blueprintable, EditInlineNew)
 class UR4CameraBehavior_SpeederBikeCollisionTrace : public UR4CameraBehavior_CollisionTrace {
     GENERATED_BODY()
 public:

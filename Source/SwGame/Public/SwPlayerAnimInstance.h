@@ -6,8 +6,8 @@
 #include "AnimState_Ability.h"
 #include "SwPlayerAnimInstance.generated.h"
 
-UCLASS(Blueprintable)
-class USwPlayerAnimInstance : public URsPlayerAnimInstance {
+UCLASS(Blueprintable, NonTransient)
+class SWGAME_API USwPlayerAnimInstance : public URsPlayerAnimInstance {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))

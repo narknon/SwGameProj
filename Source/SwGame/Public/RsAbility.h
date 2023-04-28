@@ -9,8 +9,8 @@ class URsAbilityState;
 class URsHeroStateModifierDefinition;
 class USwAttackState;
 
-UCLASS(Blueprintable)
-class URsAbility : public UObject {
+UCLASS(Abstract, Blueprintable, HideDropdown)
+class SWGAME_API URsAbility : public UObject {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

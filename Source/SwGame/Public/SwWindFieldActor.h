@@ -21,7 +21,7 @@ class UShapeComponent;
 class USwForcePushAbilityEffect;
 
 UCLASS(Blueprintable)
-class ASwWindFieldActor : public AActor {
+class SWGAME_API ASwWindFieldActor : public AActor {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

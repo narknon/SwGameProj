@@ -13,7 +13,7 @@ class AActor;
 class UPrimitiveComponent;
 class URsDamageType;
 
-UCLASS(Blueprintable, NonTransient, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
+UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
 class USwLightsaberMovementComponent : public UMovementComponent {
     GENERATED_BODY()
 public:

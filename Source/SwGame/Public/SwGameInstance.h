@@ -8,8 +8,8 @@ class URsAbilitySystem;
 class USwProjectileDataManager;
 class USwSpeederBikeSyncSystem;
 
-UCLASS(Blueprintable)
-class USwGameInstance : public URsGameInstance {
+UCLASS(Blueprintable, NonTransient)
+class SWGAME_API USwGameInstance : public URsGameInstance {
     GENERATED_BODY()
 public:
 private:

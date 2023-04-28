@@ -3,8 +3,8 @@
 #include "Animation/AnimNotifies/AnimNotifyState.h"
 #include "SwAnimNotifyState_SetRootMotionDropOffCheck.generated.h"
 
-UCLASS(Blueprintable)
-class USwAnimNotifyState_SetRootMotionDropOffCheck : public UAnimNotifyState {
+UCLASS(Blueprintable, CollapseCategories, EditInlineNew)
+class SWGAME_API USwAnimNotifyState_SetRootMotionDropOffCheck : public UAnimNotifyState {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

@@ -7,7 +7,7 @@
 #include "SwPlayerOverrideSettingsLibrary.generated.h"
 
 UCLASS(Blueprintable)
-class USwPlayerOverrideSettingsLibrary : public UBlueprintFunctionLibrary {
+class SWGAME_API USwPlayerOverrideSettingsLibrary : public UBlueprintFunctionLibrary {
     GENERATED_BODY()
 public:
     USwPlayerOverrideSettingsLibrary();

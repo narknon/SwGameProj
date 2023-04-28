@@ -4,8 +4,8 @@
 #include "ESwForceInteractWidgetType.h"
 #include "SwForceInteractTargetWidgetComponent.generated.h"
 
-UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class USwForceInteractTargetWidgetComponent : public URsUiScreenSpaceWidgetComponent {
+UCLASS(Blueprintable, EditInlineNew, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
+class SWGAME_API USwForceInteractTargetWidgetComponent : public URsUiScreenSpaceWidgetComponent {
     GENERATED_BODY()
 public:
 private:

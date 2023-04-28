@@ -3,8 +3,8 @@
 #include "RsDamageType.h"
 #include "SwForceAbilityDamageType.generated.h"
 
-UCLASS(Blueprintable)
-class USwForceAbilityDamageType : public URsDamageType {
+UCLASS(Blueprintable, EditInlineNew)
+class SWGAME_API USwForceAbilityDamageType : public URsDamageType {
     GENERATED_BODY()
 public:
     USwForceAbilityDamageType();

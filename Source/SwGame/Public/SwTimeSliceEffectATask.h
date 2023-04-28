@@ -3,8 +3,8 @@
 #include "RsAbilityTask.h"
 #include "SwTimeSliceEffectATask.generated.h"
 
-UCLASS(Blueprintable)
-class USwTimeSliceEffectATask : public URsAbilityTask {
+UCLASS(Blueprintable, HideDropdown)
+class SWGAME_API USwTimeSliceEffectATask : public URsAbilityTask {
     GENERATED_BODY()
 public:
     USwTimeSliceEffectATask();

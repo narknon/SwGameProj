@@ -7,11 +7,11 @@
 class ASwProjectile;
 
 UINTERFACE(Blueprintable)
-class USwProjectileReflectionInterface : public UInterface {
+class SWGAME_API USwProjectileReflectionInterface : public UInterface {
     GENERATED_BODY()
 };
 
-class ISwProjectileReflectionInterface : public IInterface {
+class SWGAME_API ISwProjectileReflectionInterface : public IInterface {
     GENERATED_BODY()
 public:
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)

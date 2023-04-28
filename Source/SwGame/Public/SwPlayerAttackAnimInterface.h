@@ -3,7 +3,7 @@
 #include "UObject/Interface.h"
 #include "SwPlayerAttackAnimInterface.generated.h"
 
-UINTERFACE(Blueprintable)
+UINTERFACE(Blueprintable, MinimalAPI)
 class USwPlayerAttackAnimInterface : public UInterface {
     GENERATED_BODY()
 };
@@ -14,7 +14,7 @@ public:
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     void SetAnimIsBlocking(bool enable);
     
-    UFUNCTION(BlueprintCallable, BlueprintNativeEvent, BlueprintPure)
+    UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     bool GetAnimIsBlocking() const;
     
 };

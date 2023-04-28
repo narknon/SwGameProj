@@ -6,7 +6,7 @@
 class USwClimbSettings;
 
 UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class USwClimbComponent : public URsClimbComponent {
+class SWGAME_API USwClimbComponent : public URsClimbComponent {
     GENERATED_BODY()
 public:
     USwClimbComponent();

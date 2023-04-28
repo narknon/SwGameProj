@@ -5,7 +5,7 @@
 #include "RsCameraOutputs.h"
 #include "RsCameraConditional.generated.h"
 
-UCLASS(Blueprintable)
+UCLASS(Abstract, Blueprintable, EditInlineNew)
 class URsCameraConditional : public UObject {
     GENERATED_BODY()
 public:

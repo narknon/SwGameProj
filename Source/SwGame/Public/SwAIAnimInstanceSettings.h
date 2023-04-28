@@ -4,7 +4,7 @@
 #include "SwAIAnimInstanceSettings.generated.h"
 
 UCLASS(Blueprintable)
-class USwAIAnimInstanceSettings : public URsAIAnimInstanceSettings {
+class SWGAME_API USwAIAnimInstanceSettings : public URsAIAnimInstanceSettings {
     GENERATED_BODY()
 public:
     USwAIAnimInstanceSettings();

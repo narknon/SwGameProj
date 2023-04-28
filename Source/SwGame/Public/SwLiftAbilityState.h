@@ -4,8 +4,8 @@
 #include "RsAbilityState.h"
 #include "SwLiftAbilityState.generated.h"
 
-UCLASS(Blueprintable)
-class USwLiftAbilityState : public URsAbilityState {
+UCLASS(Blueprintable, EditInlineNew)
+class SWGAME_API USwLiftAbilityState : public URsAbilityState {
     GENERATED_BODY()
 public:
     USwLiftAbilityState();

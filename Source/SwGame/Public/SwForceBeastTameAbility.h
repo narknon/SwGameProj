@@ -18,7 +18,7 @@ class UAnimMontage;
 class URsHeroStateModifierDefinition;
 
 UCLASS(Blueprintable)
-class USwForceBeastTameAbility : public URsAbility {
+class SWGAME_API USwForceBeastTameAbility : public URsAbility {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintAssignable, BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

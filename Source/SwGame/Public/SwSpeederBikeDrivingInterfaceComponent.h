@@ -15,7 +15,7 @@ class UPrimitiveComponent;
 class USwSpeederBikeDrivingParametersDataAsset;
 
 UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class USwSpeederBikeDrivingInterfaceComponent : public USwVehicleDrivingInterfaceComponent {
+class SWGAME_API USwSpeederBikeDrivingInterfaceComponent : public USwVehicleDrivingInterfaceComponent {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

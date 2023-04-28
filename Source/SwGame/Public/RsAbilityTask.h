@@ -3,8 +3,8 @@
 #include "RsAbilitySystemTask.h"
 #include "RsAbilityTask.generated.h"
 
-UCLASS(Blueprintable)
-class URsAbilityTask : public URsAbilitySystemTask {
+UCLASS(Abstract, Blueprintable, HideDropdown)
+class SWGAME_API URsAbilityTask : public URsAbilitySystemTask {
     GENERATED_BODY()
 public:
     URsAbilityTask();

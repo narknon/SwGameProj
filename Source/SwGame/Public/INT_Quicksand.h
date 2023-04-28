@@ -6,11 +6,11 @@
 class ASwQuicksandActor;
 
 UINTERFACE(Blueprintable)
-class UINT_Quicksand : public UInterface {
+class SWGAME_API UINT_Quicksand : public UInterface {
     GENERATED_BODY()
 };
 
-class IINT_Quicksand : public IInterface {
+class SWGAME_API IINT_Quicksand : public IInterface {
     GENERATED_BODY()
 public:
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)

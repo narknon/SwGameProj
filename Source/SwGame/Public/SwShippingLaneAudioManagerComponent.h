@@ -10,7 +10,7 @@ class UObject;
 class USwShippingLaneAudioManagerComponent;
 
 UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class USwShippingLaneAudioManagerComponent : public UActorComponent {
+class SWGAME_API USwShippingLaneAudioManagerComponent : public UActorComponent {
     GENERATED_BODY()
 public:
 protected:

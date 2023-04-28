@@ -6,7 +6,7 @@
 class UNiagaraSystem;
 
 UCLASS(Blueprintable)
-class USwForceLiftAbilityEffect_Character : public USwForceLiftAbilityEffect {
+class SWGAME_API USwForceLiftAbilityEffect_Character : public USwForceLiftAbilityEffect {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

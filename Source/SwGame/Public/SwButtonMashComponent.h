@@ -6,8 +6,8 @@
 class AActor;
 class UAnimMontage;
 
-UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class USwButtonMashComponent : public URsHeroComponent {
+UCLASS(Blueprintable, ClassGroup=Custom, Config=Input, meta=(BlueprintSpawnableComponent))
+class SWGAME_API USwButtonMashComponent : public URsHeroComponent {
     GENERATED_BODY()
 public:
 private:

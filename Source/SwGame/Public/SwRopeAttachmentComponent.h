@@ -18,7 +18,7 @@ class URsRopeComponent;
 class USwRopeAttachmentSettings;
 
 UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class USwRopeAttachmentComponent : public URsRopeAttachmentComponent {
+class SWGAME_API USwRopeAttachmentComponent : public URsRopeAttachmentComponent {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

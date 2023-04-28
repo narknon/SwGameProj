@@ -7,7 +7,7 @@
 class UWidget;
 
 UCLASS(Blueprintable)
-class USwAsyncImage : public UImage {
+class SWGAME_API USwAsyncImage : public UImage {
     GENERATED_BODY()
 public:
 protected:

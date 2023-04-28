@@ -3,8 +3,8 @@
 #include "Components/SceneComponent.h"
 #include "SwForceTargetOverrideComponent.generated.h"
 
-UCLASS(Blueprintable, NonTransient, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class USwForceTargetOverrideComponent : public USceneComponent {
+UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
+class SWGAME_API USwForceTargetOverrideComponent : public USceneComponent {
     GENERATED_BODY()
 public:
     USwForceTargetOverrideComponent();

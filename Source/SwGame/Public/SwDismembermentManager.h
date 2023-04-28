@@ -8,8 +8,8 @@ class UDataTable;
 class USkeletalMeshComponent;
 class UWorld;
 
-UCLASS(Blueprintable)
-class ASwDismembermentManager : public AActor {
+UCLASS(Blueprintable, NotPlaceable, Transient)
+class SWGAME_API ASwDismembermentManager : public AActor {
     GENERATED_BODY()
 public:
     ASwDismembermentManager();

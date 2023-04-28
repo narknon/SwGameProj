@@ -26,7 +26,7 @@
 class USwCollisionDamageData;
 
 UCLASS(Blueprintable)
-class USwAbilityVictimData : public UObject {
+class SWGAME_API USwAbilityVictimData : public UObject {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

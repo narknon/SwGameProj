@@ -23,7 +23,7 @@ class URsAbilityInstanceData;
 class USwAttackState;
 
 UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class URsAbilityUserComponent : public UActorComponent {
+class SWGAME_API URsAbilityUserComponent : public UActorComponent {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

@@ -3,8 +3,8 @@
 #include "RsAIResource_Timer.h"
 #include "SwAIResource_Taunt.generated.h"
 
-UCLASS(Blueprintable)
-class USwAIResource_Taunt : public URsAIResource_Timer {
+UCLASS(Abstract, Blueprintable)
+class SWGAME_API USwAIResource_Taunt : public URsAIResource_Timer {
     GENERATED_BODY()
 public:
     USwAIResource_Taunt();

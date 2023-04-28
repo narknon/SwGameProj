@@ -4,8 +4,8 @@
 #include "GameplayTagContainer.h"
 #include "SwDatabankUnlockHistory.generated.h"
 
-UCLASS(Blueprintable)
-class USwDatabankUnlockHistory : public UDeveloperSettings {
+UCLASS(Blueprintable, Config=GameUserSettings)
+class SWGAME_API USwDatabankUnlockHistory : public UDeveloperSettings {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, Config, EditAnywhere, meta=(AllowPrivateAccess=true))

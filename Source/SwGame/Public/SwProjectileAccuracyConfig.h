@@ -5,7 +5,7 @@
 #include "SwProjectileAccuracyConfig.generated.h"
 
 UCLASS(Blueprintable)
-class USwProjectileAccuracyConfig : public UDataAsset {
+class SWGAME_API USwProjectileAccuracyConfig : public UDataAsset {
     GENERATED_BODY()
 public:
     UPROPERTY(EditAnywhere, meta=(AllowPrivateAccess=true))

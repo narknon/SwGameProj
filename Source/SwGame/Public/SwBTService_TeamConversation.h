@@ -11,7 +11,7 @@ class ARsConversation;
 class URsAIBehaviorStateMachine;
 
 UCLASS(Blueprintable)
-class USwBTService_TeamConversation : public UBTService {
+class SWGAME_API USwBTService_TeamConversation : public UBTService {
     GENERATED_BODY()
 public:
     USwBTService_TeamConversation();

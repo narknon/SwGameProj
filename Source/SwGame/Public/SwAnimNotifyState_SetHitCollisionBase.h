@@ -1,12 +1,12 @@
 #pragma once
 #include "CoreMinimal.h"
-//CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=RsConditionalAnimNotifyState -FallbackName=RsConditionalAnimNotifyState
+#include "RsConditionalAnimNotifyState.h"
 #include "SwAnimNotifyState_SetHitCollisionBase.generated.h"
 
 class URsDamageType;
 
-UCLASS(Blueprintable)
-class USwAnimNotifyState_SetHitCollisionBase : public URsConditionalAnimNotifyState {
+UCLASS(Abstract, Blueprintable, CollapseCategories, EditInlineNew, HideDropdown)
+class SWGAME_API USwAnimNotifyState_SetHitCollisionBase : public URsConditionalAnimNotifyState {
     GENERATED_BODY()
 public:
     UPROPERTY(AssetRegistrySearchable, BlueprintReadWrite, EditAnywhere, Instanced, NoClear, meta=(AllowPrivateAccess=true))

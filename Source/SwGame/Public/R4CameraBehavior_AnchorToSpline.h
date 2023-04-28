@@ -3,7 +3,7 @@
 #include "RsCameraBehavior.h"
 #include "R4CameraBehavior_AnchorToSpline.generated.h"
 
-UCLASS(Blueprintable)
+UCLASS(Blueprintable, EditInlineNew)
 class UR4CameraBehavior_AnchorToSpline : public URsCameraBehavior {
     GENERATED_BODY()
 public:

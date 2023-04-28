@@ -4,7 +4,7 @@
 #include "SwBTTask_BuddyAttachToHeroAndWait.generated.h"
 
 UCLASS(Blueprintable)
-class USwBTTask_BuddyAttachToHeroAndWait : public UBTTaskNode {
+class SWGAME_API USwBTTask_BuddyAttachToHeroAndWait : public UBTTaskNode {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

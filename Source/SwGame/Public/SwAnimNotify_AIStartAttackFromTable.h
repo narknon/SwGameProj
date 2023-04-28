@@ -5,8 +5,8 @@
 
 class USwAIAttackTableState;
 
-UCLASS(Blueprintable)
-class USwAnimNotify_AIStartAttackFromTable : public UAnimNotify {
+UCLASS(Blueprintable, CollapseCategories)
+class SWGAME_API USwAnimNotify_AIStartAttackFromTable : public UAnimNotify {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))

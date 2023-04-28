@@ -12,7 +12,7 @@ class URsRopeComponent;
 class USceneComponent;
 class USwRopePinComponent;
 
-UCLASS(Blueprintable)
+UCLASS(Blueprintable, Config=Game)
 class ASwPinnedRopeActor : public AActor {
     GENERATED_BODY()
 public:

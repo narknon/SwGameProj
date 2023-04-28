@@ -1,6 +1,6 @@
 #include "RsAbilityState.h"
 
-TEnumAsByte<ERsCombatDefenseSuccessType> URsAbilityState::OnDefenseSuccess_Implementation(ARsCharacter* TheDefender, const FRsDamageParams& DamageInfo, ARsCharacter* AttackingCharacter, AActor* DamageCauser) {
+ERsCombatDefenseSuccessType URsAbilityState::OnDefenseSuccess_Implementation(ARsCharacter* TheDefender, const FRsDamageParams& DamageInfo, ARsCharacter* AttackingCharacter, AActor* DamageCauser) {
     return CDS_None;
 }
 

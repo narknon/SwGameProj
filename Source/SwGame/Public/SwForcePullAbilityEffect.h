@@ -21,7 +21,7 @@ class URsDamageType;
 class URsPhysicalAnimationProfile;
 
 UCLASS(Blueprintable)
-class USwForcePullAbilityEffect : public URsAbilityEffect {
+class SWGAME_API USwForcePullAbilityEffect : public URsAbilityEffect {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

@@ -12,7 +12,7 @@ class URsWorldMapDoorComponent;
 class USkeletalMeshComponent;
 
 UCLASS(Blueprintable)
-class ASwBendingMetalDoorActor : public AActor {
+class SWGAME_API ASwBendingMetalDoorActor : public AActor {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

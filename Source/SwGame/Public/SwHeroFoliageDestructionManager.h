@@ -4,7 +4,7 @@
 #include "SwHeroFoliageDestructionManager.generated.h"
 
 UCLASS(Blueprintable)
-class USwHeroFoliageDestructionManager : public UObject {
+class SWGAME_API USwHeroFoliageDestructionManager : public UObject {
     GENERATED_BODY()
 public:
     USwHeroFoliageDestructionManager();

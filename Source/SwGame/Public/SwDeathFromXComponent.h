@@ -20,7 +20,7 @@ class USwDFXStateHandler_LedgeBelow;
 class USwDFXStateHandler_MountAbove;
 
 UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class USwDeathFromXComponent : public URsHeroComponent {
+class SWGAME_API USwDeathFromXComponent : public URsHeroComponent {
     GENERATED_BODY()
 public:
 protected:

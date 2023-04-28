@@ -12,7 +12,7 @@ class APlayerController;
 class ASwMeditationTrainingCursor;
 class ASwMeditationTrainingGrid;
 
-UCLASS(Blueprintable)
+UCLASS(Abstract, Blueprintable)
 class ASwMeditationTrainingCamera : public ACameraActor {
     GENERATED_BODY()
 public:

@@ -6,7 +6,7 @@
 #include "RsTKPushPullDoorActor.generated.h"
 
 UCLASS(Blueprintable)
-class ARsTKPushPullDoorActor : public ARsModelSwapActor {
+class SWGAME_API ARsTKPushPullDoorActor : public ARsModelSwapActor {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

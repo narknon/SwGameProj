@@ -3,8 +3,8 @@
 #include "SwAICharacter.h"
 #include "SwBaseChump.generated.h"
 
-UCLASS(Blueprintable)
-class ASwBaseChump : public ASwAICharacter {
+UCLASS(Abstract, Blueprintable)
+class SWGAME_API ASwBaseChump : public ASwAICharacter {
     GENERATED_BODY()
 public:
     ASwBaseChump();

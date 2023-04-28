@@ -9,8 +9,8 @@ class AController;
 class ARsAIController;
 class UDamageType;
 
-UCLASS(Blueprintable)
-class USwAIPredatorPreyDirector : public UObject {
+UCLASS(Blueprintable, Transient)
+class SWGAME_API USwAIPredatorPreyDirector : public UObject {
     GENERATED_BODY()
 public:
     USwAIPredatorPreyDirector();

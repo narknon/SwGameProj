@@ -4,11 +4,11 @@
 #include "Components/PrimitiveComponent.h"
 #include "SwForceHighlightComponent.generated.h"
 
-UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class USwForceHighlightComponent : public UPrimitiveComponent {
+UCLASS(Blueprintable, Deprecated, NotPlaceable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
+class SWGAME_API UDEPRECATED_SwForceHighlightComponent : public UPrimitiveComponent {
     GENERATED_BODY()
 public:
-    USwForceHighlightComponent();
+    UDEPRECATED_SwForceHighlightComponent();
     UFUNCTION(BlueprintCallable)
     void SetBoxExtent(FVector InBoxExtent);
     

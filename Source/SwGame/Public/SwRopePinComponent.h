@@ -3,7 +3,7 @@
 #include "Components/SceneComponent.h"
 #include "SwRopePinComponent.generated.h"
 
-UCLASS(Blueprintable, NonTransient, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
+UCLASS(Blueprintable, ClassGroup=Custom, Config=Game, meta=(BlueprintSpawnableComponent))
 class USwRopePinComponent : public USceneComponent {
     GENERATED_BODY()
 public:

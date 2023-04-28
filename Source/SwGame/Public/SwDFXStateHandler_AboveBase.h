@@ -8,7 +8,7 @@
 class UAnimMontage;
 class UAnimSequenceBase;
 
-UCLASS(Blueprintable)
+UCLASS(Abstract, Blueprintable)
 class USwDFXStateHandler_AboveBase : public USwDFXStateHandler {
     GENERATED_BODY()
 public:

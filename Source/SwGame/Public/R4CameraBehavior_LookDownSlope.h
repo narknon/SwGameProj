@@ -3,7 +3,7 @@
 #include "RsCameraBehavior.h"
 #include "R4CameraBehavior_LookDownSlope.generated.h"
 
-UCLASS(Blueprintable)
+UCLASS(Blueprintable, EditInlineNew)
 class UR4CameraBehavior_LookDownSlope : public URsCameraBehavior {
     GENERATED_BODY()
 public:

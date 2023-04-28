@@ -10,7 +10,7 @@ class UAkAudioEvent;
 class UAnimMontage;
 
 UCLASS(Blueprintable)
-class USwForceSlowAbility : public URsAbility {
+class SWGAME_API USwForceSlowAbility : public URsAbility {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

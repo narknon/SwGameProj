@@ -7,7 +7,7 @@
 
 class USwAttackState;
 
-UINTERFACE(Blueprintable)
+UINTERFACE(Blueprintable, MinimalAPI)
 class USwPlayerAttackInterface : public UInterface {
     GENERATED_BODY()
 };

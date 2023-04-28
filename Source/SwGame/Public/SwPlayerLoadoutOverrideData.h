@@ -7,7 +7,7 @@
 #include "SwPlayerLoadoutOverrideData.generated.h"
 
 UCLASS(Blueprintable)
-class USwPlayerLoadoutOverrideData : public UDataAsset {
+class SWGAME_API USwPlayerLoadoutOverrideData : public UDataAsset {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

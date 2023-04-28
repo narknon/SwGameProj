@@ -9,7 +9,7 @@ class UCurveFloat;
 class UNiagaraSystem;
 
 UCLASS(Blueprintable)
-class USwForceLiftAbilityEffect_LevelObject : public USwForceLiftAbilityEffect {
+class SWGAME_API USwForceLiftAbilityEffect_LevelObject : public USwForceLiftAbilityEffect {
     GENERATED_BODY()
 public:
 private:

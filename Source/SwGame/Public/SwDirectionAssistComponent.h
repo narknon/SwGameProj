@@ -6,7 +6,7 @@
 #include "SwDirectionAssistComponent.generated.h"
 
 UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class USwDirectionAssistComponent : public UPrimitiveComponent {
+class SWGAME_API USwDirectionAssistComponent : public UPrimitiveComponent {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

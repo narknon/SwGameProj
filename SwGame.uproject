@@ -145,10 +145,6 @@
 			"Enabled": true
 		},
 		{
-			"Name": "MotionWarping",
-			"Enabled": true
-		},
-		{
 			"Name": "DragonFly",
 			"Enabled": true
 		},
@@ -159,13 +155,6 @@
 		{
 			"Name": "RsTechArt",
 			"Enabled": true
-		},
-		{
-			"Name": "BinkMedia",
-			"Enabled": true,
-			"SupportedTargetPlatforms": [
-				"Win64"
-			]
 		},
 		{
 			"Name": "HavokCloth",

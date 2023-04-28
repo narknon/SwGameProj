@@ -4,7 +4,7 @@
 #include "SwBTTask_FinishMindTrick.generated.h"
 
 UCLASS(Blueprintable)
-class USwBTTask_FinishMindTrick : public UBTTaskNode {
+class SWGAME_API USwBTTask_FinishMindTrick : public UBTTaskNode {
     GENERATED_BODY()
 public:
     USwBTTask_FinishMindTrick();

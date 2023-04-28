@@ -19,7 +19,7 @@ class UCurveFloat;
 class UParticleSystem;
 
 UCLASS(Blueprintable)
-class USwForcePushAbility : public URsAbility {
+class SWGAME_API USwForcePushAbility : public URsAbility {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

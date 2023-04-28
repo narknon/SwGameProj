@@ -6,7 +6,7 @@
 #include "RsCameraEaseParams.h"
 #include "R4CameraBehavior_FrameWallRun.generated.h"
 
-UCLASS(Blueprintable)
+UCLASS(Blueprintable, EditInlineNew)
 class UR4CameraBehavior_FrameWallRun : public URsCameraBehavior {
     GENERATED_BODY()
 public:

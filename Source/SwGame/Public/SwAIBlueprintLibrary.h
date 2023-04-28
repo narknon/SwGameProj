@@ -11,7 +11,7 @@ class ASwAICharacter;
 class ASwAIController;
 
 UCLASS(Blueprintable)
-class USwAIBlueprintLibrary : public UBlueprintFunctionLibrary {
+class SWGAME_API USwAIBlueprintLibrary : public UBlueprintFunctionLibrary {
     GENERATED_BODY()
 public:
     USwAIBlueprintLibrary();

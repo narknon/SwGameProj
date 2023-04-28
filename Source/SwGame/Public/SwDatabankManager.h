@@ -8,7 +8,7 @@
 class UDataTable;
 
 UCLASS(Blueprintable)
-class USwDatabankManager : public UWorldSubsystem {
+class SWGAME_API USwDatabankManager : public UWorldSubsystem {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintAssignable, BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

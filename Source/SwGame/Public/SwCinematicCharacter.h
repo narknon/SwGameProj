@@ -12,7 +12,7 @@ class URsCustomizationPiece;
 class USkeletalMeshComponent;
 
 UCLASS(Blueprintable)
-class ASwCinematicCharacter : public ASkeletalMeshActor {
+class SWGAME_API ASwCinematicCharacter : public ASkeletalMeshActor {
     GENERATED_BODY()
 public:
 protected:

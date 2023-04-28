@@ -4,7 +4,7 @@
 #include "SwPlayerState.generated.h"
 
 UCLASS(Blueprintable)
-class ASwPlayerState : public ARsPlayerState {
+class SWGAME_API ASwPlayerState : public ARsPlayerState {
     GENERATED_BODY()
 public:
 private:

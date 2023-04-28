@@ -27,7 +27,7 @@ class URsAbilityEffectVictimData;
 class USwAbilityVictimData;
 
 UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class URsAbilityEffectVictimComponent : public UPrimitiveComponent {
+class SWGAME_API URsAbilityEffectVictimComponent : public UPrimitiveComponent {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

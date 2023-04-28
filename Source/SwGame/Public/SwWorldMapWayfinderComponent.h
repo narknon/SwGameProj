@@ -6,7 +6,7 @@
 #include "SwWorldMapWayfinderComponent.generated.h"
 
 UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class USwWorldMapWayfinderComponent : public UActorComponent {
+class SWGAME_API USwWorldMapWayfinderComponent : public UActorComponent {
     GENERATED_BODY()
 public:
 protected:

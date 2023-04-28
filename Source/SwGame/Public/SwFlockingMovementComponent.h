@@ -10,7 +10,7 @@ class UStaticMeshComponent;
 class USwFlockingMovementComponent;
 
 UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class USwFlockingMovementComponent : public UActorComponent {
+class SWGAME_API USwFlockingMovementComponent : public UActorComponent {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

@@ -15,7 +15,7 @@ class UPrimitiveComponent;
 class USplineComponent;
 
 UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class USwSplineSpeederBikeDrivingComponent : public USwSpeederBikeDrivingInterfaceComponent {
+class SWGAME_API USwSplineSpeederBikeDrivingComponent : public USwSpeederBikeDrivingInterfaceComponent {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

@@ -1,6 +1,6 @@
 #include "AutomatedCustomizationThumbnailCapture.h"
 
-UAutomatedCustomizationThumbnailCapture::UAutomatedCustomizationThumbnailCapture() {
+UAutomatedCustomizationThumbnailCapture::UAutomatedCustomizationThumbnailCapture() : UMovieSceneCapture(FObjectInitializer::Get()) {
     // Null default object.
 }
 

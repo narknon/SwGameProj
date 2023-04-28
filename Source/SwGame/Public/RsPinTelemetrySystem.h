@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "UObject/Object.h"
-#include "Rs/ERsPinTelemetryPlayerWeaponType.h"
+#include "ERsPinTelemetryPlayerWeaponType.h"
 #include "GameplayTagContainer.h"
 #include "ERsDifficulty.h"
 #include "Templates/SubclassOf.h"
@@ -12,7 +12,7 @@ class APawn;
 class URsAbility;
 
 UCLASS(Blueprintable)
-class URsPinTelemetrySystem : public UObject {
+class SWGAME_API URsPinTelemetrySystem : public UObject {
     GENERATED_BODY()
 public:
     URsPinTelemetrySystem();

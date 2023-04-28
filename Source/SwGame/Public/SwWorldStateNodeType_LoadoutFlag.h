@@ -5,7 +5,7 @@
 #include "RsWorldStateNodeType.h"
 #include "SwWorldStateNodeType_LoadoutFlag.generated.h"
 
-UCLASS(Blueprintable)
+UCLASS(Blueprintable, EditInlineNew)
 class USwWorldStateNodeType_LoadoutFlag : public URsWorldStateNodeType {
     GENERATED_BODY()
 public:

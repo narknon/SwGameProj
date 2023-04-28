@@ -6,7 +6,7 @@
 #include "RsContinuousInterpParams.h"
 #include "R4CameraBehavior_UpdateAnchor.generated.h"
 
-UCLASS(Blueprintable)
+UCLASS(Blueprintable, EditInlineNew)
 class UR4CameraBehavior_UpdateAnchor : public URsCameraBehavior {
     GENERATED_BODY()
 public:

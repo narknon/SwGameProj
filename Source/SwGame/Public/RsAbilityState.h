@@ -8,8 +8,8 @@
 class AActor;
 class ARsCharacter;
 
-UCLASS(Blueprintable)
-class URsAbilityState : public USwAttackState {
+UCLASS(Blueprintable, EditInlineNew)
+class SWGAME_API URsAbilityState : public USwAttackState {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -23,7 +23,7 @@ public:
     
     URsAbilityState();
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    TEnumAsByte<ERsCombatDefenseSuccessType> OnDefenseSuccess(ARsCharacter* TheDefender, const FRsDamageParams& DamageInfo, ARsCharacter* AttackingCharacter, AActor* DamageCauser);
+    ERsCombatDefenseSuccessType OnDefenseSuccess(ARsCharacter* TheDefender, const FRsDamageParams& DamageInfo, ARsCharacter* AttackingCharacter, AActor* DamageCauser);
     
     UFUNCTION(BlueprintCallable, BlueprintPure)
     AActor* GetCurrentAbilityTarget() const;

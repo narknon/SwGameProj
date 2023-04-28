@@ -7,8 +7,8 @@
 
 class URsAbility;
 
-UCLASS(Blueprintable)
-class URsAnimNotify_TriggerAbility : public UAnimNotify {
+UCLASS(Blueprintable, CollapseCategories)
+class SWGAME_API URsAnimNotify_TriggerAbility : public UAnimNotify {
     GENERATED_BODY()
 public:
 private:

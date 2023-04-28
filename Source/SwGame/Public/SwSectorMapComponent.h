@@ -1,6 +1,6 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "Rs/RsMapSectionTag.h"
+#include "RsMapSectionTag.h"
 #include "SwPlanetMapOnSectorHoverEnterDelegate.h"
 #include "SwPlanetMapOnSectorHoverExitDelegate.h"
 #include "SwSectorMapOnMapSectionChangedDelegate.h"
@@ -10,7 +10,7 @@
 #include "SwSectorMapComponent.generated.h"
 
 UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class USwSectorMapComponent : public USwWorldMapComponent {
+class SWGAME_API USwSectorMapComponent : public USwWorldMapComponent {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

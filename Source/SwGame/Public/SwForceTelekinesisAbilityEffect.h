@@ -11,7 +11,7 @@ class UParticleSystem;
 class UPhysicalMaterial;
 
 UCLASS(Blueprintable)
-class USwForceTelekinesisAbilityEffect : public URsAbilityEffect {
+class SWGAME_API USwForceTelekinesisAbilityEffect : public URsAbilityEffect {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

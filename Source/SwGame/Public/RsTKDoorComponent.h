@@ -4,7 +4,7 @@
 #include "RsTKDoorComponent.generated.h"
 
 UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class URsTKDoorComponent : public UActorComponent {
+class SWGAME_API URsTKDoorComponent : public UActorComponent {
     GENERATED_BODY()
 public:
     URsTKDoorComponent();

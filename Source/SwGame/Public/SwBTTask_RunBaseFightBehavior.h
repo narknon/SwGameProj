@@ -5,7 +5,7 @@
 #include "SwBTTask_RunBaseFightBehavior.generated.h"
 
 UCLASS(Blueprintable)
-class USwBTTask_RunBaseFightBehavior : public UBTTask_RunBehaviorDynamic {
+class SWGAME_API USwBTTask_RunBaseFightBehavior : public UBTTask_RunBehaviorDynamic {
     GENERATED_BODY()
 public:
 protected:

@@ -4,7 +4,7 @@
 #include "SwAIControllerForSpeederBike.generated.h"
 
 UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class USwAIControllerForSpeederBike : public UActorComponent {
+class SWGAME_API USwAIControllerForSpeederBike : public UActorComponent {
     GENERATED_BODY()
 public:
     USwAIControllerForSpeederBike();

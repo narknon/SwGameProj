@@ -15,7 +15,7 @@ class ASwMeditationTrainingCursor;
 class ASwMeditationTrainingGridCell;
 
 UCLASS(Blueprintable)
-class ASwMeditationTrainingGrid : public AActor {
+class SWGAME_API ASwMeditationTrainingGrid : public AActor {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintAssignable, BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

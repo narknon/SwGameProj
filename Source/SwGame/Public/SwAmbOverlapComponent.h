@@ -9,8 +9,8 @@ class AActor;
 class AVolume;
 class UPrimitiveComponent;
 
-UCLASS(Blueprintable, NonTransient, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class USwAmbOverlapComponent : public USceneComponent {
+UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
+class SWGAME_API USwAmbOverlapComponent : public USceneComponent {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintAssignable, BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

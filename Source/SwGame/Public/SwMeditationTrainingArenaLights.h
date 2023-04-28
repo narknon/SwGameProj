@@ -7,7 +7,7 @@
 #include "SwMeditationTrainingArenaLights.generated.h"
 
 UCLASS(Blueprintable)
-class ASwMeditationTrainingArenaLights : public AActor {
+class SWGAME_API ASwMeditationTrainingArenaLights : public AActor {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, NoClear, meta=(AllowPrivateAccess=true))

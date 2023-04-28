@@ -4,8 +4,8 @@
 #include "RsAbilityWeightClassData.h"
 #include "RsAbilityWeightClassSettings.generated.h"
 
-UCLASS(Blueprintable)
-class URsAbilityWeightClassSettings : public UDeveloperSettings {
+UCLASS(Blueprintable, Config=Engine, DefaultConfig, Config=Game)
+class SWGAME_API URsAbilityWeightClassSettings : public UDeveloperSettings {
     GENERATED_BODY()
 public:
     UPROPERTY(Config, EditAnywhere, meta=(AllowPrivateAccess=true))

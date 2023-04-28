@@ -41,7 +41,7 @@ class USwHighlightManager;
 class USwTargetingProfile;
 
 UCLASS(Blueprintable)
-class USwGameplayLibrary : public UBlueprintFunctionLibrary {
+class SWGAME_API USwGameplayLibrary : public UBlueprintFunctionLibrary {
     GENERATED_BODY()
 public:
     USwGameplayLibrary();

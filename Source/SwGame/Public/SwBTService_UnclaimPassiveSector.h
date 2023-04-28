@@ -4,7 +4,7 @@
 #include "SwBTService_UnclaimPassiveSector.generated.h"
 
 UCLASS(Blueprintable)
-class USwBTService_UnclaimPassiveSector : public UBTService {
+class SWGAME_API USwBTService_UnclaimPassiveSector : public UBTService {
     GENERATED_BODY()
 public:
     USwBTService_UnclaimPassiveSector();

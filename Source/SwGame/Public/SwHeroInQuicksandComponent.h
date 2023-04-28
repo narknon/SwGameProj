@@ -6,7 +6,7 @@
 class ASwQuicksandActor;
 
 UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class USwHeroInQuicksandComponent : public URsHeroComponent {
+class SWGAME_API USwHeroInQuicksandComponent : public URsHeroComponent {
     GENERATED_BODY()
 public:
 private:

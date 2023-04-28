@@ -4,7 +4,7 @@
 #include "SwForceSlamAbilityEffect_LevelObjectOverriden.generated.h"
 
 UCLASS(Blueprintable)
-class USwForceSlamAbilityEffect_LevelObjectOverriden : public USwForceSlamAbilityEffect {
+class SWGAME_API USwForceSlamAbilityEffect_LevelObjectOverriden : public USwForceSlamAbilityEffect {
     GENERATED_BODY()
 public:
     USwForceSlamAbilityEffect_LevelObjectOverriden();

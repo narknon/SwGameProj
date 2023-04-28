@@ -7,7 +7,7 @@ class ARsHero;
 class URsPlayerAnimInstance;
 
 UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class USwHeroDefenseComponent : public USwDefenseComponent {
+class SWGAME_API USwHeroDefenseComponent : public USwDefenseComponent {
     GENERATED_BODY()
 public:
 protected:

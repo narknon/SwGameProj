@@ -11,7 +11,7 @@ class ARsAIController;
 class UAnimMontage;
 
 UCLASS(Blueprintable)
-class USwBTTask_SpawnIntro : public UBTTaskNode {
+class SWGAME_API USwBTTask_SpawnIntro : public UBTTaskNode {
     GENERATED_BODY()
 public:
 private:

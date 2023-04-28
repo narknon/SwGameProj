@@ -17,7 +17,7 @@ class URsHeroStateModifierDefinition;
 class USwQuicksandSettingsDataAsset;
 
 UCLASS(Blueprintable)
-class ASwQuicksandActor : public AActor {
+class SWGAME_API ASwQuicksandActor : public AActor {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

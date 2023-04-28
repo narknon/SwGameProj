@@ -16,7 +16,7 @@ class URsHeroStateModifierDefinition;
 class USwWallRunSettings;
 
 UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class USwWallRunComponent : public URsWallRunComponent {
+class SWGAME_API USwWallRunComponent : public URsWallRunComponent {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

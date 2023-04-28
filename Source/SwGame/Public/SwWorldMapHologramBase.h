@@ -4,7 +4,7 @@
 #include "UObject/NoExportTypes.h"
 #include "UObject/NoExportTypes.h"
 #include "UObject/NoExportTypes.h"
-#include "Rs/RsMapSectionTag.h"
+#include "RsMapSectionTag.h"
 #include "ERsHolomapMode.h"
 #include "ERsHolomapState.h"
 #include "ERsWorldMapLevelType.h"
@@ -57,7 +57,7 @@ class USwWorldMapRumorComponent;
 class UTimelineComponent;
 class UWorld;
 
-UCLASS(Blueprintable)
+UCLASS(Abstract, Blueprintable)
 class ASwWorldMapHologramBase : public ARsWorldMapHologramBase {
     GENERATED_BODY()
 public:

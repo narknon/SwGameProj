@@ -24,7 +24,7 @@ class USceneComponent;
 class UStaticMeshComponent;
 class USwProjectileSpreadingData;
 
-UCLASS(Blueprintable)
+UCLASS(Abstract, Blueprintable)
 class ASwProjectile : public ARsProjectile {
     GENERATED_BODY()
 public:

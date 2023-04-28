@@ -6,8 +6,8 @@
 class AActor;
 class USwAIPredatorPreyDirector;
 
-UCLASS(Blueprintable)
-class USwAIFightSystem : public UObject {
+UCLASS(Blueprintable, Config=Engine, DefaultConfig, Transient, Config=Game)
+class SWGAME_API USwAIFightSystem : public UObject {
     GENERATED_BODY()
 public:
 private:

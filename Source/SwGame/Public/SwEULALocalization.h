@@ -6,7 +6,7 @@
 class UDataTable;
 
 UCLASS(Blueprintable)
-class USwEULALocalization : public UWorldSubsystem {
+class SWGAME_API USwEULALocalization : public UWorldSubsystem {
     GENERATED_BODY()
 public:
 private:

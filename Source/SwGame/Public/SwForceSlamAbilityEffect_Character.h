@@ -7,7 +7,7 @@ class UNiagaraSystem;
 class URsDamageType;
 
 UCLASS(Blueprintable)
-class USwForceSlamAbilityEffect_Character : public USwForceSlamAbilityEffect {
+class SWGAME_API USwForceSlamAbilityEffect_Character : public USwForceSlamAbilityEffect {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

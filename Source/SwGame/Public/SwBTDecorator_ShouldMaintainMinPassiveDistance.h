@@ -4,7 +4,7 @@
 #include "SwBTDecorator_ShouldMaintainMinPassiveDistance.generated.h"
 
 UCLASS(Blueprintable)
-class USwBTDecorator_ShouldMaintainMinPassiveDistance : public UBTDecorator {
+class SWGAME_API USwBTDecorator_ShouldMaintainMinPassiveDistance : public UBTDecorator {
     GENERATED_BODY()
 public:
     USwBTDecorator_ShouldMaintainMinPassiveDistance();

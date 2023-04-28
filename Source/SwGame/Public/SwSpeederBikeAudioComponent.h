@@ -13,7 +13,7 @@ class UPrimitiveComponent;
 class USkeletalMeshComponent;
 
 UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class USwSpeederBikeAudioComponent : public UAkComponent {
+class SWGAME_API USwSpeederBikeAudioComponent : public UAkComponent {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

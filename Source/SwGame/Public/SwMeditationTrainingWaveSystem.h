@@ -4,8 +4,8 @@
 #include "SwMeditationTrainingWaveSetting.h"
 #include "SwMeditationTrainingWaveSystem.generated.h"
 
-UCLASS(Blueprintable)
-class ASwMeditationTrainingWaveSystem : public AActor {
+UCLASS(Abstract, Blueprintable)
+class SWGAME_API ASwMeditationTrainingWaveSystem : public AActor {
     GENERATED_BODY()
 public:
 protected:

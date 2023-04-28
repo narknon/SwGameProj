@@ -7,8 +7,8 @@
 
 class URsSyncDefinition;
 
-UCLASS(Blueprintable)
-class USwBTTask_PlayCombatStateAnimation : public UBTTaskNode {
+UCLASS(Abstract, Blueprintable)
+class SWGAME_API USwBTTask_PlayCombatStateAnimation : public UBTTaskNode {
     GENERATED_BODY()
 public:
 protected:

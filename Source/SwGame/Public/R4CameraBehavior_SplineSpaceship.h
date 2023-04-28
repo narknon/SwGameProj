@@ -5,7 +5,7 @@
 #include "RsContinuousInterpParams.h"
 #include "R4CameraBehavior_SplineSpaceship.generated.h"
 
-UCLASS(Blueprintable)
+UCLASS(Blueprintable, EditInlineNew)
 class UR4CameraBehavior_SplineSpaceship : public URsCameraBehavior {
     GENERATED_BODY()
 public:

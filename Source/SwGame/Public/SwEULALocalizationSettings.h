@@ -6,8 +6,8 @@
 
 class UDataTable;
 
-UCLASS(Blueprintable)
-class USwEULALocalizationSettings : public UDeveloperSettings {
+UCLASS(Blueprintable, Config=Engine, DefaultConfig, Config=Game)
+class SWGAME_API USwEULALocalizationSettings : public UDeveloperSettings {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, Config, EditAnywhere, meta=(AllowPrivateAccess=true))

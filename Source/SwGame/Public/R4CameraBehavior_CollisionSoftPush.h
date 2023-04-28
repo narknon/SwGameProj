@@ -4,7 +4,7 @@
 #include "R4CameraSupport.h"
 #include "R4CameraBehavior_CollisionSoftPush.generated.h"
 
-UCLASS(Blueprintable)
+UCLASS(Blueprintable, EditInlineNew)
 class UR4CameraBehavior_CollisionSoftPush : public URsCameraBehavior {
     GENERATED_BODY()
 public:

@@ -19,7 +19,7 @@ class USwForcePushAbilityEffect;
 class USwForceSlowAbilityEffect;
 
 UCLASS(Blueprintable)
-class USwAbilitySystemLibrary : public UBlueprintFunctionLibrary {
+class SWGAME_API USwAbilitySystemLibrary : public UBlueprintFunctionLibrary {
     GENERATED_BODY()
 public:
     USwAbilitySystemLibrary();

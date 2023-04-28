@@ -8,7 +8,7 @@ class ARsPlayerController;
 class ASwMeditationTrainingGrid;
 class UStaticMeshComponent;
 
-UCLASS(Blueprintable)
+UCLASS(Abstract, Blueprintable)
 class ASwMeditationTrainingCursor : public AActor {
     GENERATED_BODY()
 public:

@@ -4,7 +4,7 @@
 #include "SWCompVolume.generated.h"
 
 UCLASS(Blueprintable)
-class ASWCompVolume : public AVolume {
+class SWGAME_API ASWCompVolume : public AVolume {
     GENERATED_BODY()
 public:
     ASWCompVolume();

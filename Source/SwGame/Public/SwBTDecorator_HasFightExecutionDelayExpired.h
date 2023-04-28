@@ -7,7 +7,7 @@
 class USwAIResource_Fight;
 
 UCLASS(Blueprintable)
-class USwBTDecorator_HasFightExecutionDelayExpired : public UBTDecorator {
+class SWGAME_API USwBTDecorator_HasFightExecutionDelayExpired : public UBTDecorator {
     GENERATED_BODY()
 public:
 private:

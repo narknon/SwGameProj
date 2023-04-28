@@ -4,8 +4,8 @@
 #include "ESwMeditationTrainingCellStatusFlags.h"
 #include "SwMeditationTrainingGridCell.generated.h"
 
-UCLASS(Blueprintable)
-class ASwMeditationTrainingGridCell : public AStaticMeshActor {
+UCLASS(Abstract, Blueprintable)
+class SWGAME_API ASwMeditationTrainingGridCell : public AStaticMeshActor {
     GENERATED_BODY()
 public:
     ASwMeditationTrainingGridCell();

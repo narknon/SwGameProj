@@ -4,7 +4,7 @@
 #include "SwBTTask_LeaveActiveFightRange.generated.h"
 
 UCLASS(Blueprintable)
-class USwBTTask_LeaveActiveFightRange : public URsBTTask_DirectMoveToBase {
+class SWGAME_API USwBTTask_LeaveActiveFightRange : public URsBTTask_DirectMoveToBase {
     GENERATED_BODY()
 public:
 protected:

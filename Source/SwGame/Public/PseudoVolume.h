@@ -4,7 +4,7 @@
 #include "PseudoVolume.generated.h"
 
 UCLASS(Blueprintable)
-class APseudoVolume : public AActor {
+class SWGAME_API APseudoVolume : public AActor {
     GENERATED_BODY()
 public:
     APseudoVolume();

@@ -7,8 +7,8 @@
 class AActor;
 class URsSyncDefinition;
 
-UCLASS(Blueprintable)
-class USwGrabWhiffAttackState : public USwAttackState {
+UCLASS(Blueprintable, EditInlineNew)
+class SWGAME_API USwGrabWhiffAttackState : public USwAttackState {
     GENERATED_BODY()
 public:
 protected:

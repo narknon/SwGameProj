@@ -7,7 +7,7 @@
 class ASpectatorPawn;
 
 UCLASS(Blueprintable)
-class ASwMeditationTrainingSpectator : public APlayerController {
+class SWGAME_API ASwMeditationTrainingSpectator : public APlayerController {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

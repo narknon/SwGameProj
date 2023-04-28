@@ -3,8 +3,8 @@
 #include "RsAbilityTask.h"
 #include "SwParticleATask.generated.h"
 
-UCLASS(Blueprintable)
-class USwParticleATask : public URsAbilityTask {
+UCLASS(Blueprintable, HideDropdown)
+class SWGAME_API USwParticleATask : public URsAbilityTask {
     GENERATED_BODY()
 public:
     USwParticleATask();

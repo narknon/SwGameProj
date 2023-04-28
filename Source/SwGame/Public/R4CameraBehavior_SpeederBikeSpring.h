@@ -10,7 +10,7 @@
 #include "SwSpeederBikeVectorParams.h"
 #include "R4CameraBehavior_SpeederBikeSpring.generated.h"
 
-UCLASS(Blueprintable)
+UCLASS(Blueprintable, EditInlineNew)
 class UR4CameraBehavior_SpeederBikeSpring : public URsCameraBehavior {
     GENERATED_BODY()
 public:

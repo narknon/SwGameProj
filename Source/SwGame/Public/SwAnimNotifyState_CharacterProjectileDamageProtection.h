@@ -4,8 +4,8 @@
 #include "GameplayTagContainer.h"
 #include "SwAnimNotifyState_CharacterProjectileDamageProtection.generated.h"
 
-UCLASS(Blueprintable)
-class USwAnimNotifyState_CharacterProjectileDamageProtection : public UAnimNotifyState {
+UCLASS(Blueprintable, CollapseCategories, EditInlineNew)
+class SWGAME_API USwAnimNotifyState_CharacterProjectileDamageProtection : public UAnimNotifyState {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

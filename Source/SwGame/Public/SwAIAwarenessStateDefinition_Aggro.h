@@ -6,8 +6,8 @@
 #include "SwAIFightStyle.h"
 #include "SwAIAwarenessStateDefinition_Aggro.generated.h"
 
-UCLASS(Blueprintable)
-class USwAIAwarenessStateDefinition_Aggro : public URsAIAwarenessStateDefinition_Aggro {
+UCLASS(Blueprintable, EditInlineNew)
+class SWGAME_API USwAIAwarenessStateDefinition_Aggro : public URsAIAwarenessStateDefinition_Aggro {
     GENERATED_BODY()
 public:
     UPROPERTY(EditAnywhere, meta=(AllowPrivateAccess=true))

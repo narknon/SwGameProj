@@ -4,7 +4,7 @@
 #include "R4CameraBehavior_LimitPitch.h"
 #include "R4CameraBehavior_LimitPitchRelativeToAimDirection.generated.h"
 
-UCLASS(Blueprintable)
+UCLASS(Blueprintable, EditInlineNew)
 class UR4CameraBehavior_LimitPitchRelativeToAimDirection : public UR4CameraBehavior_LimitPitch {
     GENERATED_BODY()
 public:

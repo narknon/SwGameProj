@@ -3,8 +3,8 @@
 #include "RsAIController.h"
 #include "SwAIController.generated.h"
 
-UCLASS(Blueprintable)
-class ASwAIController : public ARsAIController {
+UCLASS(Abstract, Blueprintable)
+class SWGAME_API ASwAIController : public ARsAIController {
     GENERATED_BODY()
 public:
     ASwAIController();

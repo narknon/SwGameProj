@@ -4,7 +4,7 @@
 #include "RsContinuousInterpParams.h"
 #include "R4CameraBehavior_OffsetForClimb.generated.h"
 
-UCLASS(Blueprintable)
+UCLASS(Blueprintable, EditInlineNew)
 class UR4CameraBehavior_OffsetForClimb : public URsCameraBehavior {
     GENERATED_BODY()
 public:

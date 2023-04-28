@@ -6,7 +6,7 @@
 class UProceduralMeshComponent;
 
 UCLASS(Blueprintable)
-class USwProceduralMeshComponentLibrary : public UBlueprintFunctionLibrary {
+class SWGAME_API USwProceduralMeshComponentLibrary : public UBlueprintFunctionLibrary {
     GENERATED_BODY()
 public:
     USwProceduralMeshComponentLibrary();

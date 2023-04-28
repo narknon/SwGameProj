@@ -6,7 +6,7 @@
 class UDataTable;
 
 UCLASS(Blueprintable)
-class USwProjectileDataManager : public UObject {
+class SWGAME_API USwProjectileDataManager : public UObject {
     GENERATED_BODY()
 public:
 private:

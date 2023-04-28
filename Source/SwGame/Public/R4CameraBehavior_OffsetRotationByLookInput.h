@@ -3,7 +3,7 @@
 #include "R4CameraBehavior_LookInput.h"
 #include "R4CameraBehavior_OffsetRotationByLookInput.generated.h"
 
-UCLASS(Blueprintable)
+UCLASS(Blueprintable, EditInlineNew)
 class UR4CameraBehavior_OffsetRotationByLookInput : public UR4CameraBehavior_LookInput {
     GENERATED_BODY()
 public:

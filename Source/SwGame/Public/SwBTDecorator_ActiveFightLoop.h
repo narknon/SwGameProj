@@ -4,7 +4,7 @@
 #include "SwBTDecorator_ActiveFightLoop.generated.h"
 
 UCLASS(Blueprintable)
-class USwBTDecorator_ActiveFightLoop : public UBTDecorator {
+class SWGAME_API USwBTDecorator_ActiveFightLoop : public UBTDecorator {
     GENERATED_BODY()
 public:
     USwBTDecorator_ActiveFightLoop();

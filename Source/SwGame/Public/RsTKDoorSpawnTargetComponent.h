@@ -6,7 +6,7 @@
 class UStaticMesh;
 
 UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class URsTKDoorSpawnTargetComponent : public URsSpawnTargetComponent {
+class SWGAME_API URsTKDoorSpawnTargetComponent : public URsSpawnTargetComponent {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

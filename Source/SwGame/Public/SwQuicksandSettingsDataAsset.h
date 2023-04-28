@@ -5,7 +5,7 @@
 #include "SwQuicksandSettingsDataAsset.generated.h"
 
 UCLASS(Blueprintable)
-class USwQuicksandSettingsDataAsset : public UDataAsset {
+class SWGAME_API USwQuicksandSettingsDataAsset : public UDataAsset {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

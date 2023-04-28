@@ -3,7 +3,7 @@
 #include "RsCameraConditional.h"
 #include "RsCameraConditional_RotationDiffersFromFocusDirection.generated.h"
 
-UCLASS(Blueprintable)
+UCLASS(Blueprintable, EditInlineNew)
 class URsCameraConditional_RotationDiffersFromFocusDirection : public URsCameraConditional {
     GENERATED_BODY()
 public:

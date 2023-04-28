@@ -5,8 +5,8 @@
 #include "RsWorldMapStaticMeshComponent.h"
 #include "SwWorldMapIndicatorComponent.generated.h"
 
-UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class USwWorldMapIndicatorComponent : public URsWorldMapStaticMeshComponent {
+UCLASS(Blueprintable, EditInlineNew, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
+class SWGAME_API USwWorldMapIndicatorComponent : public URsWorldMapStaticMeshComponent {
     GENERATED_BODY()
 public:
     USwWorldMapIndicatorComponent();

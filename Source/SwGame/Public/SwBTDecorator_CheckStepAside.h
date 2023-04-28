@@ -5,7 +5,7 @@
 #include "SwBTDecorator_CheckStepAside.generated.h"
 
 UCLASS(Blueprintable)
-class USwBTDecorator_CheckStepAside : public UBTDecorator {
+class SWGAME_API USwBTDecorator_CheckStepAside : public UBTDecorator {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

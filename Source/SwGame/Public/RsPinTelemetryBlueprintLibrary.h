@@ -2,7 +2,7 @@
 #include "CoreMinimal.h"
 #include "UObject/NoExportTypes.h"
 #include "Kismet/BlueprintFunctionLibrary.h"
-#include "Rs/ERsPinTelemetryPlayerWeaponType.h"
+#include "ERsPinTelemetryPlayerWeaponType.h"
 #include "RsPinTelemetryBlueprintLibrary.generated.h"
 
 class AActor;

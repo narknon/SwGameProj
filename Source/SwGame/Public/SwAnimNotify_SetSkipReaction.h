@@ -4,8 +4,8 @@
 #include "RsSkipReactionProperties.h"
 #include "SwAnimNotify_SetSkipReaction.generated.h"
 
-UCLASS(Blueprintable)
-class USwAnimNotify_SetSkipReaction : public UAnimNotifyState {
+UCLASS(Blueprintable, CollapseCategories, EditInlineNew)
+class SWGAME_API USwAnimNotify_SetSkipReaction : public UAnimNotifyState {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

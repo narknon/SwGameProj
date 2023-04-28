@@ -10,8 +10,8 @@ class AActor;
 class UPrimitiveComponent;
 class USwCollisionDamageData;
 
-UCLASS(Blueprintable)
-class USwCollisionDamageAETask : public URsAbilityEffectTask {
+UCLASS(Blueprintable, HideDropdown)
+class SWGAME_API USwCollisionDamageAETask : public URsAbilityEffectTask {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

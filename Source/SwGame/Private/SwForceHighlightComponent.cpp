@@ -1,9 +1,9 @@
 #include "SwForceHighlightComponent.h"
 
-void USwForceHighlightComponent::SetBoxExtent(FVector InBoxExtent) {
+void UDEPRECATED_SwForceHighlightComponent::SetBoxExtent(FVector InBoxExtent) {
 }
 
-USwForceHighlightComponent::USwForceHighlightComponent() {
+UDEPRECATED_SwForceHighlightComponent::UDEPRECATED_SwForceHighlightComponent() {
     // Null default object.
 }
 

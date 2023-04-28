@@ -4,8 +4,8 @@
 #include "SwProjectileTypeName.h"
 #include "SwProjectileSettings.generated.h"
 
-UCLASS(Blueprintable)
-class USwProjectileSettings : public UObject {
+UCLASS(Blueprintable, Config=Engine, DefaultConfig, Config=Game)
+class SWGAME_API USwProjectileSettings : public UObject {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, Config, EditAnywhere, meta=(AllowPrivateAccess=true))

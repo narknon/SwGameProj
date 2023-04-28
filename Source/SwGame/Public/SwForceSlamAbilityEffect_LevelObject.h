@@ -7,7 +7,7 @@
 class UNiagaraSystem;
 
 UCLASS(Blueprintable)
-class USwForceSlamAbilityEffect_LevelObject : public USwForceSlamAbilityEffect {
+class SWGAME_API USwForceSlamAbilityEffect_LevelObject : public USwForceSlamAbilityEffect {
     GENERATED_BODY()
 public:
 private:

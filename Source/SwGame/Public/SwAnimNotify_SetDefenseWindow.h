@@ -3,8 +3,8 @@
 #include "Animation/AnimNotifies/AnimNotify.h"
 #include "SwAnimNotify_SetDefenseWindow.generated.h"
 
-UCLASS(Blueprintable)
-class USwAnimNotify_SetDefenseWindow : public UAnimNotify {
+UCLASS(Blueprintable, CollapseCategories)
+class SWGAME_API USwAnimNotify_SetDefenseWindow : public UAnimNotify {
     GENERATED_BODY()
 public:
 private:

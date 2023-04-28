@@ -7,7 +7,7 @@ class UObject;
 class USwEULALocalization;
 
 UCLASS(Blueprintable)
-class USwUiEULALocalizationFunctionLibrary : public UBlueprintFunctionLibrary {
+class SWGAME_API USwUiEULALocalizationFunctionLibrary : public UBlueprintFunctionLibrary {
     GENERATED_BODY()
 public:
     USwUiEULALocalizationFunctionLibrary();

@@ -7,7 +7,7 @@ class USceneComponent;
 class USplineComponent;
 
 UCLASS(Blueprintable)
-class ASwVehicleSplineActor : public AActor {
+class SWGAME_API ASwVehicleSplineActor : public AActor {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))

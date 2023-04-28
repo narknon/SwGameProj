@@ -14,7 +14,7 @@ class UDamageType;
 class UPrimitiveComponent;
 class URsDamageType;
 
-UCLASS(Blueprintable)
+UCLASS(Abstract, Blueprintable)
 class ASwGrenade : public ASwTKProjectileBase {
     GENERATED_BODY()
 public:

@@ -3,8 +3,8 @@
 #include "RsAbilityEffectState.h"
 #include "SwForceLiftEffectState.generated.h"
 
-UCLASS(Blueprintable)
-class USwForceLiftEffectState : public URsAbilityEffectState {
+UCLASS(Blueprintable, EditInlineNew)
+class SWGAME_API USwForceLiftEffectState : public URsAbilityEffectState {
     GENERATED_BODY()
 public:
     USwForceLiftEffectState();

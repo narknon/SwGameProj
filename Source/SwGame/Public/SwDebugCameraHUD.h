@@ -3,7 +3,7 @@
 #include "Engine/DebugCameraHUD.h"
 #include "SwDebugCameraHUD.generated.h"
 
-UCLASS(Blueprintable)
+UCLASS(Blueprintable, HideDropdown, NonTransient)
 class ASwDebugCameraHUD : public ADebugCameraHUD {
     GENERATED_BODY()
 public:

@@ -3,8 +3,8 @@
 #include "RsDevNetViewport.h"
 #include "SwGameViewportClient.generated.h"
 
-UCLASS(Blueprintable)
-class USwGameViewportClient : public URsDevNetViewport {
+UCLASS(Blueprintable, NonTransient)
+class SWGAME_API USwGameViewportClient : public URsDevNetViewport {
     GENERATED_BODY()
 public:
 private:

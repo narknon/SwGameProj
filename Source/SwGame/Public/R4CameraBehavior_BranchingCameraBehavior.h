@@ -5,7 +5,7 @@
 
 class URsCameraConditional;
 
-UCLASS(Blueprintable)
+UCLASS(Blueprintable, EditInlineNew)
 class UR4CameraBehavior_BranchingCameraBehavior : public URsCameraBehavior {
     GENERATED_BODY()
 public:

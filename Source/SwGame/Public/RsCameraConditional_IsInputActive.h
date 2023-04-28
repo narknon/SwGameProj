@@ -4,7 +4,7 @@
 #include "RsCameraConditional.h"
 #include "RsCameraConditional_IsInputActive.generated.h"
 
-UCLASS(Blueprintable)
+UCLASS(Blueprintable, EditInlineNew)
 class URsCameraConditional_IsInputActive : public URsCameraConditional {
     GENERATED_BODY()
 public:

@@ -7,7 +7,7 @@
 class AActor;
 
 UCLASS(Blueprintable)
-class ARsTKDoorActor : public ARsModelSwapActor {
+class SWGAME_API ARsTKDoorActor : public ARsModelSwapActor {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

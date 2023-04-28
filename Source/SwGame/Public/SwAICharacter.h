@@ -22,8 +22,8 @@ class USwAttackState;
 class USwDefenseState;
 class USwReactionState;
 
-UCLASS(Blueprintable)
-class ASwAICharacter : public ARsAICharacter {
+UCLASS(Abstract, Blueprintable, NotPlaceable)
+class SWGAME_API ASwAICharacter : public ARsAICharacter {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

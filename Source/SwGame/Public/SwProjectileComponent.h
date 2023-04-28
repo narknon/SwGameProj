@@ -5,7 +5,7 @@
 
 class ASwProjectile;
 
-UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
+UCLASS(Abstract, Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
 class USwProjectileComponent : public UActorComponent {
     GENERATED_BODY()
 public:

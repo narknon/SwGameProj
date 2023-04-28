@@ -4,7 +4,7 @@
 #include "RsCameraConditional.h"
 #include "RsCameraConditionalExpression.generated.h"
 
-UCLASS(Blueprintable)
+UCLASS(Blueprintable, EditInlineNew)
 class URsCameraConditionalExpression : public URsCameraConditional {
     GENERATED_BODY()
 public:

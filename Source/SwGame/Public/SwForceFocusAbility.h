@@ -8,7 +8,7 @@
 class UAkAudioEvent;
 
 UCLASS(Blueprintable)
-class USwForceFocusAbility : public URsAbility {
+class SWGAME_API USwForceFocusAbility : public URsAbility {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

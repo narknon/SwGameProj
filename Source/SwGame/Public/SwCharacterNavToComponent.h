@@ -19,7 +19,7 @@ class USceneComponent;
 class USwCharacterDynamicNavToHandlerObject;
 
 UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class USwCharacterNavToComponent : public URsHeroComponent {
+class SWGAME_API USwCharacterNavToComponent : public URsHeroComponent {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

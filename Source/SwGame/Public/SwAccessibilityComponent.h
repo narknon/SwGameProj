@@ -7,7 +7,7 @@
 class UAkAudioEvent;
 
 UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class USwAccessibilityComponent : public URsHeroComponent {
+class SWGAME_API USwAccessibilityComponent : public URsHeroComponent {
     GENERATED_BODY()
 public:
 private:

@@ -6,8 +6,8 @@
 
 class URsDamageType;
 
-UCLASS(Blueprintable)
-class USwAnimNotify_RadialDamage : public UAnimNotify {
+UCLASS(Blueprintable, CollapseCategories)
+class SWGAME_API USwAnimNotify_RadialDamage : public UAnimNotify {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))

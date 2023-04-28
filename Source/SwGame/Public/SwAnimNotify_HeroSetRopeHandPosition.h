@@ -4,8 +4,8 @@
 #include "ESwRopeAttachmentHandPosition.h"
 #include "SwAnimNotify_HeroSetRopeHandPosition.generated.h"
 
-UCLASS(Blueprintable)
-class USwAnimNotify_HeroSetRopeHandPosition : public UAnimNotify {
+UCLASS(Blueprintable, CollapseCategories)
+class SWGAME_API USwAnimNotify_HeroSetRopeHandPosition : public UAnimNotify {
     GENERATED_BODY()
 public:
 private:

@@ -6,7 +6,7 @@
 class UStaticMeshComponent;
 
 UCLASS(Blueprintable)
-class ARsModelSwapActor : public AActor {
+class SWGAME_API ARsModelSwapActor : public AActor {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))

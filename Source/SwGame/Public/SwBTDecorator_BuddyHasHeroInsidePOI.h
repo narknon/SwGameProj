@@ -4,7 +4,7 @@
 #include "SwBTDecorator_BuddyHasHeroInsidePOI.generated.h"
 
 UCLASS(Blueprintable)
-class USwBTDecorator_BuddyHasHeroInsidePOI : public UBTDecorator {
+class SWGAME_API USwBTDecorator_BuddyHasHeroInsidePOI : public UBTDecorator {
     GENERATED_BODY()
 public:
 protected:

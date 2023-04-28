@@ -4,7 +4,7 @@
 #include "SwHeroFallDeathComponent.generated.h"
 
 UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class USwHeroFallDeathComponent : public URsFallDeathComponent {
+class SWGAME_API USwHeroFallDeathComponent : public URsFallDeathComponent {
     GENERATED_BODY()
 public:
 protected:

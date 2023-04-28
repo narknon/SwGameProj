@@ -6,7 +6,7 @@
 #include "SwForcePullStandaloneAbilityEffect.generated.h"
 
 UCLASS(Blueprintable)
-class USwForcePullStandaloneAbilityEffect : public USwForcePullAbilityEffect {
+class SWGAME_API USwForcePullStandaloneAbilityEffect : public USwForcePullAbilityEffect {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

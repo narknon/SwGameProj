@@ -8,8 +8,8 @@
 class UAnimationAsset;
 class URsAbility;
 
-UCLASS(Blueprintable)
-class URsAnimNotify_PreTriggerAbility : public UAnimNotify {
+UCLASS(Blueprintable, CollapseCategories)
+class SWGAME_API URsAnimNotify_PreTriggerAbility : public UAnimNotify {
     GENERATED_BODY()
 public:
 private:

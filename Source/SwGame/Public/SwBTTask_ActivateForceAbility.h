@@ -9,7 +9,7 @@ class UAnimationAsset;
 class URsAbility;
 
 UCLASS(Blueprintable)
-class USwBTTask_ActivateForceAbility : public UBTTaskNode {
+class SWGAME_API USwBTTask_ActivateForceAbility : public UBTTaskNode {
     GENERATED_BODY()
 public:
 protected:

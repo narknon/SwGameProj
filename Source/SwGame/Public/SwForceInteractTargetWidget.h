@@ -5,8 +5,8 @@
 #include "ESwForceTargetHighlightType.h"
 #include "SwForceInteractTargetWidget.generated.h"
 
-UCLASS(Blueprintable)
-class USwForceInteractTargetWidget : public UUserWidget {
+UCLASS(Blueprintable, EditInlineNew)
+class SWGAME_API USwForceInteractTargetWidget : public UUserWidget {
     GENERATED_BODY()
 public:
     USwForceInteractTargetWidget();

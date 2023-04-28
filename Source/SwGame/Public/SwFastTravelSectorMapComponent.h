@@ -7,7 +7,7 @@
 class ARsWorldMapSavePointActor;
 
 UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class USwFastTravelSectorMapComponent : public USwSectorMapComponent {
+class SWGAME_API USwFastTravelSectorMapComponent : public USwSectorMapComponent {
     GENERATED_BODY()
 public:
     USwFastTravelSectorMapComponent();

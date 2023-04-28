@@ -3,8 +3,8 @@
 #include "RsMasterSyncInstance.h"
 #include "SwMasterSyncInstance.generated.h"
 
-UCLASS(Blueprintable)
-class USwMasterSyncInstance : public URsMasterSyncInstance {
+UCLASS(Blueprintable, NonTransient)
+class SWGAME_API USwMasterSyncInstance : public URsMasterSyncInstance {
     GENERATED_BODY()
 public:
     USwMasterSyncInstance();

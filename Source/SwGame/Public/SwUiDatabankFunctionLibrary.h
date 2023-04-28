@@ -10,7 +10,7 @@ class UObject;
 class USwDatabankManager;
 
 UCLASS(Blueprintable)
-class USwUiDatabankFunctionLibrary : public UBlueprintFunctionLibrary {
+class SWGAME_API USwUiDatabankFunctionLibrary : public UBlueprintFunctionLibrary {
     GENERATED_BODY()
 public:
     USwUiDatabankFunctionLibrary();

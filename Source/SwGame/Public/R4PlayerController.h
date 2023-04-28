@@ -31,7 +31,7 @@ class URsUiWindow;
 class USwHighlightManager;
 
 UCLASS(Blueprintable)
-class AR4PlayerController : public ARsPlayerController {
+class SWGAME_API AR4PlayerController : public ARsPlayerController {
     GENERATED_BODY()
 public:
 private:

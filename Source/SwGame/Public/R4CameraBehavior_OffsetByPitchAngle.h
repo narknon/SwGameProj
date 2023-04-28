@@ -5,7 +5,7 @@
 #include "RsCameraBehavior.h"
 #include "R4CameraBehavior_OffsetByPitchAngle.generated.h"
 
-UCLASS(Blueprintable)
+UCLASS(Blueprintable, EditInlineNew)
 class UR4CameraBehavior_OffsetByPitchAngle : public URsCameraBehavior {
     GENERATED_BODY()
 public:

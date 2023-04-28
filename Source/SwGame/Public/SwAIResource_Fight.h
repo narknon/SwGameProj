@@ -3,8 +3,8 @@
 #include "RsAIResource.h"
 #include "SwAIResource_Fight.generated.h"
 
-UCLASS(Blueprintable)
-class USwAIResource_Fight : public URsAIResource {
+UCLASS(Abstract, Blueprintable)
+class SWGAME_API USwAIResource_Fight : public URsAIResource {
     GENERATED_BODY()
 public:
 private:

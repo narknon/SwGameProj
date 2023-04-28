@@ -4,8 +4,8 @@
 #include "EnumSettingsData.h"
 #include "SwCombatEnumSettings.generated.h"
 
-UCLASS(Blueprintable)
-class USwCombatEnumSettings : public UDeveloperSettings {
+UCLASS(Blueprintable, Config=Engine, DefaultConfig, Config=Game)
+class SWGAME_API USwCombatEnumSettings : public UDeveloperSettings {
     GENERATED_BODY()
 public:
 private:

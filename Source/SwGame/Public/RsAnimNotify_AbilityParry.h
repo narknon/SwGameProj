@@ -6,8 +6,8 @@
 
 class URsAbility;
 
-UCLASS(Blueprintable)
-class URsAnimNotify_AbilityParry : public UAnimNotifyState {
+UCLASS(Blueprintable, CollapseCategories, EditInlineNew)
+class SWGAME_API URsAnimNotify_AbilityParry : public UAnimNotifyState {
     GENERATED_BODY()
 public:
 private:

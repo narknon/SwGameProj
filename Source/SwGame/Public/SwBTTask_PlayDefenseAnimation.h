@@ -6,7 +6,7 @@
 class USwDefenseState;
 
 UCLASS(Blueprintable)
-class USwBTTask_PlayDefenseAnimation : public USwBTTask_PlayCombatStateAnimation {
+class SWGAME_API USwBTTask_PlayDefenseAnimation : public USwBTTask_PlayCombatStateAnimation {
     GENERATED_BODY()
 public:
 private:

@@ -3,8 +3,8 @@
 #include "RsDamageType.h"
 #include "SwProjectileDamageType.generated.h"
 
-UCLASS(Blueprintable)
-class USwProjectileDamageType : public URsDamageType {
+UCLASS(Blueprintable, EditInlineNew)
+class SWGAME_API USwProjectileDamageType : public URsDamageType {
     GENERATED_BODY()
 public:
     USwProjectileDamageType();

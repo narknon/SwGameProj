@@ -1,5 +1,0 @@
-#include "RsPhysicalAnimationComponentPostPhysicsTickFunction.h"
-
-FRsPhysicalAnimationComponentPostPhysicsTickFunction::FRsPhysicalAnimationComponentPostPhysicsTickFunction() {
-}
-

@@ -5,7 +5,7 @@
 #include "RsDamagableActor.generated.h"
 
 UCLASS(Blueprintable)
-class ARsDamagableActor : public AActor {
+class SWGAME_API ARsDamagableActor : public AActor {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

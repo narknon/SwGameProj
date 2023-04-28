@@ -6,7 +6,7 @@
 class URsAbilityEffectVictimComponent;
 
 UCLASS(Blueprintable)
-class ASwLiftSlamActor : public AActor {
+class SWGAME_API ASwLiftSlamActor : public AActor {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))

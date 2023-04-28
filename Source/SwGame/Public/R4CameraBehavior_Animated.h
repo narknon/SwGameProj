@@ -4,7 +4,7 @@
 #include "ERsAnimatedCameraMode.h"
 #include "R4CameraBehavior_Animated.generated.h"
 
-UCLASS(Blueprintable)
+UCLASS(Blueprintable, EditInlineNew)
 class UR4CameraBehavior_Animated : public URsCameraBehavior {
     GENERATED_BODY()
 public:

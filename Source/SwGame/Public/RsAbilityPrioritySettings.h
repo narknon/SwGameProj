@@ -6,8 +6,8 @@
 #include "RsAbilityPriorityWeights.h"
 #include "RsAbilityPrioritySettings.generated.h"
 
-UCLASS(Blueprintable)
-class URsAbilityPrioritySettings : public UDeveloperSettings {
+UCLASS(Blueprintable, Config=Engine, DefaultConfig, Config=Game)
+class SWGAME_API URsAbilityPrioritySettings : public UDeveloperSettings {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, Config, EditAnywhere, meta=(AllowPrivateAccess=true))

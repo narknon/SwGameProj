@@ -27,8 +27,8 @@ class USwReactionState;
 class USwSaberClashComponent;
 class USwTargetingProfile;
 
-UCLASS(Blueprintable)
-class ASwHero : public ARsHero {
+UCLASS(Abstract, Blueprintable)
+class SWGAME_API ASwHero : public ARsHero {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintAssignable, BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

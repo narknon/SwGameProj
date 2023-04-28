@@ -5,8 +5,8 @@
 
 class ARsCharacter;
 
-UCLASS(Blueprintable)
-class USwReactionState : public URsReactionState {
+UCLASS(Blueprintable, EditInlineNew)
+class SWGAME_API USwReactionState : public URsReactionState {
     GENERATED_BODY()
 public:
 private:

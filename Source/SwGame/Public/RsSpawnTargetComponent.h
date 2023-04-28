@@ -6,8 +6,8 @@
 
 class AActor;
 
-UCLASS(Blueprintable, NonTransient, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class URsSpawnTargetComponent : public USceneComponent {
+UCLASS(Abstract, Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
+class SWGAME_API URsSpawnTargetComponent : public USceneComponent {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

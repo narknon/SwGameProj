@@ -3,8 +3,8 @@
 #include "Engine/DataAsset.h"
 #include "SwTargetingProfile.generated.h"
 
-UCLASS(Blueprintable)
-class USwTargetingProfile : public UDataAsset {
+UCLASS(Abstract, Blueprintable)
+class SWGAME_API USwTargetingProfile : public UDataAsset {
     GENERATED_BODY()
 public:
     USwTargetingProfile();

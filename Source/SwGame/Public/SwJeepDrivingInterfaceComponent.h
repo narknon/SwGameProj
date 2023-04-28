@@ -6,7 +6,7 @@
 class URsHeroStateModifierDefinition;
 
 UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class USwJeepDrivingInterfaceComponent : public USwVehicleDrivingInterfaceComponent {
+class SWGAME_API USwJeepDrivingInterfaceComponent : public USwVehicleDrivingInterfaceComponent {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

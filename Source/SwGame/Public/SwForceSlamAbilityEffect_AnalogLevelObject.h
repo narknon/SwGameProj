@@ -4,7 +4,7 @@
 #include "SwForceSlamAbilityEffect_AnalogLevelObject.generated.h"
 
 UCLASS(Blueprintable)
-class USwForceSlamAbilityEffect_AnalogLevelObject : public USwForceSlamAbilityEffect {
+class SWGAME_API USwForceSlamAbilityEffect_AnalogLevelObject : public USwForceSlamAbilityEffect {
     GENERATED_BODY()
 public:
     USwForceSlamAbilityEffect_AnalogLevelObject();

@@ -5,8 +5,8 @@
 
 class UDataTable;
 
-UCLASS(Blueprintable)
-class USwDatabankSettings : public UDeveloperSettings {
+UCLASS(Blueprintable, Config=Engine, DefaultConfig, Config=Game)
+class SWGAME_API USwDatabankSettings : public UDeveloperSettings {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, Config, EditAnywhere, meta=(AllowPrivateAccess=true))

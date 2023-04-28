@@ -12,7 +12,7 @@ class UDecalTrailComponent;
 class UParticleSystemComponent;
 
 UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class USwLightsaberMarksComponent : public UActorComponent {
+class SWGAME_API USwLightsaberMarksComponent : public UActorComponent {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, DuplicateTransient, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))

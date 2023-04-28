@@ -4,7 +4,7 @@
 #include "RsCameraInputs.h"
 #include "R4CameraBehavior_LookInput.generated.h"
 
-UCLASS(Blueprintable)
+UCLASS(Blueprintable, EditInlineNew)
 class UR4CameraBehavior_LookInput : public URsCameraBehavior {
     GENERATED_BODY()
 public:

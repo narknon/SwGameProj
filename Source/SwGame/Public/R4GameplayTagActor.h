@@ -5,7 +5,7 @@
 #include "R4GameplayTagActor.generated.h"
 
 UCLASS(Blueprintable)
-class AR4GameplayTagActor : public AActor {
+class SWGAME_API AR4GameplayTagActor : public AActor {
     GENERATED_BODY()
 public:
 protected:

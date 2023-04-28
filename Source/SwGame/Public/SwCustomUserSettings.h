@@ -7,8 +7,8 @@
 #include "SwCustomSettingString.h"
 #include "SwCustomUserSettings.generated.h"
 
-UCLASS(Blueprintable)
-class USwCustomUserSettings : public UDeveloperSettings {
+UCLASS(Blueprintable, Config=Engine, DefaultConfig, Config=GameUserSettings)
+class SWGAME_API USwCustomUserSettings : public UDeveloperSettings {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, Config, EditAnywhere, meta=(AllowPrivateAccess=true))

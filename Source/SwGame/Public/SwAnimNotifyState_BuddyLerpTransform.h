@@ -4,8 +4,8 @@
 #include "ESwAIBuddyDroidTransformLerpMode.h"
 #include "SwAnimNotifyState_BuddyLerpTransform.generated.h"
 
-UCLASS(Blueprintable)
-class USwAnimNotifyState_BuddyLerpTransform : public UAnimNotifyState {
+UCLASS(Blueprintable, CollapseCategories, EditInlineNew)
+class SWGAME_API USwAnimNotifyState_BuddyLerpTransform : public UAnimNotifyState {
     GENERATED_BODY()
 public:
 private:

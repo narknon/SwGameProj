@@ -5,8 +5,8 @@
 
 class AActor;
 
-UCLASS(Blueprintable)
-class USwForceFocusAbilityState : public URsAbilityState {
+UCLASS(Blueprintable, EditInlineNew)
+class SWGAME_API USwForceFocusAbilityState : public URsAbilityState {
     GENERATED_BODY()
 public:
     USwForceFocusAbilityState();

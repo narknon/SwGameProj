@@ -18,7 +18,7 @@ class USplineComponent;
 class UStaticMeshComponent;
 
 UCLASS(Blueprintable)
-class ASwShippingLaneActor : public AActor {
+class SWGAME_API ASwShippingLaneActor : public AActor {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))

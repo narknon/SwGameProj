@@ -1,13 +1,13 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "Rs/RsMapSectionTag.h"
+#include "RsMapSectionTag.h"
 #include "SwInteriorMapOnMapSectionChangedDelegate.h"
 #include "SwWorldMapCameraFocusData.h"
 #include "SwWorldMapComponent.h"
 #include "SwInteriorMapComponent.generated.h"
 
 UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class USwInteriorMapComponent : public USwWorldMapComponent {
+class SWGAME_API USwInteriorMapComponent : public USwWorldMapComponent {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

@@ -7,11 +7,11 @@
 class ARsCharacter;
 
 UINTERFACE(Blueprintable)
-class USwLightsaberInterface : public UInterface {
+class SWGAME_API USwLightsaberInterface : public UInterface {
     GENERATED_BODY()
 };
 
-class ISwLightsaberInterface : public IInterface {
+class SWGAME_API ISwLightsaberInterface : public IInterface {
     GENERATED_BODY()
 public:
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
@@ -20,10 +20,10 @@ public:
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void OverchargeEffect(bool bStart, bool bActivate);
     
-    UFUNCTION(BlueprintCallable, BlueprintImplementableEvent, BlueprintPure)
+    UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     bool IsBladeExtended() const;
     
-    UFUNCTION(BlueprintCallable, BlueprintImplementableEvent, BlueprintPure)
+    UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     FSwLightsaberBladeState GetBladeState() const;
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)

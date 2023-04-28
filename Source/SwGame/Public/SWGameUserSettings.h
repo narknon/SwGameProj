@@ -20,7 +20,7 @@ class USWGameUserSettings;
 class USwGameUserSettingsSaveObject;
 
 UCLASS(Blueprintable)
-class USWGameUserSettings : public UGameUserSettings {
+class SWGAME_API USWGameUserSettings : public UGameUserSettings {
     GENERATED_BODY()
 public:
 private:

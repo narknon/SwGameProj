@@ -4,7 +4,7 @@
 #include "SwAISettings.generated.h"
 
 UCLASS(Blueprintable)
-class USwAISettings : public URsAISettings {
+class SWGAME_API USwAISettings : public URsAISettings {
     GENERATED_BODY()
 public:
     UPROPERTY(Config, EditAnywhere, NoClear, meta=(AllowPrivateAccess=true))

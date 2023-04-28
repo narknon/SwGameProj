@@ -1,5 +1,0 @@
-#include "RsNarrativeConversationCharactersToIdleGestureMaps.h"
-
-FRsNarrativeConversationCharactersToIdleGestureMaps::FRsNarrativeConversationCharactersToIdleGestureMaps() {
-}
-

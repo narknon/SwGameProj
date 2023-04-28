@@ -3,8 +3,8 @@
 #include "Animation/AnimNotifies/AnimNotifyState.h"
 #include "SwAnimNotifyState_ShowActionPrompt.generated.h"
 
-UCLASS(Blueprintable)
-class USwAnimNotifyState_ShowActionPrompt : public UAnimNotifyState {
+UCLASS(Blueprintable, CollapseCategories, EditInlineNew)
+class SWGAME_API USwAnimNotifyState_ShowActionPrompt : public UAnimNotifyState {
     GENERATED_BODY()
 public:
 private:

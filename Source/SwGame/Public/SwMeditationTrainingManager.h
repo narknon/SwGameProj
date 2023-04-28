@@ -43,8 +43,8 @@ class UAkComponent;
 class UDataTable;
 class UTexture2D;
 
-UCLASS(Blueprintable)
-class ASwMeditationTrainingManager : public AActor {
+UCLASS(Abstract, Blueprintable)
+class SWGAME_API ASwMeditationTrainingManager : public AActor {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintAssignable, BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

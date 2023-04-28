@@ -6,7 +6,7 @@
 class UDataTable;
 
 UCLASS(Blueprintable)
-class URsAbilityPriorityManager : public UObject {
+class SWGAME_API URsAbilityPriorityManager : public UObject {
     GENERATED_BODY()
 public:
 private:

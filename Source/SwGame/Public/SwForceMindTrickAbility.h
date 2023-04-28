@@ -18,7 +18,7 @@ class URsAbilityInstanceData;
 class URsHeroStateModifierDefinition;
 
 UCLASS(Blueprintable)
-class USwForceMindTrickAbility : public URsAbility {
+class SWGAME_API USwForceMindTrickAbility : public URsAbility {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintAssignable, BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

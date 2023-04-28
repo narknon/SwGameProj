@@ -3,8 +3,8 @@
 #include "Components/SceneComponent.h"
 #include "SwMuzzleTransformComponent.generated.h"
 
-UCLASS(Blueprintable, NonTransient, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class USwMuzzleTransformComponent : public USceneComponent {
+UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
+class SWGAME_API USwMuzzleTransformComponent : public USceneComponent {
     GENERATED_BODY()
 public:
     USwMuzzleTransformComponent();

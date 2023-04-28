@@ -1,12 +1,12 @@
 #include "SwDestructionComponent.h"
 
-void USwDestructionComponent::PlayPartOfAnimation(USkeletalMeshComponent* SkeletalMeshComponentToPlayAnimation, const float TimeToPlay) {
+void UDEPRECATED_SwDestructionComponent::PlayPartOfAnimation(USkeletalMeshComponent* SkeletalMeshComponentToPlayAnimation, const float TimeToPlay) {
 }
 
-void USwDestructionComponent::AdvanceAnimationFrames(USkeletalMeshComponent* SkeletalMeshComponentToPlayAnimation, const int32 NumberOfFramesToAdvance) {
+void UDEPRECATED_SwDestructionComponent::AdvanceAnimationFrames(USkeletalMeshComponent* SkeletalMeshComponentToPlayAnimation, const int32 NumberOfFramesToAdvance) {
 }
 
-USwDestructionComponent::USwDestructionComponent() {
+UDEPRECATED_SwDestructionComponent::UDEPRECATED_SwDestructionComponent() {
     // Null default object.
 }
 

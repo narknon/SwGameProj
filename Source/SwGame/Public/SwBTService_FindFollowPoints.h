@@ -6,7 +6,7 @@
 #include "SwBTService_FindFollowPoints.generated.h"
 
 UCLASS(Blueprintable)
-class USwBTService_FindFollowPoints : public UBTService {
+class SWGAME_API USwBTService_FindFollowPoints : public UBTService {
     GENERATED_BODY()
 public:
 private:

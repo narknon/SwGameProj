@@ -13,8 +13,8 @@ class ASwWorldMapCameraActor;
 class URsWorldMap;
 class USwWorldMapHologramSettings;
 
-UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class USwWorldMapComponent : public UActorComponent {
+UCLASS(Abstract, Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
+class SWGAME_API USwWorldMapComponent : public UActorComponent {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

@@ -5,7 +5,7 @@
 #include "SwSpeederBikeSyncSystem.generated.h"
 
 UCLASS(Blueprintable)
-class USwSpeederBikeSyncSystem : public UObject {
+class SWGAME_API USwSpeederBikeSyncSystem : public UObject {
     GENERATED_BODY()
 public:
 private:

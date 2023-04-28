@@ -7,7 +7,7 @@
 class ARsDynamicDeformerBase;
 
 UCLASS(Blueprintable)
-class USwForceLiftAbilityEffect : public URsAbilityEffect {
+class SWGAME_API USwForceLiftAbilityEffect : public URsAbilityEffect {
     GENERATED_BODY()
 public:
 private:

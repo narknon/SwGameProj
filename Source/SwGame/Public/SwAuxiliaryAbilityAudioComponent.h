@@ -5,7 +5,7 @@
 #include "SwAuxiliaryAbilityAudioComponent.generated.h"
 
 UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class USwAuxiliaryAbilityAudioComponent : public UAkGameObject {
+class SWGAME_API USwAuxiliaryAbilityAudioComponent : public UAkGameObject {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

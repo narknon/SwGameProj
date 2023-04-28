@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "UObject/NoExportTypes.h"
-//CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=ColorMask -FallbackName=ColorMask
+#include "ColorMask.h"
 #include "Engine/DataTable.h"
 #include "SwLightsaberMarkActorInfo.generated.h"
 

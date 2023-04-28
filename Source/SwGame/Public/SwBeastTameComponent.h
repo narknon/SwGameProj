@@ -41,7 +41,7 @@ class URsAIBehaviorStateMachine;
 class USkeletalMeshComponent;
 
 UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class USwBeastTameComponent : public UActorComponent {
+class SWGAME_API USwBeastTameComponent : public UActorComponent {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintAssignable, BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

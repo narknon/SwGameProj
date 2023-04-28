@@ -12,7 +12,7 @@ class ARsCharacter;
 class URsDamageType;
 class USwMissileMovementComponent;
 
-UCLASS(Blueprintable)
+UCLASS(Abstract, Blueprintable)
 class ASwMissile : public ASwTKProjectileBase {
     GENERATED_BODY()
 public:

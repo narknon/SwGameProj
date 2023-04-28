@@ -3,8 +3,8 @@
 #include "RsAbilityTask.h"
 #include "SwPushLandingATask.generated.h"
 
-UCLASS(Blueprintable)
-class USwPushLandingATask : public URsAbilityTask {
+UCLASS(Blueprintable, HideDropdown)
+class SWGAME_API USwPushLandingATask : public URsAbilityTask {
     GENERATED_BODY()
 public:
     USwPushLandingATask();

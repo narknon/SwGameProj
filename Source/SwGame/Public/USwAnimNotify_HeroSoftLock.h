@@ -5,8 +5,8 @@
 
 class ASwHero;
 
-UCLASS(Blueprintable)
-class UUSwAnimNotify_HeroSoftLock : public UAnimNotifyState {
+UCLASS(Blueprintable, CollapseCategories, Deprecated, EditInlineNew, NotPlaceable)
+class SWGAME_API UDEPRECATED_USwAnimNotify_HeroSoftLock : public UAnimNotifyState {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -27,6 +27,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
     ASwHero* HeroRef;
     
-    UUSwAnimNotify_HeroSoftLock();
+    UDEPRECATED_USwAnimNotify_HeroSoftLock();
 };
 

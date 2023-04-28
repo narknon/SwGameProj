@@ -3,7 +3,7 @@
 #include "GameFramework/HUD.h"
 #include "SwPhotomodeCameraHUD.generated.h"
 
-UCLASS(Blueprintable)
+UCLASS(Blueprintable, HideDropdown, NonTransient)
 class ASwPhotomodeCameraHUD : public AHUD {
     GENERATED_BODY()
 public:

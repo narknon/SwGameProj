@@ -10,7 +10,7 @@
 class URsDamageType;
 
 UCLASS(Blueprintable)
-class USwDefenseDefinition : public URsDefenseDefinition {
+class SWGAME_API USwDefenseDefinition : public URsDefenseDefinition {
     GENERATED_BODY()
 public:
 protected:

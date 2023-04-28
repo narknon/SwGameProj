@@ -7,7 +7,7 @@
 class URsAIResource;
 
 UCLASS(Blueprintable)
-class USwBTService_TeamCombatReaction : public UBTService {
+class SWGAME_API USwBTService_TeamCombatReaction : public UBTService {
     GENERATED_BODY()
 public:
 private:

@@ -17,8 +17,8 @@ class USceneComponent;
 class USwProjectileAccuracyConfig;
 class USwProjectileSpreadingData;
 
-UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class USwRangedOffenseBaseComponent : public URsOffenseComponent {
+UCLASS(Abstract, Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
+class SWGAME_API USwRangedOffenseBaseComponent : public URsOffenseComponent {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

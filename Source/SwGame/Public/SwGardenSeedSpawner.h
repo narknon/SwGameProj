@@ -16,7 +16,7 @@ class UStaticMesh;
 class USwGardenSeedSpawnerData;
 
 UCLASS(Blueprintable)
-class ASwGardenSeedSpawner : public AActor {
+class SWGAME_API ASwGardenSeedSpawner : public AActor {
     GENERATED_BODY()
 public:
 protected:

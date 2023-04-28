@@ -12,7 +12,7 @@ class UParticleSystem;
 class UPrimitiveComponent;
 
 UCLASS(Blueprintable)
-class USwForceSlowAbilityEffect : public URsAbilityEffect {
+class SWGAME_API USwForceSlowAbilityEffect : public URsAbilityEffect {
     GENERATED_BODY()
 public:
 private:

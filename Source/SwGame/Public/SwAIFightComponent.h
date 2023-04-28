@@ -7,7 +7,7 @@
 class AActor;
 
 UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class USwAIFightComponent : public UActorComponent {
+class SWGAME_API USwAIFightComponent : public UActorComponent {
     GENERATED_BODY()
 public:
     USwAIFightComponent();

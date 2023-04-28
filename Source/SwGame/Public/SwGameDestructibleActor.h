@@ -31,7 +31,7 @@ class UDamageType;
 class UPrimitiveComponent;
 
 UCLASS(Blueprintable)
-class ASwGameDestructibleActor : public AActor {
+class SWGAME_API ASwGameDestructibleActor : public AActor {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

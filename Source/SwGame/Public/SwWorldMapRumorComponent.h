@@ -8,7 +8,7 @@ class URsWorldMap;
 class USwWorldMapHologramSettings;
 
 UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class USwWorldMapRumorComponent : public UActorComponent {
+class SWGAME_API USwWorldMapRumorComponent : public UActorComponent {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

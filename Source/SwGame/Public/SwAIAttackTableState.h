@@ -6,8 +6,8 @@
 class ARsCharacter;
 class UDataTable;
 
-UCLASS(Blueprintable)
-class USwAIAttackTableState : public USwAttackState {
+UCLASS(Blueprintable, EditInlineNew)
+class SWGAME_API USwAIAttackTableState : public USwAttackState {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

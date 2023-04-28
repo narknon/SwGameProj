@@ -11,7 +11,7 @@
 class UObject;
 
 UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class USwSaberClashComponent : public URsHeroComponent {
+class SWGAME_API USwSaberClashComponent : public URsHeroComponent {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintAssignable, BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

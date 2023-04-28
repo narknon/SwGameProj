@@ -7,7 +7,7 @@
 #include "SwBuddyOwnerComponent.generated.h"
 
 UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class USwBuddyOwnerComponent : public UActorComponent {
+class SWGAME_API USwBuddyOwnerComponent : public UActorComponent {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintAssignable, BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

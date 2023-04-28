@@ -16,7 +16,7 @@ class UMaterialInstanceDynamic;
 class URsPostProcessSettingsDefinition;
 
 UCLASS(Blueprintable)
-class USwHighlightManager : public UObject {
+class SWGAME_API USwHighlightManager : public UObject {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

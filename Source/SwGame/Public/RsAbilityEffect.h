@@ -3,8 +3,8 @@
 #include "UObject/Object.h"
 #include "RsAbilityEffect.generated.h"
 
-UCLASS(Blueprintable)
-class URsAbilityEffect : public UObject {
+UCLASS(Abstract, Blueprintable, HideDropdown)
+class SWGAME_API URsAbilityEffect : public UObject {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

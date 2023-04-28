@@ -13,7 +13,7 @@ class UDamageType;
 class USwSuperJumpSettings;
 
 UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class USwSuperJumpComponent : public URsHeroComponent {
+class SWGAME_API USwSuperJumpComponent : public URsHeroComponent {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

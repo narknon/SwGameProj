@@ -11,7 +11,7 @@ class AActor;
 class UDataTable;
 
 UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class USwForceMeterComponent : public UActorComponent {
+class SWGAME_API USwForceMeterComponent : public UActorComponent {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

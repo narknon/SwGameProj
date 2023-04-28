@@ -4,7 +4,7 @@
 #include "Components/SceneComponent.h"
 #include "SwHologramCameraFacerComponent.generated.h"
 
-UCLASS(Blueprintable, NonTransient, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
+UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
 class USwHologramCameraFacerComponent : public USceneComponent {
     GENERATED_BODY()
 public:

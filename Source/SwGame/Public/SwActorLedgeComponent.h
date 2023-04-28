@@ -6,7 +6,7 @@
 class USwActorLedgeSettings;
 
 UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class USwActorLedgeComponent : public URsActorLedgeComponent {
+class SWGAME_API USwActorLedgeComponent : public URsActorLedgeComponent {
     GENERATED_BODY()
 public:
     USwActorLedgeComponent();

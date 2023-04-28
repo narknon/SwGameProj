@@ -5,7 +5,7 @@
 
 class URsAbilityEffectVictimComponent;
 
-UCLASS(Blueprintable)
+UCLASS(Abstract, Blueprintable)
 class ASwTKProjectileBase : public AStaticMeshActor {
     GENERATED_BODY()
 public:

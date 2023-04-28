@@ -3,8 +3,8 @@
 #include "SwAICharacter.h"
 #include "SwBaseMount.generated.h"
 
-UCLASS(Blueprintable)
-class ASwBaseMount : public ASwAICharacter {
+UCLASS(Abstract, Blueprintable)
+class SWGAME_API ASwBaseMount : public ASwAICharacter {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

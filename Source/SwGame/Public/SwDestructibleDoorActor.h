@@ -7,7 +7,7 @@ class AActor;
 class URsWorldMapDoorComponent;
 
 UCLASS(Blueprintable)
-class ASwDestructibleDoorActor : public ASwGameDestructibleActor {
+class SWGAME_API ASwDestructibleDoorActor : public ASwGameDestructibleActor {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))

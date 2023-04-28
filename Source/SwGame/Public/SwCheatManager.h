@@ -9,7 +9,7 @@ class AActor;
 class UActorComponent;
 
 UCLASS(Blueprintable)
-class USwCheatManager : public UCheatManager {
+class SWGAME_API USwCheatManager : public UCheatManager {
     GENERATED_BODY()
 public:
 private:

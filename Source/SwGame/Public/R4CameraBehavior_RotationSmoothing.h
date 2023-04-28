@@ -5,7 +5,7 @@
 #include "RsCameraOutputs.h"
 #include "R4CameraBehavior_RotationSmoothing.generated.h"
 
-UCLASS(Blueprintable)
+UCLASS(Blueprintable, EditInlineNew)
 class UR4CameraBehavior_RotationSmoothing : public URsCameraBehavior {
     GENERATED_BODY()
 public:

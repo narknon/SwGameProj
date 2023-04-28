@@ -13,7 +13,7 @@ class UPrimitiveComponent;
 class URsPhysicalAnimationProfile;
 
 UCLASS(Blueprintable)
-class ASwAIBuddyDroid : public ASwAICharacter {
+class SWGAME_API ASwAIBuddyDroid : public ASwAICharacter {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

@@ -9,8 +9,8 @@
 class URsDamageType;
 class URsSyncDefinition;
 
-UCLASS(Blueprintable)
-class USwGrabButtonMashState : public USwGrabWhiffAttackState {
+UCLASS(Blueprintable, EditInlineNew)
+class SWGAME_API USwGrabButtonMashState : public USwGrabWhiffAttackState {
     GENERATED_BODY()
 public:
 protected:

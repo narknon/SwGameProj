@@ -5,7 +5,7 @@
 #include "SwBTTask_BuddyDetachToLocation.generated.h"
 
 UCLASS(Blueprintable)
-class USwBTTask_BuddyDetachToLocation : public UBTTaskNode {
+class SWGAME_API USwBTTask_BuddyDetachToLocation : public UBTTaskNode {
     GENERATED_BODY()
 public:
 private:

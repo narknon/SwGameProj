@@ -3,7 +3,7 @@
 #include "R4CameraBehavior_CollisionTrace.h"
 #include "R4CameraBehavior_CollisionWhiskers.generated.h"
 
-UCLASS(Blueprintable)
+UCLASS(Blueprintable, EditInlineNew)
 class UR4CameraBehavior_CollisionWhiskers : public UR4CameraBehavior_CollisionTrace {
     GENERATED_BODY()
 public:

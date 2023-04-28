@@ -4,7 +4,7 @@
 #include "SwBTTask_ActiveFightWait.generated.h"
 
 UCLASS(Blueprintable)
-class USwBTTask_ActiveFightWait : public UBTTaskNode {
+class SWGAME_API USwBTTask_ActiveFightWait : public UBTTaskNode {
     GENERATED_BODY()
 public:
     USwBTTask_ActiveFightWait();

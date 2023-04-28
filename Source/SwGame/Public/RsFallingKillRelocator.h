@@ -18,7 +18,7 @@ class URsDamageType;
 class USceneComponent;
 
 UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class URsFallingKillRelocator : public UActorComponent {
+class SWGAME_API URsFallingKillRelocator : public UActorComponent {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintAssignable, BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

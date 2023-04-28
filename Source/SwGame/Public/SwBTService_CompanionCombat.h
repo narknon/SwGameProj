@@ -6,7 +6,7 @@
 #include "SwBTService_CompanionCombat.generated.h"
 
 UCLASS(Blueprintable)
-class USwBTService_CompanionCombat : public UBTService {
+class SWGAME_API USwBTService_CompanionCombat : public UBTService {
     GENERATED_BODY()
 public:
 protected:

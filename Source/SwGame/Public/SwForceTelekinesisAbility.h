@@ -15,7 +15,7 @@ class URsPhysicalAnimationProfile;
 class USwForceTelekinesisAbilityEffect;
 
 UCLASS(Blueprintable)
-class USwForceTelekinesisAbility : public URsAbility {
+class SWGAME_API USwForceTelekinesisAbility : public URsAbility {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

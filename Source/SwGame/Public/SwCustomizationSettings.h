@@ -3,8 +3,8 @@
 #include "Engine/DeveloperSettings.h"
 #include "SwCustomizationSettings.generated.h"
 
-UCLASS(Blueprintable)
-class USwCustomizationSettings : public UDeveloperSettings {
+UCLASS(Blueprintable, Config=Engine, DefaultConfig, Config=Game)
+class SWGAME_API USwCustomizationSettings : public UDeveloperSettings {
     GENERATED_BODY()
 public:
 private:

@@ -5,7 +5,7 @@
 #include "SwBodeEnemySpeederBikeController.generated.h"
 
 UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class USwBodeEnemySpeederBikeController : public UActorComponent {
+class SWGAME_API USwBodeEnemySpeederBikeController : public UActorComponent {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

@@ -4,7 +4,7 @@
 #include "RsContinuousInterpParams.h"
 #include "R4CameraBehavior_SpeederBikeSplineBlend.generated.h"
 
-UCLASS(Blueprintable)
+UCLASS(Blueprintable, EditInlineNew)
 class UR4CameraBehavior_SpeederBikeSplineBlend : public URsCameraBehavior {
     GENERATED_BODY()
 public:

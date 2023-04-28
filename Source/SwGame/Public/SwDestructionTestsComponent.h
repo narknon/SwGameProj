@@ -6,7 +6,7 @@
 class UAnimationAsset;
 
 UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class USwDestructionTestsComponent : public UActorComponent {
+class SWGAME_API USwDestructionTestsComponent : public UActorComponent {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

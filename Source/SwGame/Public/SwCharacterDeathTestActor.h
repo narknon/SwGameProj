@@ -9,7 +9,7 @@ class UDamageType;
 class URsDamageType;
 
 UCLASS(Blueprintable)
-class ASwCharacterDeathTestActor : public AActor {
+class SWGAME_API ASwCharacterDeathTestActor : public AActor {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

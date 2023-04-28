@@ -3,8 +3,8 @@
 #include "RsAbilityTask.h"
 #include "SwSlowBombFieldTask.generated.h"
 
-UCLASS(Blueprintable)
-class USwSlowBombFieldTask : public URsAbilityTask {
+UCLASS(Blueprintable, HideDropdown)
+class SWGAME_API USwSlowBombFieldTask : public URsAbilityTask {
     GENERATED_BODY()
 public:
     USwSlowBombFieldTask();

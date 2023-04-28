@@ -11,7 +11,7 @@ class USceneComponent;
 class UStaticMeshComponent;
 
 UCLASS(Blueprintable)
-class ASwMeditationTrainingArena : public AActor {
+class SWGAME_API ASwMeditationTrainingArena : public AActor {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

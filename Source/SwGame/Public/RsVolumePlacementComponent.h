@@ -4,8 +4,8 @@
 #include "RsVolumePlacementData.h"
 #include "RsVolumePlacementComponent.generated.h"
 
-UCLASS(Blueprintable, NonTransient, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class URsVolumePlacementComponent : public USceneComponent {
+UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
+class SWGAME_API URsVolumePlacementComponent : public USceneComponent {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
