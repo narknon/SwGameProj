@@ -2,7 +2,14 @@
 #include "CoreMinimal.h"
 #include "RsUsingTweaks.generated.h"
 
-class URsTweaksBook;
+
+UCLASS(BlueprintType)
+class RSTECHRT_API URsTweaksBook : public UObject
+{
+    GENERATED_BODY()
+public:
+	
+};
 
 USTRUCT(BlueprintType)
 struct FRsUsingTweaks {

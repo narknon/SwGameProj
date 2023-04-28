@@ -9,11 +9,15 @@ public class AkAudio : ModuleRules {
         PublicDependencyModuleNames.AddRange(new string[] {
             "Core",
             "CoreUObject",
+            "DeveloperSettings",
             "Engine",
             "GameplayTags",
             "MovieScene",
+            "MovieSceneCapture",
             "PhysicsCore",
             "RsWorldStatePlugin",
+            "SlateCore",
+            "UMG",
         });
     }
 }

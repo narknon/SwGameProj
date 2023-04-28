@@ -8,7 +8,13 @@
 #include "RsMotionMatchPlayData.h"
 #include "RsAnimNode_MotionMatchPlayer.generated.h"
 
-class URsMotionMatchConfig;
+UCLASS(BlueprintType)
+class RSANIMTECHRT_API URsMotionMatchConfig : public UObject
+{
+    GENERATED_BODY()
+public:
+	
+};
 
 USTRUCT(BlueprintType)
 struct RSANIMTECHRT_API FRsAnimNode_MotionMatchPlayer : public FAnimNode_Base {
