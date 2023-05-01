@@ -159,3 +159,7 @@ Binaries/Win64/SwGame-Win64-Shipping.lib
 Binaries/Win64/SwGame-Win64-Shipping.exp
 Binaries/Win64/SwGame-Win64-Shipping.exe
 Binaries/Win64/turbojpeg.dll
+Binaries/Win64/SwGame.target
+Binaries/Win64/SwGame.lib
+Binaries/Win64/SwGame.exp
+Binaries/Win64/SwGame.exe
