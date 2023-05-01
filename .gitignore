@@ -154,3 +154,8 @@ WindowsNoEditor/Manifest_DebugFiles_Win64.txt
 
 
 # Include master materials and dependencies
+Binaries/Win64/SwGame-Win64-Shipping.target
+Binaries/Win64/SwGame-Win64-Shipping.lib
+Binaries/Win64/SwGame-Win64-Shipping.exp
+Binaries/Win64/SwGame-Win64-Shipping.exe
+Binaries/Win64/turbojpeg.dll

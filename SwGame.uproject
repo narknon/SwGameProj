@@ -178,6 +178,10 @@
 		{
 			"Name": "RsSuperluminal",
 			"Enabled": true
+		},
+		{
+			"Name": "SpeedTreeImporter",
+			"Enabled": false
 		}
 	],
 	"TargetPlatforms": [
