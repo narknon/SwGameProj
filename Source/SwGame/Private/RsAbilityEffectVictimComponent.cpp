@@ -81,6 +81,45 @@ void URsAbilityEffectVictimComponent::AddAdditionalTarget(AActor* AdditionalTarg
 }
 
 URsAbilityEffectVictimComponent::URsAbilityEffectVictimComponent() {
-    // Null default object.
+    this->Priority = EAbilityPriorities::Medium;
+    this->VictimType = ERsVictimDataType::EVDT_None;
+    this->VictimData = NULL;
+    this->VictimDataUpgrades[0] = NULL;
+    this->VictimDataUpgrades[1] = NULL;
+    this->VictimDataUpgrades[2] = NULL;
+    this->OverrideWeightClass = ERsAbilityWeightClass::Count;
+    this->bOverrideIfNotVulnerable = false;
+    this->bCanBeTargetWithoutVisibilty = false;
+    this->bRegisterChildAsAdditionalTarget = false;
+    this->bRegisterParentAsAdditionalTarget = false;
+    this->bAlwaysOverrideResponse = false;
+    this->bShouldBeConsideredForDirectionAssist = true;
+    this->bCanBeATarget = true;
+    this->bCanBeForceHighlighted = true;
+    this->bUseIntenseHighlight = false;
+    this->IntenseHighlightBias = 1.00f;
+    this->bShouldModifyForceTargetHighlightIntensity = false;
+    this->ForceTargetHighlightIntensity = 1.00f;
+    this->bShouldHighlightChildActors = false;
+    this->bRequiresForceSlow = false;
+    this->bRequiresForcePush = false;
+    this->bRequiresForcePull = false;
+    this->bRequiresForceTK = false;
+    this->bRequiresForceLiftSlam = false;
+    this->HighlightType = ESwForceTargetHighlightType::All;
+    this->OriginalHighlightType = ESwForceTargetHighlightType::None;
+    this->bShouldModifyForceTargetHighlightParameters = false;
+    this->bShouldForceMeterCostBeFree = true;
+    this->bIsAnEnvironmentObject = true;
+    this->LiftSlamType = ESwLiftSlamType::Default;
+    this->LiftSlamState = ESwLiftSlamState::None;
+    this->bIsLiftSlamStateLocked = false;
+    this->bIsAnalogLiftSlam = false;
+    this->AnalogLiftSlamExtensionValue = 0.00f;
+    this->bIsLiftSlamTarget = false;
+    this->bIsSlowTarget = false;
+    this->bCanOverrideZTarget = false;
+    this->bIsAudioPingable = true;
+    this->RaycastVisibilityMode = ESwRaycastVisibilityMode::None;
 }
 

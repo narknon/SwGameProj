@@ -14,6 +14,7 @@ FVector USwDFXStateHandler_LedgeBelow::ModifyTargetTestDirection_Implementation(
 
 
 USwDFXStateHandler_LedgeBelow::USwDFXStateHandler_LedgeBelow() {
-    // Null default object.
+    this->ClimbUpDescriptionOverride = NULL;
+    this->bClimbFinished = false;
 }
 

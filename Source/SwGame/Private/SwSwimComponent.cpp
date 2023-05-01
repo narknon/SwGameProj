@@ -1,6 +1,6 @@
 #include "SwSwimComponent.h"
 
 USwSwimComponent::USwSwimComponent() {
-    // Null default object.
+    this->m_StaminaMeter = NULL;
 }
 

@@ -46,6 +46,7 @@ void USwCheatManager::AIAwakeAll() {
 }
 
 USwCheatManager::USwCheatManager() {
-    // Null default object.
+    this->DebugActorClass = NULL;
+    this->DebugActorInstance = NULL;
 }
 

@@ -98,6 +98,5 @@ void URsPinTelemetryBlueprintLibrary::PinTelemetry_BeastTamed(const FString& Bea
 }
 
 URsPinTelemetryBlueprintLibrary::URsPinTelemetryBlueprintLibrary() {
-    // Null default object.
 }
 

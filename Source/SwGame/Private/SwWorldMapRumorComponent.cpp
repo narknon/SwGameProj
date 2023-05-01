@@ -1,6 +1,8 @@
 #include "SwWorldMapRumorComponent.h"
 
 USwWorldMapRumorComponent::USwWorldMapRumorComponent() {
-    // Null default object.
+    this->bShouldBountiesBeUntracked = false;
+    this->RsWorldMap = NULL;
+    this->RuntimeSettings = NULL;
 }
 

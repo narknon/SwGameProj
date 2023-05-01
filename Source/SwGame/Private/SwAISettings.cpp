@@ -1,6 +1,10 @@
 #include "SwAISettings.h"
 
 USwAISettings::USwAISettings() {
-    // Null default object.
+    this->PlayerFightPoints[0] = 100;
+    this->PlayerFightPoints[1] = 100;
+    this->PlayerFightPoints[2] = 100;
+    this->PlayerFightPoints[3] = 100;
+    this->PlayerFightPoints[4] = 100;
 }
 

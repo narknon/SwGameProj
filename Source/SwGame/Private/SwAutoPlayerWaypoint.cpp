@@ -5,6 +5,9 @@ TEnumAsByte<ESwAutoPlayerActionType> ASwAutoPlayerWaypoint::GetActionType() cons
 }
 
 ASwAutoPlayerWaypoint::ASwAutoPlayerWaypoint() {
-    // Null default object.
+    this->ActionType = AP_None;
+    this->PathType = AP_Pathfinder;
+    this->ToleranceRadius = 100.00f;
+    this->CanVisitDuringCombat = true;
 }
 

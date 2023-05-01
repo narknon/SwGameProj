@@ -13,6 +13,5 @@ TArray<ASwAICharacter*> USwAIBlueprintLibrary::FindAICombatAwarenessGroup(ASwAIC
 }
 
 USwAIBlueprintLibrary::USwAIBlueprintLibrary() {
-    // Null default object.
 }
 

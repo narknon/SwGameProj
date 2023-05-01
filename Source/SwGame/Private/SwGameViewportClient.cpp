@@ -1,6 +1,8 @@
 #include "SwGameViewportClient.h"
 
 USwGameViewportClient::USwGameViewportClient() {
-    // Null default object.
+    this->bLatchedForceShadedUnlit = false;
+    this->bLatchedEnableDecals = true;
+    this->bIsActivated = false;
 }
 

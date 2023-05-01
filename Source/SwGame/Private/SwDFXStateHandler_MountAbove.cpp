@@ -12,6 +12,6 @@ FVector USwDFXStateHandler_MountAbove::ModifyTargetTestDirection_Implementation(
 
 
 USwDFXStateHandler_MountAbove::USwDFXStateHandler_MountAbove() {
-    // Null default object.
+    this->DismountDescriptionOverride = NULL;
 }
 

@@ -4,6 +4,6 @@ void USwWorldStateNodeType_LoadoutFlag::OnLoadoutFlagChanged(FRsBitfield_HeroLoa
 }
 
 USwWorldStateNodeType_LoadoutFlag::USwWorldStateNodeType_LoadoutFlag() {
-    // Null default object.
+    this->flag = ERsHeroLoadoutFlags::WallRunUnlocked;
 }
 

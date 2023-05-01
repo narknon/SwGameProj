@@ -7,6 +7,6 @@ void USwAIFightSystem::OnVictimDestroyed(AActor* DestroyedActor) {
 }
 
 USwAIFightSystem::USwAIFightSystem() {
-    // Null default object.
+    this->PredatorPreyDirector = NULL;
 }
 

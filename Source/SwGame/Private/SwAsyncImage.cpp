@@ -10,6 +10,6 @@ void USwAsyncImage::HideLoadingWidget_Implementation() {
 }
 
 USwAsyncImage::USwAsyncImage() {
-    // Null default object.
+    this->LoadingWidget = NULL;
 }
 

@@ -1,6 +1,6 @@
 #include "SwProjectileSettings.h"
 
 USwProjectileSettings::USwProjectileSettings() {
-    // Null default object.
+    this->ProjectileTypes.AddDefaulted(46);
 }
 

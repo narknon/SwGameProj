@@ -7,6 +7,6 @@ void USwCollisionDamageAETask::OnBumperTopologyChanged(ERsTopologyMode previousM
 }
 
 USwCollisionDamageAETask::USwCollisionDamageAETask() {
-    // Null default object.
+    this->DefaultCollisionDamageData = NULL;
 }
 

@@ -5,6 +5,12 @@ FSwForceSlowUpgradeData USwForceSlowAbility::GetSlowUpgradeData(TEnumAsByte<ESwA
 }
 
 USwForceSlowAbility::USwForceSlowAbility() {
-    // Null default object.
+    this->EnterAnimation = NULL;
+    this->FailureAnimation = NULL;
+    this->MotionTweakName = TEXT("ForceSlow");
+    this->AudioTriggerStart = NULL;
+    this->AudioTriggerEnd = NULL;
+    this->AudioFail = NULL;
+    this->MaxGroupsSlowed = 1;
 }
 

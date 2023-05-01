@@ -4,6 +4,5 @@ void USwWorldMapIndicatorComponent::UpdateIndicatorTransform(const FVector& Loca
 }
 
 USwWorldMapIndicatorComponent::USwWorldMapIndicatorComponent() {
-    // Null default object.
 }
 

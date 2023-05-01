@@ -1,6 +1,7 @@
 #include "SwAbilityVictimData.h"
 
 USwAbilityVictimData::USwAbilityVictimData() {
-    // Null default object.
+    this->VictimType = ESwVictimType::Undefined;
+    this->CollisionDamageData = NULL;
 }
 

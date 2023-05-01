@@ -28,6 +28,6 @@ USkeletalMeshComponent* ASwCinematicCharacter::GetFacialRig() const {
 }
 
 ASwCinematicCharacter::ASwCinematicCharacter() {
-    // Null default object.
+    this->FacialRig = NULL;
 }
 

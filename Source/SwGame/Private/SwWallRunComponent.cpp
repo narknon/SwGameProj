@@ -86,6 +86,6 @@ void USwWallRunComponent::_OnCharacterInterrupted(ARsCharacter* myCharacter) {
 }
 
 USwWallRunComponent::USwWallRunComponent() {
-    // Null default object.
+    this->Settings = NULL;
 }
 

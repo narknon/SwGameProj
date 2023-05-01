@@ -1,5 +1,10 @@
 #include "SwPhotomodeCameraController.h"
 
+#include "Components/SpotLightComponent.h"
+#include "GameFramework/SpectatorPawn.h"
+//CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=SpectatorPawn -FallbackName=SpectatorPawn
+//CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=SpotLightComponent -FallbackName=SpotLightComponent
+
 void ASwPhotomodeCameraController::ToggleSpotlight() {
 }
 
@@ -124,6 +129,13 @@ USpotLightComponent* ASwPhotomodeCameraController::GetPhotomodeLight(int32 Index
 }
 
 ASwPhotomodeCameraController::ASwPhotomodeCameraController() {
-    // Null default object.
+    this->PhotoLightComponent1 = CreateDefaultSubobject<USpotLightComponent>(TEXT("PhotoLightComponent1"));
+    this->PhotoLightComponent2 = CreateDefaultSubobject<USpotLightComponent>(TEXT("PhotoLightComponent2"));
+    this->PhotoLightComponent3 = CreateDefaultSubobject<USpotLightComponent>(TEXT("PhotoLightComponent3"));
+    this->FocalPlaneComponent = NULL;
+    this->SpectatorPawnClass = ASpectatorPawn::StaticClass();
+    this->HUDClass = NULL;
+    this->CurrentFilter = NULL;
+    this->FocalPlaneMaterial = NULL;
 }
 

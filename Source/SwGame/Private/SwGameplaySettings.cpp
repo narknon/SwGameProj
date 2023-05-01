@@ -5,6 +5,11 @@ bool USwGameplaySettings::IsBeyondUnblockableCutOffDistance(const UObject* InWor
 }
 
 USwGameplaySettings::USwGameplaySettings() {
-    // Null default object.
+    this->ForceSlowParticlesPerCubicMeter = 10.00f;
+    this->ProjectileReflectionModeForHero = ESwProjectileReflectionMode::ReflectTowardsShooter;
+    this->ExplosiveRadialDamageCollisionChannel = ECC_Visibility;
+    this->LowerWeaponSectionName = TEXT("LowerRifle");
+    this->FallDistanceToKill = 10000.00f;
+    this->UnblockableFXCutOfDistance = 2000.00f;
 }
 

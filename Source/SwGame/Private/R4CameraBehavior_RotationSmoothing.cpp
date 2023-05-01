@@ -5,6 +5,9 @@ FRotator UR4CameraBehavior_RotationSmoothing::GetTargetRotation(const FRsCameraO
 }
 
 UR4CameraBehavior_RotationSmoothing::UR4CameraBehavior_RotationSmoothing() {
-    // Null default object.
+    this->TrackingPercentage = 0.70f;
+    this->TrackingTime = 0.25f;
+    this->bSmoothRotationOffsets = false;
+    this->bFoldDeltaIntoRotationOnEnd = true;
 }
 

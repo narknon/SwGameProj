@@ -1,6 +1,7 @@
 #include "SwDatabankUnlockHistory.h"
 
 USwDatabankUnlockHistory::USwDatabankUnlockHistory() {
-    // Null default object.
+    this->MaxNumHistoryEntries = 20;
+    this->MaxNumEnemyEncounterEntries = 3;
 }
 

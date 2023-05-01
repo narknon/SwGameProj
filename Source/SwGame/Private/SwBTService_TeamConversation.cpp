@@ -11,6 +11,5 @@ void USwBTService_TeamConversation::OnAwarenessStateChanged(ARsAIController* AIC
 }
 
 USwBTService_TeamConversation::USwBTService_TeamConversation() {
-    // Null default object.
 }
 

@@ -11,6 +11,5 @@ void USwDismembermentStatics::DismemberCharacter(USkeletalMeshComponent* Charact
 }
 
 USwDismembermentStatics::USwDismembermentStatics() {
-    // Null default object.
 }
 

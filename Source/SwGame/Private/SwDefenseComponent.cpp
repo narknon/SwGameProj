@@ -7,6 +7,6 @@ void USwDefenseComponent::BlockContact(ARsCharacter* Attacker) {
 }
 
 USwDefenseComponent::USwDefenseComponent() {
-    // Null default object.
+    this->bCanBlockInAir = false;
 }
 

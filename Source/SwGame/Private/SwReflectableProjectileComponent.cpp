@@ -24,6 +24,9 @@ void USwReflectableProjectileComponent::ReflectTowardsActor(AActor* TargetToRefl
 
 
 USwReflectableProjectileComponent::USwReflectableProjectileComponent() {
-    // Null default object.
+    this->bReflected = false;
+    this->bIsReflectable = true;
+    this->bIsDeflectable = true;
+    this->bPreReflectionEnabled = false;
 }
 

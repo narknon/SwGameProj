@@ -3,6 +3,7 @@
 
 
 USwAIAttackTableState::USwAIAttackTableState() {
-    // Null default object.
+    this->AttackTable = NULL;
+    this->DistanceToCheck = 250.00f;
 }
 

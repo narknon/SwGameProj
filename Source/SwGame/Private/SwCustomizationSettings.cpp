@@ -1,6 +1,8 @@
 #include "SwCustomizationSettings.h"
 
 USwCustomizationSettings::USwCustomizationSettings() {
-    // Null default object.
+    this->EditorSlotNames.AddDefaulted(39);
+    this->NativeSlotNames.AddDefaulted(39);
+    this->EditorToNativeSlotMap.AddDefaulted(39);
 }
 

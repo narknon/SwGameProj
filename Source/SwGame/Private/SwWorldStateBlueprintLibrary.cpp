@@ -9,6 +9,5 @@ FSwWorldStateNodeRef_LevelTag USwWorldStateBlueprintLibrary::CastTo_WorldStateNo
 }
 
 USwWorldStateBlueprintLibrary::USwWorldStateBlueprintLibrary() {
-    // Null default object.
 }
 

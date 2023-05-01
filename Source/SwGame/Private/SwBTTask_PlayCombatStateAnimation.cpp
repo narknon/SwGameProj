@@ -1,6 +1,9 @@
 #include "SwBTTask_PlayCombatStateAnimation.h"
 
 USwBTTask_PlayCombatStateAnimation::USwBTTask_PlayCombatStateAnimation() {
-    // Null default object.
+    this->SyncDef = NULL;
+    this->bSwapMasterAndSlaveForSync = false;
+    this->BlendspaceInputSource = ERsAIBlendspaceInputSource::Custom;
+    this->bMaintainCharacterMotion = false;
 }
 

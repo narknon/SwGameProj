@@ -1,6 +1,7 @@
 #include "SwTKProjectileBase.h"
+#include "RsAbilityEffectVictimComponent.h"
 
 ASwTKProjectileBase::ASwTKProjectileBase() {
-    // Null default object.
+    this->AbilityEffectVictim = CreateDefaultSubobject<URsAbilityEffectVictimComponent>(TEXT("RsAbilityEffectVictim"));
 }
 

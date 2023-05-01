@@ -33,6 +33,17 @@ UFoliageInstancedStaticMeshComponent* ASwGardenSeedSpawner::AddFoliageStaticMesh
 }
 
 ASwGardenSeedSpawner::ASwGardenSeedSpawner() {
-    // Null default object.
+    this->DefaultPlantToSpawn = NULL;
+    this->MaxGroundTestDistance = 200.00f;
+    this->BackupSpawnedPlantZOffset = -20.00f;
+    this->BackupSpawnedPlantScale = 0.50f;
+    this->MinBackupSpawnWaitTime = 0.00f;
+    this->MaxBackupSpawnWaitTime = 3.50f;
+    this->MinBackupSpawnDistanceToHero = 2000.00f;
+    this->MaxBackupSpawnDistanceToHero = 10000.00f;
+    this->BackupSpawnedPlant = NULL;
+    this->BackupSpawnTime = -1.00f;
+    this->CachedBackupActorTestRadius = 0.00f;
+    this->BackupSpawnRequestTime = -1.00f;
 }
 

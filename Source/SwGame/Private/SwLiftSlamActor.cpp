@@ -1,6 +1,7 @@
 #include "SwLiftSlamActor.h"
+#include "RsAbilityEffectVictimComponent.h"
 
 ASwLiftSlamActor::ASwLiftSlamActor() {
-    // Null default object.
+    this->VictimComponent = CreateDefaultSubobject<URsAbilityEffectVictimComponent>(TEXT("RsAbilityEffectVictimComponent"));
 }
 

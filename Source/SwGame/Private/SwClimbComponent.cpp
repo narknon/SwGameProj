@@ -9,6 +9,5 @@ USwClimbSettings* USwClimbComponent::GetSwClimbSettings() const {
 }
 
 USwClimbComponent::USwClimbComponent() {
-    // Null default object.
 }
 

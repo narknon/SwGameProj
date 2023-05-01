@@ -1,6 +1,8 @@
 #include "RsAbilityInstanceData.h"
 
 URsAbilityInstanceData::URsAbilityInstanceData() {
-    // Null default object.
+    this->CameraModeDefinition = NULL;
+    this->HeroStateModifier = NULL;
+    this->CurrentAnimation = NULL;
 }
 

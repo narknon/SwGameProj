@@ -48,6 +48,16 @@ void ASwGrenade::ActivateCollision() {
 }
 
 ASwGrenade::ASwGrenade() {
-    // Null default object.
+    this->BaseDamage = 30.00f;
+    this->BlastRadius = 300.00f;
+    this->DamageType = NULL;
+    this->bShouldSpawnActorOnExplode = false;
+    this->SpawnActorOnExplode = NULL;
+    this->AutoExplodeTotalTime = 6.00f;
+    this->bExplodesOnCollision = false;
+    this->bAlwaysExplodesOnCollisionWithHero = false;
+    this->DamageFilterType = ESwGrenadeDamageFilterType::DamageAll;
+    this->DelayOnDetonatedByExplosion = 0.00f;
+    this->Countdown = 3;
 }
 

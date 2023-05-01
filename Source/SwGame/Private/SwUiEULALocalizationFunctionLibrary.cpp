@@ -5,6 +5,5 @@ USwEULALocalization* USwUiEULALocalizationFunctionLibrary::GetEULALocalization(U
 }
 
 USwUiEULALocalizationFunctionLibrary::USwUiEULALocalizationFunctionLibrary() {
-    // Null default object.
 }
 

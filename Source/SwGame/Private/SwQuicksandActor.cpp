@@ -31,6 +31,13 @@ bool ASwQuicksandActor::GetBestMountExitLocation(FVector FromLocation, FVector& 
 }
 
 ASwQuicksandActor::ASwQuicksandActor() {
-    // Null default object.
+    this->DisableQuicksand = false;
+    this->DebugLogAffectedActor = false;
+    this->DebugVisualizeEntryPoints = false;
+    this->bEnableQuicksandEntryAnticipation = false;
+    this->CollisionVolumeActor = NULL;
+    this->QuicksandHeroStateModifier = NULL;
+    this->QuicksandSettingsDataAsset = NULL;
+    this->AnticipateQuicksandEntry = NULL;
 }
 

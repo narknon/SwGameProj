@@ -102,6 +102,10 @@ void ASwAIBuddyDroid::AttachToHero(bool bSetNewAttachPoint, ESwAIBuddyAttachPoin
 }
 
 ASwAIBuddyDroid::ASwAIBuddyDroid() {
-    // Null default object.
+    this->AttachLerpTotalTime = 0.50f;
+    this->DetachLerpTotalTime = 0.00f;
+    this->LowProfileSocketWeight = 50.00f;
+    this->PhysicalAnimationProfileIdleDefault = NULL;
+    this->bForceDisableBackpackIK = false;
 }
 

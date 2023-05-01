@@ -1,6 +1,6 @@
 #include "SwPlayerAnimInstance.h"
 
 USwPlayerAnimInstance::USwPlayerAnimInstance() {
-    // Null default object.
+    this->BuddyDroidAttachBaseDistance = 0.00f;
 }
 

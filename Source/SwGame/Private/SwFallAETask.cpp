@@ -4,6 +4,5 @@ void USwFallAETask::OnBumperTopologyChanged(ERsTopologyMode previousMode, ERsTop
 }
 
 USwFallAETask::USwFallAETask() {
-    // Null default object.
 }
 

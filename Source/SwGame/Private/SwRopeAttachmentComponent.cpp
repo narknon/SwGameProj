@@ -150,6 +150,17 @@ void USwRopeAttachmentComponent::AddRopeHipAttachment(const FName& Bone) {
 }
 
 USwRopeAttachmentComponent::USwRopeAttachmentComponent() {
-    // Null default object.
+    this->Settings = NULL;
+    this->PossibleRopeAttachTarget = NULL;
+    this->SwingInputMagnitude = 0.00f;
+    this->SwingInputActive = false;
+    this->SwingTimeToImpactAbsolute = 0.00f;
+    this->SwingTimeToImpactNormalized = 0.00f;
+    this->ClimbInputMagnitude = 0.00f;
+    this->ClimbInputActive = false;
+    this->SlideToAttachmentLengthState = ESwRopeAttachmentSlideToAttachmentLengthState::NotSliding;
+    this->SlideToAttachmentVelocity = 0.00f;
+    this->m_hero = NULL;
+    this->m_animInstance = NULL;
 }
 

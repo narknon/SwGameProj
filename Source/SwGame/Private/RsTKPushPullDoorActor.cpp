@@ -14,6 +14,6 @@ bool ARsTKPushPullDoorActor::IsSimulatingPhysics() const {
 }
 
 ARsTKPushPullDoorActor::ARsTKPushPullDoorActor() {
-    // Null default object.
+    this->DoorState = Start;
 }
 

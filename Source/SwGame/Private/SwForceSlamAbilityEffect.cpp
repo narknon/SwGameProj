@@ -1,6 +1,7 @@
 #include "SwForceSlamAbilityEffect.h"
 
 USwForceSlamAbilityEffect::USwForceSlamAbilityEffect() {
-    // Null default object.
+    this->AuxiliaryRadius = 200.00f;
+    this->SlamDynamicDeformationClass = NULL;
 }
 

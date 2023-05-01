@@ -6,6 +6,8 @@
 
 
 USwDefenseState::USwDefenseState() {
-    // Null default object.
+    this->bIsDefenseActive = true;
+    this->ConfigurableDefenseType = ERsCombatState::Blocking;
+    this->bHasTickImplemetation = false;
 }
 

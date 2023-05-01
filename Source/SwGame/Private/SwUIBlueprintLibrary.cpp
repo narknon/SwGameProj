@@ -36,6 +36,5 @@ bool USwUIBlueprintLibrary::CompareText(const FText& First, const FText& Second)
 }
 
 USwUIBlueprintLibrary::USwUIBlueprintLibrary() {
-    // Null default object.
 }
 

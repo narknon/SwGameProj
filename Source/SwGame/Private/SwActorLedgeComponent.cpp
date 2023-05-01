@@ -5,6 +5,5 @@ USwActorLedgeSettings* USwActorLedgeComponent::GetSwLedgeSettings() const {
 }
 
 USwActorLedgeComponent::USwActorLedgeComponent() {
-    // Null default object.
 }
 

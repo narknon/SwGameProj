@@ -37,6 +37,8 @@ void USwHighlightManager::DisableHighlight(const AActor* InActor, ESwHighlightTy
 }
 
 USwHighlightManager::USwHighlightManager() {
-    // Null default object.
+    this->ForceInteractWidgetRevealMode = ESwForceInteractWidgetRevealMode::OnlyDefault;
+    this->PostProcessSettings = NULL;
+    this->DynamicHighlightMaterial = NULL;
 }
 

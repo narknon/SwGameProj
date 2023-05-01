@@ -2,6 +2,5 @@
 
 
 USwForceFocusAbilityState::USwForceFocusAbilityState() {
-    // Null default object.
 }
 

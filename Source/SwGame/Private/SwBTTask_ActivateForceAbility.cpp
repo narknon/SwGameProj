@@ -1,6 +1,9 @@
 #include "SwBTTask_ActivateForceAbility.h"
 
 USwBTTask_ActivateForceAbility::USwBTTask_ActivateForceAbility() {
-    // Null default object.
+    this->AbilityTypeToActivate = NULL;
+    this->UpgradeLevel = ESwAbilityUpgradeLevel::Level_1;
+    this->OverrideAnimation = NULL;
+    this->bMaintainCharacterMotion = false;
 }
 

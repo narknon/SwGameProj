@@ -1,5 +1,8 @@
 #include "SwLightsaberMarksComponent.h"
 
+#include "DecalTrailComponent.h"
+//CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=DecalTrailComponent -FallbackName=DecalTrailComponent
+
 bool USwLightsaberMarksComponent::TracingActive() const {
     return false;
 }
@@ -26,6 +29,11 @@ void USwLightsaberMarksComponent::ForceStopMarksAudio() {
 }
 
 USwLightsaberMarksComponent::USwLightsaberMarksComponent() {
-    // Null default object.
+    this->TrailTemplate = CreateDefaultSubobject<UDecalTrailComponent>(TEXT("TrailTemplate"));
+    this->SurfaceTypeTable = NULL;
+    this->ActorInfoTable = NULL;
+    this->AudioStartEvent = NULL;
+    this->AudioStopEvent = NULL;
+    this->AudioComponent = NULL;
 }
 

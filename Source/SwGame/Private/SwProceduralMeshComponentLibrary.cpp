@@ -4,6 +4,5 @@ void USwProceduralMeshComponentLibrary::CopyProceduralMeshComponent(const UProce
 }
 
 USwProceduralMeshComponentLibrary::USwProceduralMeshComponentLibrary() {
-    // Null default object.
 }
 

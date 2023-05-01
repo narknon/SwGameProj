@@ -1,6 +1,6 @@
 #include "SwAnimNotifyState_HeroCombatSlowDown.h"
 
 USwAnimNotifyState_HeroCombatSlowDown::USwAnimNotifyState_HeroCombatSlowDown() {
-    // Null default object.
+    this->TimeDilation = 0.00f;
 }
 

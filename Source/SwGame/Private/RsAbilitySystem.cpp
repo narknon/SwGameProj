@@ -1,6 +1,6 @@
 #include "RsAbilitySystem.h"
 
 URsAbilitySystem::URsAbilitySystem() {
-    // Null default object.
+    this->PriorityManager = NULL;
 }
 

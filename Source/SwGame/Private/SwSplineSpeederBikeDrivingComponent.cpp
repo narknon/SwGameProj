@@ -27,6 +27,7 @@ float USwSplineSpeederBikeDrivingComponent::GetAnimStateInputBasedSteeringValue(
 }
 
 USwSplineSpeederBikeDrivingComponent::USwSplineSpeederBikeDrivingComponent() {
-    // Null default object.
+    this->SplinePathActor = NULL;
+    this->m_SplineComponent = NULL;
 }
 

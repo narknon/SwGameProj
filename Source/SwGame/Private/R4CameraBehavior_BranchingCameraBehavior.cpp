@@ -8,6 +8,8 @@ TArray<URsCameraBehavior*> UR4CameraBehavior_BranchingCameraBehavior::GetBehavio
 }
 
 UR4CameraBehavior_BranchingCameraBehavior::UR4CameraBehavior_BranchingCameraBehavior() {
-    // Null default object.
+    this->Conditional = NULL;
+    this->TrueBlendInTime = 0.50f;
+    this->FalseBlendInTime = 0.50f;
 }
 

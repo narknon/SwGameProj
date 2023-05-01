@@ -176,6 +176,5 @@ void USwGameplayLibrary::ActivateIKRigConversion(ARsCharacter* characterActor, c
 }
 
 USwGameplayLibrary::USwGameplayLibrary() {
-    // Null default object.
 }
 

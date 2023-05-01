@@ -5,6 +5,8 @@ ARsCameraManager* ASwUICameraController::GetRsCameraManager() const {
 }
 
 ASwUICameraController::ASwUICameraController() {
-    // Null default object.
+    this->OriginalController = NULL;
+    this->OriginalPlayer = NULL;
+    this->RsCameraManager = NULL;
 }
 

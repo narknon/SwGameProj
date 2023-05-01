@@ -12,6 +12,6 @@ void USwDatabankManager::AddTacticalGuideEncounter(FGameplayTag InTag) {
 }
 
 USwDatabankManager::USwDatabankManager() {
-    // Null default object.
+    this->DatabankURLTable = NULL;
 }
 

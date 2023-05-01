@@ -32,6 +32,7 @@ UAnimMontage* USwAttackState::ChainAnimationOrAbility(const FRsCharacterAnimatio
 }
 
 USwAttackState::USwAttackState() {
-    // Null default object.
+    this->bHasTickImplemetation = false;
+    this->bHasShouldChainAttackImplementation = false;
 }
 

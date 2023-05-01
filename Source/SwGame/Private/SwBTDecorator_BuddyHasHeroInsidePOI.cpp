@@ -1,6 +1,7 @@
 #include "SwBTDecorator_BuddyHasHeroInsidePOI.h"
 
 USwBTDecorator_BuddyHasHeroInsidePOI::USwBTDecorator_BuddyHasHeroInsidePOI() {
-    // Null default object.
+    this->CheckRadiusCoefficient = 1.00f;
+    this->CheckRadiusConstant = 0.00f;
 }
 

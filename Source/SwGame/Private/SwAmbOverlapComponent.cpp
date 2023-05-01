@@ -28,6 +28,10 @@ void USwAmbOverlapComponent::OnActorBeginOverlap(AActor* OverlappedActor, AActor
 }
 
 USwAmbOverlapComponent::USwAmbOverlapComponent() {
-    // Null default object.
+    this->bIsUsingCamera = false;
+    this->Radius = 0.00f;
+    this->DistToHero = 0.00f;
+    this->TimeElapsed = 0.00f;
+    this->bIsStarted = false;
 }
 

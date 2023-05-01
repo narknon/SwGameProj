@@ -1,6 +1,6 @@
 #include "RsAbilitySystemTask.h"
 
 URsAbilitySystemTask::URsAbilitySystemTask() {
-    // Null default object.
+    this->AbilitySystemTaskType = NULL;
 }
 

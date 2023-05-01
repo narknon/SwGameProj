@@ -7,6 +7,9 @@ void USwHeroFallDeathComponent::IgnoreFallDeath() {
 
 
 USwHeroFallDeathComponent::USwHeroFallDeathComponent() {
-    // Null default object.
+    this->FallWarningDistance = 500.00f;
+    this->bKeepFallWarningDuringPreDeath = true;
+    this->bKeepFallWarningDuringNullNavState = true;
+    this->bForceClearContactZForCinematicState = true;
 }
 

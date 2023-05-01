@@ -1,6 +1,9 @@
 #include "SwCharacterDeathTestActor.h"
 
 ASwCharacterDeathTestActor::ASwCharacterDeathTestActor() {
-    // Null default object.
+    this->IsActive = false;
+    this->IdleTimeBeforeDeathTrigger = 0.00f;
+    this->DeathDamageType = NULL;
+    this->DeathDamageTypeInst = NULL;
 }
 

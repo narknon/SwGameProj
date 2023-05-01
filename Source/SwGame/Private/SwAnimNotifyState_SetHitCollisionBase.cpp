@@ -1,6 +1,7 @@
 #include "SwAnimNotifyState_SetHitCollisionBase.h"
 
 USwAnimNotifyState_SetHitCollisionBase::USwAnimNotifyState_SetHitCollisionBase() {
-    // Null default object.
+    this->DamageType = NULL;
+    this->SwingDirectionCameraOffset = false;
 }
 

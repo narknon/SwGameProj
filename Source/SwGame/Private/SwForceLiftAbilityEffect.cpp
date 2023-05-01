@@ -1,6 +1,7 @@
 #include "SwForceLiftAbilityEffect.h"
 
 USwForceLiftAbilityEffect::USwForceLiftAbilityEffect() {
-    // Null default object.
+    this->AuxiliaryRadius = 200.00f;
+    this->LiftDynamicDeformationClass = NULL;
 }
 

@@ -1,6 +1,8 @@
 #include "SwForceLiftAbilityEffect_LevelObject.h"
 
 USwForceLiftAbilityEffect_LevelObject::USwForceLiftAbilityEffect_LevelObject() {
-    // Null default object.
+    this->DefaultLiftAccelerationCurve = NULL;
+    this->LiftHeightRaycastSocketName = TEXT("LiftHeightRaycastSocket");
+    this->ParticleToSpawn = NULL;
 }
 

@@ -11,6 +11,5 @@ bool ASwAIController::IsActiveFightLoopInfinite() const {
 }
 
 ASwAIController::ASwAIController() {
-    // Null default object.
 }
 

@@ -1,6 +1,9 @@
 #include "SwAnimNotify_HeroSetRopeHandPosition.h"
 
 USwAnimNotify_HeroSetRopeHandPosition::USwAnimNotify_HeroSetRopeHandPosition() {
-    // Null default object.
+    this->HandPosition = ESwRopeAttachmentHandPosition::LeftHandUp;
+    this->bUpdateHandAttachments = false;
+    this->bLeftHandAttached = false;
+    this->bRightHandAttached = false;
 }
 

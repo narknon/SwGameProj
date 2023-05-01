@@ -8,6 +8,7 @@ bool USwBuddyOwnerComponent::IsLocationValidToDetachBuddy() const {
 }
 
 USwBuddyOwnerComponent::USwBuddyOwnerComponent() {
-    // Null default object.
+    this->OpennessQueryInterval = 2.00f;
+    this->MinPointsForOpenness = 0;
 }
 

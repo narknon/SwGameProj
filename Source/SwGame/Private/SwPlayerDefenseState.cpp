@@ -1,6 +1,7 @@
 #include "SwPlayerDefenseState.h"
 
 USwPlayerDefenseState::USwPlayerDefenseState() {
-    // Null default object.
+    this->bPlayOnEnterAnimation = false;
+    this->bActivateNathanAnimGraph = false;
 }
 

@@ -1,6 +1,8 @@
 #include "SwBTTask_RunBaseFightBehavior.h"
 
 USwBTTask_RunBaseFightBehavior::USwBTTask_RunBaseFightBehavior() {
-    // Null default object.
+    this->bSetBlackboardKeyValueToNewTarget = true;
+    this->bOverrideCharacterControllerAttackTarget = true;
+    this->bOverrideCharacterControllerFocusTarget = true;
 }
 

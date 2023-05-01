@@ -13,6 +13,5 @@ FRsBitfield_HeroLoadoutFlags USwPlayerOverrideSettingsLibrary::GetOverrideHeroLo
 }
 
 USwPlayerOverrideSettingsLibrary::USwPlayerOverrideSettingsLibrary() {
-    // Null default object.
 }
 

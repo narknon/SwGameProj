@@ -31,6 +31,5 @@ ESwPullAbilityState USwPullAbilityState::GetPullAbilityState() const {
 }
 
 USwPullAbilityState::USwPullAbilityState() {
-    // Null default object.
 }
 

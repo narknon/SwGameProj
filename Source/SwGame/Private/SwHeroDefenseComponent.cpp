@@ -9,6 +9,6 @@ bool USwHeroDefenseComponent::DebugGetHeroComponentInfo(FString& ComponentInfoSt
 }
 
 USwHeroDefenseComponent::USwHeroDefenseComponent() {
-    // Null default object.
+    this->Hero = NULL;
 }
 

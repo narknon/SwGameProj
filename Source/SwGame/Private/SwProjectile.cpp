@@ -1,4 +1,6 @@
 #include "SwProjectile.h"
+//CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=ProjectileMovementComponent -FallbackName=ProjectileMovementComponent
+#include "GameFramework/ProjectileMovementComponent.h"
 #include "Templates/SubclassOf.h"
 
 FVector ASwProjectile::TrackingShotVector(AActor* HitTarget, FVector Offset, float NewSpeed) const {
@@ -72,6 +74,27 @@ FVector ASwProjectile::CalculateHitAlignmentVector_Implementation(AActor* HitAct
 }
 
 ASwProjectile::ASwProjectile() {
-    // Null default object.
+    this->ProjectileMovement = CreateDefaultSubobject<UProjectileMovementComponent>(TEXT("ProjectileMovement"));
+    this->AkComponentForRemaingSounds = NULL;
+    this->MaxTravelDistance = 50000.00f;
+    this->ShootTarget = NULL;
+    this->ProjectileOwner = NULL;
+    this->SpreadingData = NULL;
+    this->AttachToMuzzleComponent = NULL;
+    this->PreReflectionStartTime = -1.00f;
+    this->ProjectileType = ProjectileType_Default;
+    this->bIsCheap = false;
+    this->bShouldUseCheapMovement = false;
+    this->bShouldCheckDistanceToTarget = false;
+    this->DistanceToTarget = 100.00f;
+    this->bShouldCheckDistanceDoDamageToTarget = false;
+    this->bShouldUseRayCast = false;
+    this->bShouldPlayImpact = false;
+    this->bShouldUseCheapFlyby = false;
+    this->bApplyDamageOnlyOnce = false;
+    this->ProjectileVisual = NULL;
+    this->NiagaraProjectileVisual = NULL;
+    this->ProjectileMesh = NULL;
+    this->MuzzleFlashEffect = NULL;
 }
 

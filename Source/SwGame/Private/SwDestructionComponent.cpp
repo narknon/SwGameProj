@@ -7,6 +7,7 @@ void UDEPRECATED_SwDestructionComponent::AdvanceAnimationFrames(USkeletalMeshCom
 }
 
 UDEPRECATED_SwDestructionComponent::UDEPRECATED_SwDestructionComponent() {
-    // Null default object.
+    this->TargetSkeletalMeshComponent = NULL;
+    this->DebugPerformanceSkeletalMeshComponent = NULL;
 }
 

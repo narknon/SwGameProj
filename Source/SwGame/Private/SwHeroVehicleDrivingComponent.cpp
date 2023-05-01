@@ -54,6 +54,6 @@ bool USwHeroVehicleDrivingComponent::CanPerformEnterVehicleAction(FName ActionNa
 }
 
 USwHeroVehicleDrivingComponent::USwHeroVehicleDrivingComponent() {
-    // Null default object.
+    this->MaximumDistanceToEnterVehicle = 250.00f;
 }
 

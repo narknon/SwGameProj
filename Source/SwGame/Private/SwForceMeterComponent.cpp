@@ -85,6 +85,13 @@ bool USwForceMeterComponent::CancelConsumeForceOverTime(const AActor* Target, co
 }
 
 USwForceMeterComponent::USwForceMeterComponent() {
-    // Null default object.
+    this->ShadowInterpMultiplier = 1.00f;
+    this->MaxForceMeter = 20.00f;
+    this->ForceRegenDelay = 0.30f;
+    this->CurrentForceMeter = 0.00f;
+    this->ForceRegenSpeed = 35.00f;
+    this->ShadowTimeSpeedMultiplierOutOfCombat = 2.50f;
+    this->bShouldMeterGoNegative = false;
+    this->bInfiniteForceModifierActive = false;
 }
 

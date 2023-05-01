@@ -45,6 +45,16 @@ void ASwShippingLaneActor::MarkAkComponentForDestroy(UAkComponent* TargetCompone
 
 
 ASwShippingLaneActor::ASwShippingLaneActor() {
-    // Null default object.
+    this->SplineComponent = NULL;
+    this->ConsiderForFlybys = false;
+    this->ShipDataTable = NULL;
+    this->RequestLaneStop = false;
+    this->OscillationEnabled = false;
+    this->OscillationSpeedIsSetOnSpawn = true;
+    this->OscillationRangeIsSetOnSpawn = true;
+    this->IsActiveForFlybys = false;
+    this->IsActiveForSpread = false;
+    this->BackgroundSplineSpreadAudioEvent = NULL;
+    this->MinNumShipsBetweenLargeShips = 4;
 }
 

@@ -5,6 +5,10 @@ USwAttackState* URsAbility::GetCombatState() const {
 }
 
 URsAbility::URsAbility() {
-    // Null default object.
+    this->bManualShutdownControl = false;
+    this->DefaultAbilityState = NULL;
+    this->HeroStateModifier = NULL;
+    this->TimeToAllowReactivation = 0.00f;
+    this->AbilityType = NULL;
 }
 

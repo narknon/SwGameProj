@@ -8,6 +8,5 @@ TArray<ARsWorldMapSavePointActor*> USwFastTravelSectorMapComponent::GetSavePoint
 }
 
 USwFastTravelSectorMapComponent::USwFastTravelSectorMapComponent() {
-    // Null default object.
 }
 

@@ -1,6 +1,6 @@
 #include "SwForcePullStandaloneAbilityEffect.h"
 
 USwForcePullStandaloneAbilityEffect::USwForcePullStandaloneAbilityEffect() {
-    // Null default object.
+    this->Duration = 30.00f;
 }
 

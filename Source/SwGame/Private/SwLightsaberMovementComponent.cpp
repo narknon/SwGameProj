@@ -32,6 +32,16 @@ void USwLightsaberMovementComponent::FlyToAtSpeed(AActor* InHomingTarget, const 
 }
 
 USwLightsaberMovementComponent::USwLightsaberMovementComponent() {
-    // Null default object.
+    this->TargetRotationAlfaTime = 0.75f;
+    this->bRotationInLocalSpace = false;
+    this->bReturnToThrower = true;
+    this->bThrowFixedDistance = false;
+    this->CatchDistance = 250.00f;
+    this->DefaultThrowDistance = 1000.00f;
+    this->ArcAmount = 0.70f;
+    this->HomingDuration = 1.00f;
+    this->DamageType = NULL;
+    this->HitDebounceTime = 0.30f;
+    this->bIsFlyingBack = false;
 }
 

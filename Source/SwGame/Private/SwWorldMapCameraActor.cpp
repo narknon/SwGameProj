@@ -5,6 +5,8 @@ USwWorldMapCameraComponent* ASwWorldMapCameraActor::GetWorldMapCameraComponent()
 }
 
 ASwWorldMapCameraActor::ASwWorldMapCameraActor() {
-    // Null default object.
+    this->CameraState = ESwWorldMapCameraState::None;
+    this->TimeToTransitionHeightAfterElevationChange = 1.00f;
+    this->RuntimeSettings = NULL;
 }
 

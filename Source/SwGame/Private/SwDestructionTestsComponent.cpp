@@ -7,6 +7,6 @@ void USwDestructionTestsComponent::ExecuteDestructionTestScenario01_APEXDestruct
 }
 
 USwDestructionTestsComponent::USwDestructionTestsComponent() {
-    // Null default object.
+    this->AnimationToPlay01 = NULL;
 }
 

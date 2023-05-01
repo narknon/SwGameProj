@@ -1,6 +1,6 @@
 #include "RsTKDoorSpawnTargetComponent.h"
 
 URsTKDoorSpawnTargetComponent::URsTKDoorSpawnTargetComponent() {
-    // Null default object.
+    this->StaticMesh = NULL;
 }
 

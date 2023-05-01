@@ -19,6 +19,8 @@ void ASwMeditationTrainingLayoutSystem::GetLayoutDebugString(FSwMeditationTraini
 }
 
 ASwMeditationTrainingLayoutSystem::ASwMeditationTrainingLayoutSystem() {
-    // Null default object.
+    this->MaxLayoutSlots = 3;
+    this->LastUsedLayoutSlot = 0;
+    this->bHasUnsavedChanges = false;
 }
 

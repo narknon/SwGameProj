@@ -1,4 +1,17 @@
 #include "SwWorldMapHologramBase.h"
+//CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=PostProcessComponent -FallbackName=PostProcessComponent
+//CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=SceneComponent -FallbackName=SceneComponent
+//CROSS-MODULE INCLUDE V2: -ModuleName=RsGameTechRT -ObjectName=RsWorldMapLineBatchComponent -FallbackName=RsWorldMapLineBatchComponent
+//CROSS-MODULE INCLUDE V2: -ModuleName=RsGameTechRT -ObjectName=RsWorldMapStaticMeshComponent -FallbackName=RsWorldMapStaticMeshComponent
+#include "RsWorldMapLineBatchComponent.h"
+#include "RsWorldMapStaticMeshComponent.h"
+#include "SwFastTravelSectorMapComponent.h"
+#include "SwGalaxyMapComponent.h"
+#include "SwInteriorMapComponent.h"
+#include "SwLocalMapComponent.h"
+#include "SwSectorMapComponent.h"
+#include "SwWorldMapRumorComponent.h"
+#include "Components/PostProcessComponent.h"
 
 void ASwWorldMapHologramBase::UntrackRumor(FName RumorName) {
 }
@@ -231,6 +244,50 @@ void ASwWorldMapHologramBase::ClearBreadCrumbs() {
 }
 
 ASwWorldMapHologramBase::ASwWorldMapHologramBase() {
-    // Null default object.
+    this->PostProcess = CreateDefaultSubobject<UPostProcessComponent>(TEXT("WorldMapPostProcess"));
+    this->LineBatchComponent = CreateDefaultSubobject<URsWorldMapLineBatchComponent>(TEXT("LineBatchComponent"));
+    this->HologramMaskMeshComponent = CreateDefaultSubobject<URsWorldMapStaticMeshComponent>(TEXT("HologramMaskMesh"));
+    this->LocationMarkerComponent = NULL;
+    this->TransformTimelineComponent = NULL;
+    this->GalaxyMapComponent = CreateDefaultSubobject<USwGalaxyMapComponent>(TEXT("GalaxyMap"));
+    this->LocalMapComponent = CreateDefaultSubobject<USwLocalMapComponent>(TEXT("LocalMap"));
+    this->SectorMapComponent = CreateDefaultSubobject<USwSectorMapComponent>(TEXT("SectorMap"));
+    this->InteriorMapComponent = CreateDefaultSubobject<USwInteriorMapComponent>(TEXT("InteriorMap"));
+    this->FastTravelSectorMapComponent = CreateDefaultSubobject<USwFastTravelSectorMapComponent>(TEXT("FastTravelMap"));
+    this->RumorComponent = CreateDefaultSubobject<USwWorldMapRumorComponent>(TEXT("RumorComponent"));
+    this->PerPlanetCollection = NULL;
+    this->HologramConeActor = NULL;
+    this->CameraActor = NULL;
+    this->AudioEvent_MapOpen = NULL;
+    this->AudioEvent_MapClose = NULL;
+    this->AudioEvent_MapRegionSelect = NULL;
+    this->AudioEvent_SnapToPosition = NULL;
+    this->AudioEvent_PeriodicDistortion = NULL;
+    this->AudioEvent_InteriorLevelChanged = NULL;
+    this->bIsMapZooming = false;
+    this->PlayerCameraManager = NULL;
+    this->bLockstepMovementThroughGateways = false;
+    this->bLockstep3DTargeting = false;
+    this->CurrentWorldMapComponent = NULL;
+    this->NextWorldMapComponent = NULL;
+    this->PreviousWorldMapComponent = NULL;
+    this->WorldMapComponents[0] = NULL;
+    this->WorldMapComponents[1] = NULL;
+    this->WorldMapComponents[2] = NULL;
+    this->WorldMapComponents[3] = NULL;
+    this->WorldMapComponents[4] = NULL;
+    this->DebugUIMaterial = NULL;
+    this->InputProcessingData = NULL;
+    this->WorldMapTransformRoot = CreateDefaultSubobject<USceneComponent>(TEXT("WorldMapTransformRoot"));
+    this->bIsWorldMapOpen = false;
+    this->State = ERsHolomapState::Closed;
+    this->OffsetType = ERsWorldMapOffsetType::Default;
+    this->RsWorldMap = NULL;
+    this->HolomapMode = ERsHolomapMode::Roaming;
+    this->HologramCompositeMaterial = NULL;
+    this->PlayerArrowStaticMesh = NULL;
+    this->PlayerArrowMaterial = NULL;
+    this->HologramMaskMesh = NULL;
+    this->HologramMaskMaterial = NULL;
 }
 

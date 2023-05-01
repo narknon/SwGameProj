@@ -8,6 +8,5 @@ USwShippingLaneAudioManagerComponent* USwShippingLaneAudioManagerComponent::Get(
 }
 
 USwShippingLaneAudioManagerComponent::USwShippingLaneAudioManagerComponent() {
-    // Null default object.
 }
 

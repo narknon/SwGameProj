@@ -11,6 +11,8 @@ FVector USwDFXStateHandler_EdgeAbove::ModifyTargetTestDirection_Implementation(c
 
 
 USwDFXStateHandler_EdgeAbove::USwDFXStateHandler_EdgeAbove() {
-    // Null default object.
+    this->JumpOffDescriptionOverride = NULL;
+    this->MaxAngleToEdge = 30.00f;
+    this->MinDistanceToEdgeForAngleTest = 25.00f;
 }
 

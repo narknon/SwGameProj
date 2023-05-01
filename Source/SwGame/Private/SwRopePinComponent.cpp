@@ -1,6 +1,7 @@
 #include "SwRopePinComponent.h"
 
 USwRopePinComponent::USwRopePinComponent() {
-    // Null default object.
+    this->PinLength = 800.00f;
+    this->bUsePinLength = true;
 }
 

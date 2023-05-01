@@ -7,6 +7,5 @@ void USwAIPredatorPreyDirector::OnAwarenessStateChanged(ARsAIController* AIContr
 }
 
 USwAIPredatorPreyDirector::USwAIPredatorPreyDirector() {
-    // Null default object.
 }
 

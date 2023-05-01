@@ -20,6 +20,11 @@ bool USwDFXStateHandler::IsHandlerConditionsMetBP_Implementation() {
 
 
 USwDFXStateHandler::USwDFXStateHandler() {
-    // Null default object.
+    this->AttackDescriptionOverride = NULL;
+    this->TargetingProfile = NULL;
+    this->SyncAttackDescriptionOverride = NULL;
+    this->bSawpMasterAndSlave = false;
+    this->DFXState = ESwDFXState::Idle;
+    this->DFXComponent = NULL;
 }
 

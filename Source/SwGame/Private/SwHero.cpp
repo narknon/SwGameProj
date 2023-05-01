@@ -1,4 +1,7 @@
 #include "SwHero.h"
+//CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=SkeletalMeshComponent -FallbackName=SkeletalMeshComponent
+#include "SwButtonMashComponent.h"
+#include "SwSaberClashComponent.h"
 #include "Templates/SubclassOf.h"
 
 void ASwHero::PlayerReaction(const FRsCharacterAnimationData& AnimData, USwReactionState* DescriptionTemplate) {
@@ -79,6 +82,10 @@ void ASwHero::ActiveForceMissingOnIncomingProjectiles(float ChanceToMiss) {
 }
 
 ASwHero::ASwHero() {
-    // Null default object.
+    this->ConsecutiveProjectileDamageProtectionTime = 1.00f;
+    this->FoliageDestructionManager = NULL;
+    this->CameraRig = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("CameraRig"));
+    this->ButtonMashComponent = CreateDefaultSubobject<USwButtonMashComponent>(TEXT("ButtonMashComponent"));
+    this->SaberClashComponent = CreateDefaultSubobject<USwSaberClashComponent>(TEXT("SaberClashComponent"));
 }
 

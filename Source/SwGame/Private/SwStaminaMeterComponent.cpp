@@ -86,6 +86,9 @@ bool USwStaminaMeterComponent::CancelConsumeStaminaOverTime(const AActor* Target
 }
 
 USwStaminaMeterComponent::USwStaminaMeterComponent() {
-    // Null default object.
+    this->StaminaRegenDelay = 0.30f;
+    this->StaminaEmptiedRegenDelay = 0.30f;
+    this->StaminaRegenSpeed = 35.00f;
+    this->OverrideStaminaRegenSpeed = -1.00f;
 }
 

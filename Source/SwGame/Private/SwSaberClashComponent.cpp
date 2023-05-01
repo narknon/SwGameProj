@@ -33,6 +33,5 @@ void USwSaberClashComponent::EndClash() {
 }
 
 USwSaberClashComponent::USwSaberClashComponent() {
-    // Null default object.
 }
 

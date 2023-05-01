@@ -5,6 +5,5 @@ ASwProjectile* USwProjectileComponent::GetProjectile() const {
 }
 
 USwProjectileComponent::USwProjectileComponent() {
-    // Null default object.
 }
 

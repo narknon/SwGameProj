@@ -52,6 +52,9 @@ float USwMissileMovementComponent::GetAcceleration() const {
 }
 
 USwMissileMovementComponent::USwMissileMovementComponent() {
-    // Null default object.
+    this->Acceleration = 1000.00f;
+    this->TrackingLerpValue = 5.00f;
+    this->Speed = 500.00f;
+    this->Jerk = 0.00f;
 }
 

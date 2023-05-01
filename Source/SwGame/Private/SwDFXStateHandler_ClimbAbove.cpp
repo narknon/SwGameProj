@@ -12,6 +12,8 @@ FVector USwDFXStateHandler_ClimbAbove::ModifyTargetTestDirection_Implementation(
 
 
 USwDFXStateHandler_ClimbAbove::USwDFXStateHandler_ClimbAbove() {
-    // Null default object.
+    this->OverheadTargetingProfile = NULL;
+    this->JumpOffDescriptionOverride = NULL;
+    this->bLetGoStatus = ESwDFXLetGoState::LettingGo;
 }
 

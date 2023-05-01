@@ -7,6 +7,5 @@ void ASwDismembermentManager::DismemberCharacter(UWorld* World, USkeletalMeshCom
 }
 
 ASwDismembermentManager::ASwDismembermentManager() {
-    // Null default object.
 }
 

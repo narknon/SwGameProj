@@ -9,6 +9,5 @@ ARsWorldMapGalaxyPlanetActor* USwGalaxyMapComponent::GetCurrentPlanetActor() con
 }
 
 USwGalaxyMapComponent::USwGalaxyMapComponent() {
-    // Null default object.
 }
 

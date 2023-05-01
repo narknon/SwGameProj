@@ -1,6 +1,9 @@
 #include "SwBodeEnemySpeederBikeController.h"
 
 USwBodeEnemySpeederBikeController::USwBodeEnemySpeederBikeController() {
-    // Null default object.
+    this->EnableDynamicScaling = true;
+    this->DistanceForMinimumScale = 0.00f;
+    this->DistanceForMaximumScale = 0.00f;
+    this->EnableDebugLogForDynamicScaling = false;
 }
 

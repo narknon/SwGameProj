@@ -1,6 +1,6 @@
 #include "SwEarlyReverbTraceObject.h"
 
 USwEarlyReverbTraceObject::USwEarlyReverbTraceObject() {
-    // Null default object.
+    this->CompressionDecimal = 0.00f;
 }
 

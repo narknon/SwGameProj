@@ -10,6 +10,6 @@ void USwDestructibleWireComponent::DeferExecutionForRsHitCollided(const FHitResu
 }
 
 USwDestructibleWireComponent::USwDestructibleWireComponent() {
-    // Null default object.
+    this->m_HitCollider = NULL;
 }
 

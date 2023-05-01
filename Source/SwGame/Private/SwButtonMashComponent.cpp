@@ -18,6 +18,6 @@ float USwButtonMashComponent::GetCurHoldToPressDuration() {
 }
 
 USwButtonMashComponent::USwButtonMashComponent() {
-    // Null default object.
+    this->ButtonMashAnimNotifyTimeout = 10.00f;
 }
 

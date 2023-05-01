@@ -12,6 +12,5 @@ void USwAssetManagerLibrary::AreChunkIDsInstalling(const TArray<int32>& ChunkIDs
 }
 
 USwAssetManagerLibrary::USwAssetManagerLibrary() {
-    // Null default object.
 }
 

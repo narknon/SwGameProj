@@ -1,4 +1,5 @@
 #include "SwMissile.h"
+#include "SwMissileMovementComponent.h"
 
 void ASwMissile::TryToExplode(bool bCollidedWithActor, TEnumAsByte<EPhysicalSurface> SurfaceType, const FHitResult& Hit) {
 }
@@ -45,6 +46,15 @@ void ASwMissile::ActivateCollision() {
 }
 
 ASwMissile::ASwMissile() {
-    // Null default object.
+    this->bSpawnUnarmed = false;
+    this->BaseDamage = 35.00f;
+    this->BlastRadius = 300.00f;
+    this->DamageType = NULL;
+    this->AutoExplodeTotalTime = 6.00f;
+    this->bIsHomingMissile = false;
+    this->HomingDuration = 0.40f;
+    this->MissileArmDistance = 600.00f;
+    this->MissileNotificationRadius = 200.00f;
+    this->MissileMovement = CreateDefaultSubobject<USwMissileMovementComponent>(TEXT("SwMissileMovement"));
 }
 

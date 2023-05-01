@@ -4,6 +4,6 @@ void USwGenericRangedOffenseComponent::OnMontageEnded(UAnimMontage* Montage, boo
 }
 
 USwGenericRangedOffenseComponent::USwGenericRangedOffenseComponent() {
-    // Null default object.
+    this->MuzzleTransform = NULL;
 }
 

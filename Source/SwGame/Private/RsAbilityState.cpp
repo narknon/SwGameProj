@@ -9,6 +9,8 @@ AActor* URsAbilityState::GetCurrentAbilityTarget() const {
 }
 
 URsAbilityState::URsAbilityState() {
-    // Null default object.
+    this->bAllowDefense = false;
+    this->bIsDefenseActive = false;
+    this->bIsDefenseActiveAtStart = false;
 }
 

@@ -14,6 +14,9 @@ void ASwMeditationTrainingGrid::ClearCells() {
 }
 
 ASwMeditationTrainingGrid::ASwMeditationTrainingGrid() {
-    // Null default object.
+    this->GridCellClass = NULL;
+    this->bUseLegacyGridNavigation = true;
+    this->MeditationCamera = NULL;
+    this->MeditationCursor = NULL;
 }
 

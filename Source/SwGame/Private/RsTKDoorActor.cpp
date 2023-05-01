@@ -13,6 +13,7 @@ TArray<AActor*> ARsTKDoorActor::GetSpawnedActors() {
 }
 
 ARsTKDoorActor::ARsTKDoorActor() {
-    // Null default object.
+    this->SpawnedActorLifetime = 4.00f;
+    this->bIsActivated = false;
 }
 

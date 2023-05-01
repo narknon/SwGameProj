@@ -33,6 +33,15 @@ void ASwGameDestructibleActor::FullyDestroyDestructible(AActor* destructibleActo
 
 
 ASwGameDestructibleActor::ASwGameDestructibleActor() {
-    // Null default object.
+    this->IntendedUsage = ESwDestructibleActorIntendedUsage::Standard;
+    this->DestructionDisabled = false;
+    this->TakeDamageAcceptedOnlyFromHero = false;
+    this->TakeDamageMethodNeverAccepted = false;
+    this->SetToForceIgnoredWhenDestroyed = true;
+    this->SaveGameType = ESwGameDestructionSaveType::SaveAtCheckpoint;
+    this->DamageCountMethod = ESwDestructibleActorDamageCountMethod::DamagePoints;
+    this->DebugLogDestruction = false;
+    this->DebugLogSleepingStateForAllRigidBodies = false;
+    this->NeverDisableTick = false;
 }
 

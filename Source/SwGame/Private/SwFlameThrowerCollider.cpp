@@ -1,6 +1,7 @@
 #include "SwFlameThrowerCollider.h"
 
 USwFlameThrowerCollider::USwFlameThrowerCollider() {
-    // Null default object.
+    this->DominantAxis = EAxis::Y;
+    this->CollisionTypes.AddDefaulted(1);
 }
 

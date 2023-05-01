@@ -1,6 +1,60 @@
 #include "SwGameUserSettingsSaveObject.h"
 
 USwGameUserSettingsSaveObject::USwGameUserSettingsSaveObject() {
-    // Null default object.
+    this->Version = ESwUserSettingsVersion::Launch;
+    this->ResolutionSizeX = 0;
+    this->ResolutionSizeY = 0;
+    this->FullscreenMode = 0;
+    this->OverallScalabilityQuality = 3;
+    this->ViewDistanceQuality = 3;
+    this->ShadowQuality = 3;
+    this->AntiAliasingQuality = 3;
+    this->TextureQuality = 3;
+    this->VisualEffectsQuality = 3;
+    this->PostProcessingQuality = 3;
+    this->FoliageQuality = 3;
+    this->bIsMotionBlurEnabled = true;
+    this->bIsFilmGrainEnabled = true;
+    this->bIsChromaticAberrationEnabled = true;
+    this->bIsVSyncEnabled = true;
+    this->Gamma = 2.20f;
+    this->DeficiencyType = EColorVisionDeficiency::NormalVision;
+    this->DeficiencySeverity = 0;
+    this->bIsControllerRumbleDisabled = false;
+    this->ControllerRumbleMultiplier = 1.00f;
+    this->CameraShakeMultiplier = 1.00f;
+    this->bIsAutoSucceedButtonMashEnabled = false;
+    this->bIsAccessibilityHoldButtonToSucceedEnabled = false;
+    this->bIsAutoTargetOnHitEnabled = false;
+    this->bIsPhotomodeButtonEnabled = false;
+    this->bIsPerformanceModeEnabled = false;
+    this->bIsEULAAccepted = false;
+    this->HDRMidLuminance = 30.00f;
+    this->CameraFollowDistanceMultiplier = 1.00f;
+    this->CameraFOVAdjustment = 0.00f;
+    this->CameraFollowLockPercent = 0.60f;
+    this->CameraThumbstickYawMultiplier = 1.00f;
+    this->CameraThumbstickPitchMultiplier = 1.00f;
+    this->CameraMouseYawMultiplier = 1.00f;
+    this->CameraMousePitchMultiplier = 1.00f;
+    this->CameraAdditiveAnimMultiplier = 1.00f;
+    this->bIsAccessibilitySlowModeEnabled = false;
+    this->bIsAccessibilitySlowModeCombatToggleEnabled = false;
+    this->AccessibilityTimeDilationFactor = 0.75f;
+    this->CameraNoAutoAdjustWindowMultiplier = 1.00f;
+    this->bIsAccessibilityShortCutMenuEnabled = false;
+    this->AccessibilityTopButton = EAccessibilityShortcutType::PhotoMode;
+    this->AccessibilityLeftButton = EAccessibilityShortcutType::PhotoMode;
+    this->AccessibilityRightButton = EAccessibilityShortcutType::PhotoMode;
+    this->AccessibilityBottomButton = EAccessibilityShortcutType::PhotoMode;
+    this->bIsCustomColorProfileOn = false;
+    this->HUDScalingMultiplier = 0.50f;
+    this->bIsRayTracingEnabled = true;
+    this->FFXFSRQuality = 1;
+    this->SafeZoneScale = 0.00f;
+    this->bIsHDREnabled = false;
+    this->HDRMaxLuminance = 1000.00f;
+    this->HDRMidBrightness = 50.00f;
+    this->HDRDarkBrightness = 50.00f;
 }
 

@@ -84,6 +84,5 @@ USwForceLiftAbilityEffect* USwAbilitySystemLibrary::ApplyForceLiftOnVictim(TSubc
 }
 
 USwAbilitySystemLibrary::USwAbilitySystemLibrary() {
-    // Null default object.
 }
 

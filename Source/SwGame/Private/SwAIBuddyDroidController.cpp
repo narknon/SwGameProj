@@ -14,6 +14,6 @@ void ASwAIBuddyDroidController::ExecuteOverchargeBehavior(ARsCharacter* Overchar
 }
 
 ASwAIBuddyDroidController::ASwAIBuddyDroidController() {
-    // Null default object.
+    this->DefaultOverchargeBehaviorTree = NULL;
 }
 

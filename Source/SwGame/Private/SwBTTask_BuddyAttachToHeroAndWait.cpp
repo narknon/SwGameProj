@@ -1,6 +1,7 @@
 #include "SwBTTask_BuddyAttachToHeroAndWait.h"
 
 USwBTTask_BuddyAttachToHeroAndWait::USwBTTask_BuddyAttachToHeroAndWait() {
-    // Null default object.
+    this->WaitTime = 0.00f;
+    this->bInfiniteWaitTime = true;
 }
 

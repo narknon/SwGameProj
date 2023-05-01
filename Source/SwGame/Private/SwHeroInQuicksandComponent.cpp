@@ -1,6 +1,6 @@
 #include "SwHeroInQuicksandComponent.h"
 
 USwHeroInQuicksandComponent::USwHeroInQuicksandComponent() {
-    // Null default object.
+    this->m_AnticipatedQuicksandActor = NULL;
 }
 

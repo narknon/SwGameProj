@@ -386,6 +386,11 @@ void USWGameUserSettings::AcceptEULA(const UObject* WorldContextObject) {
 }
 
 USWGameUserSettings::USWGameUserSettings() {
-    // Null default object.
+    this->SaveObject = NULL;
+    this->DefaultObject = NULL;
+    this->UserIndex = 0;
+    this->Gamma = 1.90f;
+    this->DeficiencyType = EColorVisionDeficiency::NormalVision;
+    this->DeficiencySeverity = 0;
 }
 

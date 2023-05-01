@@ -5,6 +5,5 @@ EDefenseTypes USwDefenseDefinition::GetDefenseFromDamageType(const TSoftClassPtr
 }
 
 USwDefenseDefinition::USwDefenseDefinition() {
-    // Null default object.
 }
 

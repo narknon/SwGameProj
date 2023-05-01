@@ -1,6 +1,7 @@
 #include "SwWorldMapWayfinderComponent.h"
 
 USwWorldMapWayfinderComponent::USwWorldMapWayfinderComponent() {
-    // Null default object.
+    this->CurrentMode = ERsWayfinderMode::DoNothing;
+    this->CurrentGoalMode = ERsWayfinderGoalFoundMode::NotFound;
 }
 

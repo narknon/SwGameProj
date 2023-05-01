@@ -156,6 +156,55 @@ void ASwMeditationTrainingManager::ActivateAllEnemies(bool bActivate) {
 }
 
 ASwMeditationTrainingManager::ASwMeditationTrainingManager() {
-    // Null default object.
+    this->MaxCostPointsAvailable = 100;
+    this->CurrentCostPointsAvailable = 0;
+    this->bOverwritePrePopulatedEnemySet = false;
+    this->bIsSpectating = false;
+    this->bIsLeavingMeditationTraining = false;
+    this->SpawnCameraClass = NULL;
+    this->SpawnCursorClass = NULL;
+    this->SpawnGridClass = NULL;
+    this->SpawnArenaClass = NULL;
+    this->LayoutSystemClass = NULL;
+    this->SpectatorClass = NULL;
+    this->EnemySetData = NULL;
+    this->bUseLegacyInput = true;
+    this->AddAiActionInputName = TEXT("UI_Accept");
+    this->SecondaryConfirmActionInputName = TEXT("UI_SecondaryConfirm");
+    this->TertiaryConfirmActionInputName = TEXT("UI_TertiaryConfirm");
+    this->CancelActionInputName = TEXT("UI_Cancel");
+    this->RemoveAiActionInputName = TEXT("UI_TertiaryConfirm");
+    this->PlayActionInputName = TEXT("UI_SecondaryConfirm");
+    this->PauseActionInputName = TEXT("Start");
+    this->NextAiActionInputName = TEXT("UI_NextTab");
+    this->PreviousAiActionInputName = TEXT("UI_PrevTab");
+    this->DownActionInputName_DPad = TEXT("UI_Navigate_DPad_Down");
+    this->DownActionInputName_LeftStick = TEXT("UI_Navigate_Stick_Down");
+    this->UpActionInputName_DPad = TEXT("UI_Navigate_DPad_Up");
+    this->UpActionInputName_LeftStick = TEXT("UI_Navigate_Stick_Up");
+    this->LeftActionInputName_DPad = TEXT("UI_Navigate_DPad_Left");
+    this->LeftActionInputName_LeftStick = TEXT("UI_Navigate_Stick_Left");
+    this->RightActionInputName_DPad = TEXT("UI_Navigate_DPad_Right");
+    this->RightActionInputName_LeftStick = TEXT("UI_Navigate_Stick_Right");
+    this->UpActionInputName_RightStick = TEXT("UI_Navigate_Right_Stick_Up");
+    this->DownActionInputName_RightStick = TEXT("UI_Navigate_Right_Stick_Down");
+    this->PlayerCharacter = NULL;
+    this->TimeBeforeEndCombat = 1.00f;
+    this->SpawnCamera = NULL;
+    this->SpawnCursor = NULL;
+    this->SpawnGrid = NULL;
+    this->AudioComponent = NULL;
+    this->Audio_Sound_NoCostPoints = NULL;
+    this->VoidTearExit = NULL;
+    this->LayoutSystem = NULL;
+    this->Spectator = NULL;
+    this->HoldTimeClearAll = 1.00f;
+    this->bIsPreparingBattle = false;
+    this->bIsRestarting = false;
+    this->bIsLoading = false;
+    this->bIsButtonPressed = false;
+    this->PlayerController = NULL;
+    this->previousMode = ESwMeditationTrainingState::Mode_BattleSelect;
+    this->CurrentMode = ESwMeditationTrainingState::Mode_BattleSelect;
 }
 

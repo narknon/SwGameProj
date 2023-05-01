@@ -1,6 +1,6 @@
 #include "SwEULALocalizationSettings.h"
 
 USwEULALocalizationSettings::USwEULALocalizationSettings() {
-    // Null default object.
+    this->EULAOverrideCountries.AddDefaulted(29);
 }
 

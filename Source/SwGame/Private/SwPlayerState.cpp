@@ -5,6 +5,6 @@ int32 ASwPlayerState::GetNumDeaths() const {
 }
 
 ASwPlayerState::ASwPlayerState() {
-    // Null default object.
+    this->NumDeaths = 0;
 }
 

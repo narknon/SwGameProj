@@ -1,6 +1,8 @@
 #include "RsCameraConditional_IsInputActive.h"
 
 URsCameraConditional_IsInputActive::URsCameraConditional_IsInputActive() {
-    // Null default object.
+    this->DeactivateAfter = 2.00f;
+    this->ActivationInputType = ERsCameraIsInputActiveInputType::LookInput;
+    this->DeactivationInputType = ERsCameraIsInputActiveInputType::LookOrMoveInput;
 }
 

@@ -10,6 +10,5 @@ void USwBTTask_SpawnIntro::OnAwarenessStateChanged(ARsAIController* AIController
 }
 
 USwBTTask_SpawnIntro::USwBTTask_SpawnIntro() {
-    // Null default object.
 }
 

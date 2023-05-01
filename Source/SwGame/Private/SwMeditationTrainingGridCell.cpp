@@ -15,6 +15,5 @@ bool ASwMeditationTrainingGridCell::HasAllStatus(ESwMeditationTrainingCellStatus
 }
 
 ASwMeditationTrainingGridCell::ASwMeditationTrainingGridCell() {
-    // Null default object.
 }
 

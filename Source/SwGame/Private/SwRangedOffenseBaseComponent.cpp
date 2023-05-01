@@ -40,6 +40,14 @@ bool USwRangedOffenseBaseComponent::CheckAttackTargetWithinShootingCone(float An
 }
 
 USwRangedOffenseBaseComponent::USwRangedOffenseBaseComponent() {
-    // Null default object.
+    this->CumulativeShotTimeInterval = 1.50f;
+    this->OffScreenShotsNum = 0;
+    this->MissingShotsNum = 0;
+    this->AccurateShotsNum = 0;
+    this->AccurateSpreadingData = NULL;
+    this->MissedSpreadingData = NULL;
+    this->ExtendedMissedSpreadingData = NULL;
+    this->AccuracyConfig = NULL;
+    this->bCanUseAsyncSpawning = false;
 }
 

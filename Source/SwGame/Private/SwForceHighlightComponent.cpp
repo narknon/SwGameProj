@@ -4,6 +4,5 @@ void UDEPRECATED_SwForceHighlightComponent::SetBoxExtent(FVector InBoxExtent) {
 }
 
 UDEPRECATED_SwForceHighlightComponent::UDEPRECATED_SwForceHighlightComponent() {
-    // Null default object.
 }
 

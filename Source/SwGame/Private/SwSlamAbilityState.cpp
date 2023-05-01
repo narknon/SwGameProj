@@ -6,6 +6,5 @@ ESwAbilitySlamState USwSlamAbilityState::GetSlamAbilityState() const {
 }
 
 USwSlamAbilityState::USwSlamAbilityState() {
-    // Null default object.
 }
 

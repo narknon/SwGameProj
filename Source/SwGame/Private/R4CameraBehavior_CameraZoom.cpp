@@ -5,6 +5,5 @@ float UR4CameraBehavior_CameraZoom::GetDepthOfFieldFocalDistance(const FVector& 
 }
 
 UR4CameraBehavior_CameraZoom::UR4CameraBehavior_CameraZoom() {
-    // Null default object.
 }
 

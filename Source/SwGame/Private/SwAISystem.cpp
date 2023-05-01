@@ -1,6 +1,6 @@
 #include "SwAISystem.h"
 
 USwAISystem::USwAISystem() {
-    // Null default object.
+    this->FightSystem = NULL;
 }
 

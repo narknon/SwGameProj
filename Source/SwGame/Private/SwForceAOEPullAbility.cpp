@@ -1,6 +1,8 @@
 #include "SwForceAOEPullAbility.h"
 
 USwForceAOEPullAbility::USwForceAOEPullAbility() {
-    // Null default object.
+    this->PullSuccessAnimation = NULL;
+    this->PullFailAnimation = NULL;
+    this->ForcePullFailEvent = NULL;
 }
 

@@ -1,6 +1,6 @@
 #include "ButtonMashDurationTime.h"
 
 UButtonMashDurationTime::UButtonMashDurationTime() {
-    // Null default object.
+    this->Duration = 0.01f;
 }
 

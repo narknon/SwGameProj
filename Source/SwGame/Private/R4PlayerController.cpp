@@ -1,4 +1,5 @@
 #include "R4PlayerController.h"
+#include "SwPhotomodeCameraController.h"
 #include "Templates/SubclassOf.h"
 
 void AR4PlayerController::UpdatePostProcessEffect(const URsPostProcessSettingsDefinition* PostProcessDefinition, const FPostProcessSettings& UpdatedSettings) {
@@ -206,6 +207,12 @@ void AR4PlayerController::ActivatePhotomode() {
 }
 
 AR4PlayerController::AR4PlayerController() {
-    // Null default object.
+    this->HighlightManager = NULL;
+    this->CameraZoomInput = 0.00f;
+    this->BinocularsZoomInput = 0.00f;
+    this->PostDeathWidgetClass = NULL;
+    this->PhotoModeControllerClass = ASwPhotomodeCameraController::StaticClass();
+    this->UICameraManager = NULL;
+    this->GameplayCameraManager = NULL;
 }
 

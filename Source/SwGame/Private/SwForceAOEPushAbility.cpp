@@ -1,6 +1,10 @@
 #include "SwForceAOEPushAbility.h"
 
 USwForceAOEPushAbility::USwForceAOEPushAbility() {
-    // Null default object.
+    this->SuccessAnimation = NULL;
+    this->FailAnimation = NULL;
+    this->AudioCastStart = NULL;
+    this->AudioCastStop = NULL;
+    this->AudioFail = NULL;
 }
 

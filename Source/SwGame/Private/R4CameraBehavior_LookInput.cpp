@@ -9,6 +9,11 @@ float UR4CameraBehavior_LookInput::CalcPitchRotationDelta(const FRsCameraInputs&
 }
 
 UR4CameraBehavior_LookInput::UR4CameraBehavior_LookInput() {
-    // Null default object.
+    this->ControllerLookInputScaleYaw = 180.00f;
+    this->ControllerLookInputScalePitch = 120.00f;
+    this->AcceleratedControllerInputScaleYaw = 180.00f;
+    this->AcceleratedControllerInputScalePitch = 120.00f;
+    this->MouseLookInputScaleYaw = 1.00f;
+    this->MouseLookInputScalePitch = 1.00f;
 }
 

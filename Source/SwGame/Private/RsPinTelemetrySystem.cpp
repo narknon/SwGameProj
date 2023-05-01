@@ -18,6 +18,5 @@ FString URsPinTelemetrySystem::GetHeroWeaponTypeString(const TEnumAsByte<ERsPinT
 }
 
 URsPinTelemetrySystem::URsPinTelemetrySystem() {
-    // Null default object.
 }
 

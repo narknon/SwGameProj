@@ -20,6 +20,7 @@ float USwSpeederBikeDrivingInterfaceComponent::BlueprintGetCurrentSpeederBikeSpe
 }
 
 USwSpeederBikeDrivingInterfaceComponent::USwSpeederBikeDrivingInterfaceComponent() {
-    // Null default object.
+    this->EnableDebugDraw = false;
+    this->DrivingParamsClass = NULL;
 }
 

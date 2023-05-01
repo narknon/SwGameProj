@@ -9,6 +9,6 @@ bool USwHolofightEditorComponent::AddChallengeToDataTable(const FName ChallengeN
 }
 
 USwHolofightEditorComponent::USwHolofightEditorComponent() {
-    // Null default object.
+    this->HolofightChallengesDataTable = NULL;
 }
 

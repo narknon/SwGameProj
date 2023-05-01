@@ -1,6 +1,6 @@
 #include "RsAbilityPriorityManager.h"
 
 URsAbilityPriorityManager::URsAbilityPriorityManager() {
-    // Null default object.
+    this->AbilityPriorityTable = NULL;
 }
 

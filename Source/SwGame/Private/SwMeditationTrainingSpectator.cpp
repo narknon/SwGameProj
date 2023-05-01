@@ -1,6 +1,7 @@
 #include "SwMeditationTrainingSpectator.h"
 
 ASwMeditationTrainingSpectator::ASwMeditationTrainingSpectator() {
-    // Null default object.
+    this->SpectatorPawnClass = NULL;
+    this->SpectatorFOV = 46.80f;
 }
 

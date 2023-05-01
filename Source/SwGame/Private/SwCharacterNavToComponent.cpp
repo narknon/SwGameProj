@@ -104,6 +104,8 @@ bool USwCharacterNavToComponent::CancelNavTo() {
 }
 
 USwCharacterNavToComponent::USwCharacterNavToComponent() {
-    // Null default object.
+    this->DefaultNavToHeroStateModifier = NULL;
+    this->MaxInComingCurveSpeed = -1.00f;
+    this->DynamicNavToHandlerObject = NULL;
 }
 

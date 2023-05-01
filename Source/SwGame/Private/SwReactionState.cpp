@@ -4,6 +4,6 @@
 
 
 USwReactionState::USwReactionState() {
-    // Null default object.
+    this->bHasTickImplemetation = false;
 }
 

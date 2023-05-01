@@ -1,6 +1,7 @@
 #include "SwBTDecorator_IsAlignedToFightSector.h"
 
 USwBTDecorator_IsAlignedToFightSector::USwBTDecorator_IsAlignedToFightSector() {
-    // Null default object.
+    this->Sector = ESwAIFightSector::Inner;
+    this->IgnoreAlignmentCharacterRadiusMultiplier = 1.50f;
 }
 

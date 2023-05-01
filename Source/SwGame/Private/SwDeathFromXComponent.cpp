@@ -48,6 +48,25 @@ bool USwDeathFromXComponent::CanDoAction(FName ActionName) const {
 }
 
 USwDeathFromXComponent::USwDeathFromXComponent() {
-    // Null default object.
+    this->NoExtCancelModifier = NULL;
+    this->TargetBoneName = TEXT("head");
+    this->LedgeBelow_Handler = NULL;
+    this->ClimbAbove_Handler = NULL;
+    this->FallAbove_Handler = NULL;
+    this->EdgeAbove_Handler = NULL;
+    this->MountAbove_Handler = NULL;
+    this->Backstab_Handler = NULL;
+    this->MaxValidEdgeDistance = 150.00f;
+    this->SwHero = NULL;
+    this->bHasTarget = false;
+    this->bHasClosestEdge = false;
+    this->ClosestEdgeDistance = 340282346638528859811704183484516925440.00f;
+    this->bDFXStarted = false;
+    this->bIsTargetLocked = false;
+    this->bDFXFinishedWithAttack = false;
+    this->bDFXFinishedWithSyncAttack = false;
+    this->CurrentDFXState = ESwDFXState::Idle;
+    this->DFXType = ESwDFXType::Count;
+    this->bAttackStarted = false;
 }
 

@@ -68,6 +68,5 @@ void ASwAICharacter::AIAttack(const FRsCharacterAnimationData& AnimData, USwAtta
 }
 
 ASwAICharacter::ASwAICharacter() {
-    // Null default object.
 }
 

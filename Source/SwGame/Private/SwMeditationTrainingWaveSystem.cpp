@@ -25,6 +25,6 @@ FText ASwMeditationTrainingWaveSystem::GetWaveEndCondition() const {
 }
 
 ASwMeditationTrainingWaveSystem::ASwMeditationTrainingWaveSystem() {
-    // Null default object.
+    this->Activator = NULL;
 }
 

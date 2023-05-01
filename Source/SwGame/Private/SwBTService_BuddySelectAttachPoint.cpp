@@ -1,6 +1,8 @@
 #include "SwBTService_BuddySelectAttachPoint.h"
 
 USwBTService_BuddySelectAttachPoint::USwBTService_BuddySelectAttachPoint() {
-    // Null default object.
+    this->AttachDecayAmount = 0.50f;
+    this->MinimalStayDuration = 0.00f;
+    this->bIgnoreBackpackWhenDiceRoll = false;
 }
 

@@ -31,6 +31,7 @@ void USwFlockingMovementComponent::BeginFlockingTowardsActor(AActor* NewTargetAc
 }
 
 USwFlockingMovementComponent::USwFlockingMovementComponent() {
-    // Null default object.
+    this->MemberPrimitive = NULL;
+    this->DebugDrawForces = false;
 }
 

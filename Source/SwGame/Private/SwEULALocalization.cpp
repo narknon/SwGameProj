@@ -9,6 +9,6 @@ FText USwEULALocalization::GetEULAText(FName TextIdentifier) {
 }
 
 USwEULALocalization::USwEULALocalization() {
-    // Null default object.
+    this->EULALocalizationTextTable = NULL;
 }
 

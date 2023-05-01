@@ -4,6 +4,9 @@ void URsAbilityEffect::BlueprintDeactivate() {
 }
 
 URsAbilityEffect::URsAbilityEffect() {
-    // Null default object.
+    this->EffectType = NULL;
+    this->AbilityType = NULL;
+    this->bIsRenewable = false;
+    this->bCanIgnoreSyncs = false;
 }
 

@@ -6,6 +6,5 @@ ESwAbilityLiftState USwLiftAbilityState::GetLiftAbilityState() const {
 }
 
 USwLiftAbilityState::USwLiftAbilityState() {
-    // Null default object.
 }
 

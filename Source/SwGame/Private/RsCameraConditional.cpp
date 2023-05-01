@@ -11,6 +11,5 @@ void URsCameraConditional::BlueprintBegin_Implementation(const FRsCameraInputs& 
 }
 
 URsCameraConditional::URsCameraConditional() {
-    // Null default object.
 }
 

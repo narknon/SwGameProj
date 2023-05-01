@@ -3,6 +3,5 @@
 
 
 ARsAutoTestActor::ARsAutoTestActor() {
-    // Null default object.
 }
 

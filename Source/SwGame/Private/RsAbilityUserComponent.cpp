@@ -82,6 +82,12 @@ void URsAbilityUserComponent::ActivateAbility(TSubclassOf<URsAbility> AbilityTyp
 }
 
 URsAbilityUserComponent::URsAbilityUserComponent() {
-    // Null default object.
+    this->DirectionFacing = ESwDirectionFacing::AITargetFacing;
+    this->RopeTargetingFidelity = 5;
+    this->ExtrapolationTimeForActorsOnTopOf = -1.00f;
+    this->bShouldApplyCameraPitchAdjustment = false;
+    this->bShouldApplyPitchAdjustmentToMount = false;
+    this->InstanceData[0] = NULL;
+    this->InstanceData[1] = NULL;
 }
 

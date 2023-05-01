@@ -37,6 +37,15 @@ void URsFallingKillRelocator::BlockLocationRecording(AActor* BlockerActor, const
 }
 
 URsFallingKillRelocator::URsFallingKillRelocator() {
-    // Null default object.
+    this->QueryHalfGridSize = 1000.00f;
+    this->QueryGridSpan = 100.00f;
+    this->EdgeAvoidanceRadius = 150.00f;
+    this->EdgeAvoidanceTestsNum = 12;
+    this->ThreatAvoidanceRadius = 1000.00f;
+    this->ThreatAvoidanceCoefficient = 1.00f;
+    this->MaxTrackBackTime = 1.00f;
+    this->TrackBackInterval = 0;
+    this->TrackBackMinDistance = 100.00f;
+    this->FallingKillDamageType = NULL;
 }
 

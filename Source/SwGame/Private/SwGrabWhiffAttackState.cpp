@@ -8,6 +8,9 @@ void USwGrabWhiffAttackState::OnGrabStart_Implementation(AActor* Victim) {
 
 
 USwGrabWhiffAttackState::USwGrabWhiffAttackState() {
-    // Null default object.
+    this->SyncDefinition = NULL;
+    this->SyncBlendSpaceInputType = ERsAIBlendspaceInputSource::Custom;
+    this->bSwapMasterAndSlaveForGrabSync = false;
+    this->bGrabSyncActive = false;
 }
 

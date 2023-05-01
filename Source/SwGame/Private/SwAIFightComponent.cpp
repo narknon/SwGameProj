@@ -7,6 +7,5 @@ void USwAIFightComponent::OnDifficultyChanged(ERsDifficulty PreviousDifficulty, 
 }
 
 USwAIFightComponent::USwAIFightComponent() {
-    // Null default object.
 }
 

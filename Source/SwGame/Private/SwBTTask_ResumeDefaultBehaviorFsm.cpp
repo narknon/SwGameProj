@@ -8,6 +8,6 @@ bool USwBTTask_ResumeDefaultBehaviorFsm::IsResetHomePosition() const {
 }
 
 USwBTTask_ResumeDefaultBehaviorFsm::USwBTTask_ResumeDefaultBehaviorFsm() {
-    // Null default object.
+    this->bResetHomePosition = true;
 }
 

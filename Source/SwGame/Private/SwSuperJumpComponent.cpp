@@ -50,6 +50,6 @@ void USwSuperJumpComponent::_OnCharacterInterrupted(ARsCharacter* InterruptedCha
 }
 
 USwSuperJumpComponent::USwSuperJumpComponent() {
-    // Null default object.
+    this->Settings = NULL;
 }
 

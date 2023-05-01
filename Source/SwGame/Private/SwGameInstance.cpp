@@ -1,6 +1,8 @@
 #include "SwGameInstance.h"
 
 USwGameInstance::USwGameInstance() {
-    // Null default object.
+    this->AbilitySystem = NULL;
+    this->ProjectileDataManager = NULL;
+    this->SpeederBikeSyncSystem = NULL;
 }
 

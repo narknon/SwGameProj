@@ -1,6 +1,8 @@
 #include "SwPlayerLoadoutOverrideData.h"
 
 USwPlayerLoadoutOverrideData::USwPlayerLoadoutOverrideData() {
-    // Null default object.
+    this->HealthMeterLevel = 1;
+    this->ForceMeterLevel = 1;
+    this->HealthPotCount = 3;
 }
 

@@ -33,6 +33,5 @@ FGameplayTagContainer USwUiDatabankFunctionLibrary::GetAllDatabankEntries(UObjec
 }
 
 USwUiDatabankFunctionLibrary::USwUiDatabankFunctionLibrary() {
-    // Null default object.
 }
 

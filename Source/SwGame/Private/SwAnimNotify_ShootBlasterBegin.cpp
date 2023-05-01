@@ -1,6 +1,9 @@
 #include "SwAnimNotify_ShootBlasterBegin.h"
 
 USwAnimNotify_ShootBlasterBegin::USwAnimNotify_ShootBlasterBegin() {
-    // Null default object.
+    this->bFireAlternativeBlasterType = false;
+    this->bCanShotDuringForceSlow = true;
+    this->AccuracyOverrideMode = ERsAIShotAccuracyOverrideMode::None;
+    this->ShootingConeHalfAngle = 30.00f;
 }
 
