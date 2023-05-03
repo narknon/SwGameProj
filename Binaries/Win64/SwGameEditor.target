@@ -16,7 +16,7 @@
 		"IsLicenseeVersion": 0,
 		"IsPromotedBuild": 0,
 		"BranchName": "++UE4+Release-4.26",
-		"BuildId": "7564dfdb-0640-4510-b264-8d28a245e44a"
+		"BuildId": "16aecccd-e98c-4147-aab6-dbf8af96185f"
 	},
 	"BuildProducts": [
 		{
@@ -673,6 +673,14 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Animation/RigLogic/Binaries/Win64/UE4Editor-RigLogicEditor.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Media/BinkMedia/Binaries/Win64/UE4Editor-BinkMediaPlayer.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Media/BinkMedia/Binaries/Win64/UE4Editor-BinkMediaPlayer.pdb",
 			"Type": "SymbolFile"
 		},
 		{
@@ -4880,6 +4888,10 @@
 			"Type": "RequiredResource"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Media/BinkMedia/Binaries/Win64/UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Experimental/VirtualHeightfieldMesh/Binaries/Win64/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
@@ -5427,6 +5439,10 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Animation/RigLogic/RigLogic.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Media/BinkMedia/BinkMedia.uplugin",
 			"Type": "UFS"
 		},
 		{

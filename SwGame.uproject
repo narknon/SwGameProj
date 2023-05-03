@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "{24C53FAA-4149-0208-7FC7-FFBB172BBD81}",
+	"EngineAssociation": "{E9835437-47BE-CF2E-1C64-89954AE0ECB4}",
 	"Category": "",
 	"Description": "SW",
 	"Modules": [
@@ -153,6 +153,17 @@
 		},
 		{
 			"Name": "RigLogic",
+			"Enabled": true
+		},
+		{
+			"Name": "BinkMedia",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "MotionWarping",
 			"Enabled": true
 		},
 		{
