@@ -16,7 +16,7 @@
 		"IsLicenseeVersion": 0,
 		"IsPromotedBuild": 0,
 		"BranchName": "++UE4+Release-4.26",
-		"BuildId": "16aecccd-e98c-4147-aab6-dbf8af96185f"
+		"BuildId": "5701e476-496e-4e74-b78c-c3b26395d047"
 	},
 	"BuildProducts": [
 		{
@@ -641,6 +641,38 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Runtime/FSR2/Binaries/Win64/UE4Editor-FSR2TemporalUpscalingEditor.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/UnrealEnginePython/Binaries/Win64/UE4Editor-UnrealEnginePython.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/UnrealEnginePython/Binaries/Win64/UE4Editor-UnrealEnginePython.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/UnrealEnginePython/Binaries/Win64/UE4Editor-PythonAutomation.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/UnrealEnginePython/Binaries/Win64/UE4Editor-PythonAutomation.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/UnrealEnginePython/Binaries/Win64/UE4Editor-PythonConsole.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/UnrealEnginePython/Binaries/Win64/UE4Editor-PythonConsole.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/UnrealEnginePython/Binaries/Win64/UE4Editor-PythonEditor.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/UnrealEnginePython/Binaries/Win64/UE4Editor-PythonEditor.pdb",
 			"Type": "SymbolFile"
 		},
 		{
@@ -4884,6 +4916,10 @@
 			"Type": "RequiredResource"
 		},
 		{
+			"Path": "$(ProjectDir)/Plugins/UnrealEnginePython/Binaries/Win64/UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Animation/RigLogic/Binaries/Win64/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
@@ -5435,6 +5471,10 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/DragonFly/DragonFly.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/UnrealEnginePython/UnrealEnginePython.uplugin",
 			"Type": "UFS"
 		},
 		{

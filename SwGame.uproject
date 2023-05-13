@@ -152,6 +152,10 @@
 			"Enabled": true
 		},
 		{
+			"Name": "UnrealEnginePython",
+			"Enabled": true
+		},
+		{
 			"Name": "RigLogic",
 			"Enabled": true
 		},
