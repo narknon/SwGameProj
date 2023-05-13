@@ -19,10 +19,10 @@ import unreal_engine as ue
 from unreal_engine.classes import WidgetBlueprintFactory, WidgetBlueprint
 # from unreal_engine.enums import ESlateSizeRule
 
-OUT_PATH = "/Game/UI/Menus/UI_BP_MenuTextButton_Gen"
+OUT_PATH = "/Game/UI/GameMenu/UI_GameMenu"
 
 
-WidgetUtil.load(r"F:\FModel\Output\Exports\Phoenix\Content\UI\Menus\UI_BP_MenuTextButton.json")
+WidgetUtil.load(r"C:\Users\Non\Downloads\HWFModel\Output\Exports\SwGame\Content\UI\GameMenu\UI_GameMenu.json")
 
 try:
     widget = ue.load_object(WidgetBlueprint, OUT_PATH)

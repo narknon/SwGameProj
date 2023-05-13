@@ -138,9 +138,11 @@ obj/
 !/Saved/Logs
 !/Saved/Logs/keep.txt
 
+!/Content/**
 !/Content/Csv/.gitkeep
 !/Content/Tweaks/.gitkeep
 !/Content/WwiseAudio/Windows/.gitkeep
+
 
 
 /Engine/Programs/UnrealBuildTool/**
