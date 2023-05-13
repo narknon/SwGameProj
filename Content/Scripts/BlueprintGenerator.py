@@ -22,13 +22,13 @@ LoggingUtil.reset()
 
 # JSON_PATH = r"F:\FModel\Output\Exports\Phoenix\Content\Gameplay\ToolSet\Items\Wand\BP_WandTool.json"
 # JSON_PATH = r"F:\FModel\Output\Exports\Phoenix\Content\CustomContent\TestActor.json"
-JSON_PATH = r"C:\Users\Non\Downloads\FModel\Output\Exports\SwGame\Content\Characters\Dagan\Logic\BP_Dag.json"
+JSON_PATH = r"C:\Users\Non\Downloads\FModel\Output\Exports\SwGame\Content\Items\Lightsaber\BP_Lightsaber_Hero.json"
 
 fmodel = FTools.FModelJson(JSON_PATH)
 
 
 root = fmodel.get_first_of_key("Type", "BlueprintGeneratedClass")
-bp_path = r"/Game/Characters/Dagan/Logic/BP_Dag"
+bp_path = r"/Game/Items/Lightsaber/BP_Lightsaber_Hero"
 
 
 bp = BPGenerator.BPGenerator(bp_path, fmodel)
