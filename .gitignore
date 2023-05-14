@@ -138,6 +138,7 @@ obj/
 !/Saved/Logs
 !/Saved/Logs/keep.txt
 
+!/Content/Python/Blueprints/**
 !/Content/Csv/.gitkeep
 !/Content/Tweaks/.gitkeep
 !/Content/WwiseAudio/Windows/.gitkeep
