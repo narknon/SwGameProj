@@ -1,0 +1,54 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.2.1",
+	"EngineVersion": "5.1.0",
+	"FriendlyName": "JsonAsAsset",
+	"Description": "A editor plugin to allow JSON files from FModel to a asset in the Content Browser.",
+	"Category": "Asset Import",
+	"CreatedBy": "Tector, GMatrix, TajGames",
+	"CreatedByURL": "https://github.com/Tectors",
+	"DocsURL": "https://github.com/Tectors/JsonAsAsset",
+	"MarketplaceURL": "https://github.com/Tectors/JsonAsAsset",
+	"SupportURL": "",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": true,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "JsonAsAsset",
+			"Type": "Editor",
+			"LoadingPhase": "Default",
+			"BlacklistPlatforms": [
+				"Android"
+			]
+		},
+		{
+			"Name": "Detex",
+			"Type": "Editor",
+			"LoadingPhase": "Default",
+			"BlacklistPlatforms": [
+				"Android"
+			]
+		},
+		{
+			"Name": "NVTT",
+			"Type": "Editor",
+			"LoadingPhase": "Default",
+			"BlacklistPlatforms": [
+				"Android"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "Niagara",
+			"Enabled": true
+		},
+		{
+			"Name": "PluginUtils",
+			"Enabled": true
+		}
+	]
+}

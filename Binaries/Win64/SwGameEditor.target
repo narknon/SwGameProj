@@ -16,7 +16,7 @@
 		"IsLicenseeVersion": 0,
 		"IsPromotedBuild": 0,
 		"BranchName": "++UE4+Release-4.26",
-		"BuildId": "5701e476-496e-4e74-b78c-c3b26395d047"
+		"BuildId": "83c4278e-d9cc-455c-a020-bbe38c95cf65"
 	},
 	"BuildProducts": [
 		{
@@ -68,6 +68,14 @@
 			"Type": "SymbolFile"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Wwise/Binaries/Win64/UE4Editor-AkAudioMixer.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Wwise/Binaries/Win64/UE4Editor-AkAudioMixer.pdb",
+			"Type": "SymbolFile"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Wwise/Binaries/Win64/UE4Editor-AkAudio.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -76,35 +84,35 @@
 			"Type": "SymbolFile"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll",
+			"Path": "$(EngineDir)/Plugins/Wwise/Binaries/Win64/UE4Editor-AudiokineticTools.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.pdb",
+			"Path": "$(EngineDir)/Plugins/Wwise/Binaries/Win64/UE4Editor-AudiokineticTools.pdb",
 			"Type": "SymbolFile"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/MovieScene/TemplateSequence/Binaries/Win64/UE4Editor-TemplateSequence.dll",
+			"Path": "$(EngineDir)/Plugins/Editor/GeometryMode/Binaries/Win64/UE4Editor-GeometryMode.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/MovieScene/TemplateSequence/Binaries/Win64/UE4Editor-TemplateSequence.pdb",
+			"Path": "$(EngineDir)/Plugins/Editor/GeometryMode/Binaries/Win64/UE4Editor-GeometryMode.pdb",
 			"Type": "SymbolFile"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/MovieScene/TemplateSequence/Binaries/Win64/UE4Editor-TemplateSequenceEditor.dll",
+			"Path": "$(EngineDir)/Plugins/Editor/GeometryMode/Binaries/Win64/UE4Editor-BspMode.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/MovieScene/TemplateSequence/Binaries/Win64/UE4Editor-TemplateSequenceEditor.pdb",
+			"Path": "$(EngineDir)/Plugins/Editor/GeometryMode/Binaries/Win64/UE4Editor-BspMode.pdb",
 			"Type": "SymbolFile"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll",
+			"Path": "$(EngineDir)/Plugins/Editor/GeometryMode/Binaries/Win64/UE4Editor-TextureAlignMode.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.pdb",
+			"Path": "$(EngineDir)/Plugins/Editor/GeometryMode/Binaries/Win64/UE4Editor-TextureAlignMode.pdb",
 			"Type": "SymbolFile"
 		},
 		{
@@ -260,6 +268,38 @@
 			"Type": "SymbolFile"
 		},
 		{
+			"Path": "$(ProjectDir)/Plugins/JsonAsAsset/Binaries/Win64/UE4Editor-JsonAsAsset.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/JsonAsAsset/Binaries/Win64/UE4Editor-JsonAsAsset.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/JsonAsAsset/Binaries/Win64/UE4Editor-Detex.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/JsonAsAsset/Binaries/Win64/UE4Editor-Detex.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/JsonAsAsset/Binaries/Win64/UE4Editor-NVTT.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/JsonAsAsset/Binaries/Win64/UE4Editor-NVTT.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Developer/PluginUtils/Binaries/Win64/UE4Editor-PluginUtils.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Developer/PluginUtils/Binaries/Win64/UE4Editor-PluginUtils.pdb",
+			"Type": "SymbolFile"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Experimental/ProxyLODPlugin/Binaries/Win64/UE4Editor-ProxyLODMeshReduction.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -361,6 +401,14 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Experimental/ControlRig/Binaries/Win64/UE4Editor-ControlRigEditor.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.pdb",
 			"Type": "SymbolFile"
 		},
 		{
@@ -644,38 +692,6 @@
 			"Type": "SymbolFile"
 		},
 		{
-			"Path": "$(ProjectDir)/Plugins/UnrealEnginePython/Binaries/Win64/UE4Editor-UnrealEnginePython.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/UnrealEnginePython/Binaries/Win64/UE4Editor-UnrealEnginePython.pdb",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/UnrealEnginePython/Binaries/Win64/UE4Editor-PythonAutomation.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/UnrealEnginePython/Binaries/Win64/UE4Editor-PythonAutomation.pdb",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/UnrealEnginePython/Binaries/Win64/UE4Editor-PythonConsole.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/UnrealEnginePython/Binaries/Win64/UE4Editor-PythonConsole.pdb",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/UnrealEnginePython/Binaries/Win64/UE4Editor-PythonEditor.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/UnrealEnginePython/Binaries/Win64/UE4Editor-PythonEditor.pdb",
-			"Type": "SymbolFile"
-		},
-		{
 			"Path": "$(EngineDir)/Plugins/Animation/RigLogic/Binaries/Win64/UE4Editor-RigLogicLib.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -892,14 +908,6 @@
 			"Type": "SymbolFile"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Developer/PluginUtils/Binaries/Win64/UE4Editor-PluginUtils.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Developer/PluginUtils/Binaries/Win64/UE4Editor-PluginUtils.pdb",
-			"Type": "SymbolFile"
-		},
-		{
 			"Path": "$(EngineDir)/Plugins/Developer/PropertyAccessNode/Binaries/Win64/UE4Editor-PropertyAccessNode.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -1017,30 +1025,6 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.pdb",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Editor/GeometryMode/Binaries/Win64/UE4Editor-GeometryMode.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Editor/GeometryMode/Binaries/Win64/UE4Editor-GeometryMode.pdb",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Editor/GeometryMode/Binaries/Win64/UE4Editor-BspMode.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Editor/GeometryMode/Binaries/Win64/UE4Editor-BspMode.pdb",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Editor/GeometryMode/Binaries/Win64/UE4Editor-TextureAlignMode.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Editor/GeometryMode/Binaries/Win64/UE4Editor-TextureAlignMode.pdb",
 			"Type": "SymbolFile"
 		},
 		{
@@ -1513,6 +1497,30 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequenceEditor.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/MovieScene/TemplateSequence/Binaries/Win64/UE4Editor-TemplateSequence.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/MovieScene/TemplateSequence/Binaries/Win64/UE4Editor-TemplateSequence.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/MovieScene/TemplateSequence/Binaries/Win64/UE4Editor-TemplateSequenceEditor.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/MovieScene/TemplateSequence/Binaries/Win64/UE4Editor-TemplateSequenceEditor.pdb",
 			"Type": "SymbolFile"
 		},
 		{
@@ -4784,15 +4792,7 @@
 			"Type": "RequiredResource"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor.modules",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/MovieScene/TemplateSequence/Binaries/Win64/UE4Editor.modules",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor.modules",
+			"Path": "$(EngineDir)/Plugins/Editor/GeometryMode/Binaries/Win64/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
 		{
@@ -4844,6 +4844,14 @@
 			"Type": "RequiredResource"
 		},
 		{
+			"Path": "$(ProjectDir)/Plugins/JsonAsAsset/Binaries/Win64/UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Developer/PluginUtils/Binaries/Win64/UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Experimental/ProxyLODPlugin/Binaries/Win64/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
@@ -4873,6 +4881,10 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Experimental/ControlRig/Binaries/Win64/UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
 		{
@@ -4913,10 +4925,6 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Runtime/FSR2/Binaries/Win64/UE4Editor.modules",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/UnrealEnginePython/Binaries/Win64/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
 		{
@@ -4988,10 +4996,6 @@
 			"Type": "RequiredResource"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Developer/PluginUtils/Binaries/Win64/UE4Editor.modules",
-			"Type": "RequiredResource"
-		},
-		{
 			"Path": "$(EngineDir)/Plugins/Developer/PropertyAccessNode/Binaries/Win64/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
@@ -5041,10 +5045,6 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor.modules",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Editor/GeometryMode/Binaries/Win64/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
 		{
@@ -5181,6 +5181,14 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/MovieScene/TemplateSequence/Binaries/Win64/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
 		{
@@ -5326,15 +5334,7 @@
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/MovieScene/TemplateSequence/TemplateSequence.uplugin",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin",
+			"Path": "$(EngineDir)/Plugins/Editor/GeometryMode/GeometryMode.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -5394,6 +5394,14 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(ProjectDir)/Plugins/JsonAsAsset/JsonAsAsset.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Developer/PluginUtils/PluginUtils.uplugin",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Experimental/ProxyLODPlugin/ProxyLODPlugin.uplugin",
 			"Type": "UFS"
 		},
@@ -5423,6 +5431,10 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Experimental/ControlRig/ControlRig.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -5471,10 +5483,6 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/DragonFly/DragonFly.uplugin",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/UnrealEnginePython/UnrealEnginePython.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -5590,10 +5598,6 @@
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Developer/PluginUtils/PluginUtils.uplugin",
-			"Type": "UFS"
-		},
-		{
 			"Path": "$(EngineDir)/Plugins/Developer/PropertyAccessNode/PropertyAccessNode.uplugin",
 			"Type": "UFS"
 		},
@@ -5643,10 +5647,6 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Editor/FacialAnimation/FacialAnimation.uplugin",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Editor/GeometryMode/GeometryMode.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -5787,6 +5787,14 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/MovieScene/ActorSequence/ActorSequence.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/MovieScene/TemplateSequence/TemplateSequence.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -5991,6 +5999,94 @@
 		},
 		{
 			"Path": "$(EngineDir)/Binaries/Win64/libfbxsdk.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Wwise/ThirdParty/x64_vc160/Profile/bin/AkAudioInput.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Wwise/ThirdParty/x64_vc160/Profile/bin/AkCompressor.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Wwise/ThirdParty/x64_vc160/Profile/bin/AkDelay.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Wwise/ThirdParty/x64_vc160/Profile/bin/AkExpander.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Wwise/ThirdParty/x64_vc160/Profile/bin/AkFlanger.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Wwise/ThirdParty/x64_vc160/Profile/bin/AkGain.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Wwise/ThirdParty/x64_vc160/Profile/bin/AkGuitarDistortion.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Wwise/ThirdParty/x64_vc160/Profile/bin/AkHarmonizer.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Wwise/ThirdParty/x64_vc160/Profile/bin/AkMatrixReverb.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Wwise/ThirdParty/x64_vc160/Profile/bin/AkParametricEQ.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Wwise/ThirdParty/x64_vc160/Profile/bin/AkPeakLimiter.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Wwise/ThirdParty/x64_vc160/Profile/bin/AkPitchShifter.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Wwise/ThirdParty/x64_vc160/Profile/bin/AkRecorder.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Wwise/ThirdParty/x64_vc160/Profile/bin/AkRoomVerb.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Wwise/ThirdParty/x64_vc160/Profile/bin/AkSilenceGenerator.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Wwise/ThirdParty/x64_vc160/Profile/bin/AkSineTone.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Wwise/ThirdParty/x64_vc160/Profile/bin/AkSoundEngineDLL.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Wwise/ThirdParty/x64_vc160/Profile/bin/AkStereoDelay.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Wwise/ThirdParty/x64_vc160/Profile/bin/AkSynthOne.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Wwise/ThirdParty/x64_vc160/Profile/bin/AkTimeStretch.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Wwise/ThirdParty/x64_vc160/Profile/bin/AkToneGen.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Wwise/ThirdParty/x64_vc160/Profile/bin/AkTremolo.dll",
 			"Type": "NonUFS"
 		},
 		{

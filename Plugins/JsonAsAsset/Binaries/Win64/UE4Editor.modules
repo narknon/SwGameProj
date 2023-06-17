@@ -1,0 +1,9 @@
+{
+	"BuildId": "83c4278e-d9cc-455c-a020-bbe38c95cf65",
+	"Modules": 
+	{
+		"Detex": "UE4Editor-Detex.dll",
+		"JsonAsAsset": "UE4Editor-JsonAsAsset.dll",
+		"NVTT": "UE4Editor-NVTT.dll"
+	}
+}

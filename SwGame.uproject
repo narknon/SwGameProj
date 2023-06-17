@@ -32,6 +32,10 @@
 			"Name": "ApexDestruction",
 			"Enabled": true
 		},
+        {
+			"Name": "JsonAsAsset",
+			"Enabled": true
+		},
 		{
 			"Name": "DialoguePlugin",
 			"Enabled": true,
@@ -153,7 +157,7 @@
 		},
 		{
 			"Name": "UnrealEnginePython",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "RigLogic",

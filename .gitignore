@@ -142,6 +142,7 @@ obj/
 !/Content/Csv/.gitkeep
 !/Content/Tweaks/.gitkeep
 !/Content/WwiseAudio/Windows/.gitkeep
+!/Plugins/ShaderBits-GDC-Pack/Content/**
 
 
 
